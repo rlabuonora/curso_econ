@@ -1,0 +1,31 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Reportes Automáticos"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Cronograma"
+    url = "/cronograma/"
+    weight = 2
+[[menu.main]]
+    name = "Bibliografía"
+    url = "/bibliografia/"
+    weight = 3
+
+
+[params]
+    description = "A website built through Hugo and blogdown."
+    footer = "&copy; [Rafael La Buonora](https://rlabuonora.com) 2019 | [Github](https://github.com/rlabuonora) | [Twitter](https://twitter.com/rlabuonora)"

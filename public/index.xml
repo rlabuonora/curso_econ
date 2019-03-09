@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on Reportes Automáticos</title>
+    <link>/</link>
+    <description>Recent content in Inicio on Reportes Automáticos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Un Tour de R</title>
+      <link>/post/2019/02/02/tour-r/</link>
+      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/02/tour-r/</guid>
+      <description> Un Tour de R En este taller damos un panorama de las capacidades de R y como presentamos algunos casos de uso. Presentamos las principales ventajas de R, la comunidad y los principales recursos disponibles para aprender el lenguaje y las principales librerías.
+Objetivos Luego de esta clase, los participantes tienen:
+ Una cuenta en RStudio Cloud. Acceso al sitio del curso  </description>
+    </item>
+    
+    <item>
+      <title>Bibliografía</title>
+      <link>/bibliografia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bibliografia/</guid>
+      <description>El curso se basa en el libro R para Ciencia de Datos de Garrett Grolemund y Hadley Wickham. Las sesiones presenciales tienen links a materiales de otras fuentes.</description>
+    </item>
+    
+    <item>
+      <title>Cronograma</title>
+      <link>/cronograma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cronograma/</guid>
+      <description>Módulo 0: Preliminares    Sesión 1  Presentación y objetivos. Estructura del curso y de las sesiones presenciales. R, RStudio, RStudio Cloud.   Módulo 1: Visualización con ggplot    Sesión 1: La gramática de gráficos y ggplot  Introducción Atributos estéticos: aesthetics Formas: geoms Gráficos por sub grupos: facets  Sesión 2: La gramática de gráficos y ggplot  Transforms Ajustar posiciones Ejercicios  Gráficos de Torta Gráficos de Barra Gráficos de Línea    Módulo 2: Importar datos   R permite importar datos desde una gran variedad de fuentes (archivos de texto plano, formatos de otros paquetes estadísticos, bases de datos relacionales y APIs online).</description>
+    </item>
+    
+  </channel>
+</rss>
