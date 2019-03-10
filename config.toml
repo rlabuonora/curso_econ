@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Reportes Automáticos"
+title = "Introducción a la Economía"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""

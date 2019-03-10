@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inicio on Reportes Automáticos</title>
+    <title>Inicio on Introducción a la Economía</title>
     <link>/</link>
-    <description>Recent content in Inicio on Reportes Automáticos</description>
+    <description>Recent content in Inicio on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
@@ -28,7 +28,7 @@ Objetivos Luego de esta clase, los participantes tienen:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bibliografia/</guid>
-      <description>El curso se basa en el libro R para Ciencia de Datos de Garrett Grolemund y Hadley Wickham. Las sesiones presenciales tienen links a materiales de otras fuentes.</description>
+      <description>El curso se basa en Economía de Paul Samuelson y William Nordhaus (McGraw Hill). Cualquier edición sirve.  </description>
     </item>
     
     <item>
