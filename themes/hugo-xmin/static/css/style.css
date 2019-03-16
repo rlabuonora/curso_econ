@@ -76,3 +76,13 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 main {
   margin-bottom: 100px;
 }
+
+.portada {
+  width: 100px;
+  margin-left: 350px;
+}
+
+.portada-titulo {
+  margin-left: 200px;
+  margin-top: 40px;
+}

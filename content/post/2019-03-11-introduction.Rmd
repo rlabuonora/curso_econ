@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-# A. ¿Por qué estudiar economía?
+# ¿Por qué estudiar economía?
 
 Algunas preguntas que busca responder la economía:
 
@@ -21,14 +21,20 @@ Las ciencias economómicas aportan conceptos importantes para entender la discus
 - Escasez y eficiencia.
 - Macroeconomía y microeconomía.
 
-# B. Los principales problemas que enfrenta la economía.
+# Los principales problemas que enfrenta la economía
 
-- ¿Qué producir?
-Las economías tienen estructuras productivas diferentes. 
+- **¿Qué producir?**
+<p>
+Las economías tienen _estructuras productivas_ diferentes. 
+</p>
+- **¿Cómo producir?**
+<p>
+Las economías usan _tecnologías_ diferentes.
+</p>
+- **¿Para quién producir?**
+<p>
+Las economías _distribuyen_ lo que producen de formas diferentes.
+</p>
 
-- ¿Cómo producir?
-Las economías usan tecnologías diferentes.
 
-- ¿Para quién producir?
-Las economías distribuyen lo que producen de formas diferentes.
-
+Los **precios** tienen un rol fundamental en la forma en que una sociedad responde estas preguntas, por lo que la economía busca entender como se determinan.
