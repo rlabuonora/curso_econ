@@ -1,0 +1,28 @@
+---
+title: 'Introducción'
+author: ''
+date: '2019-03-11'
+slug: introduction
+categories: []
+tags: []
+---
+
+# A. ¿Por qué estudiar economía?
+
+Algunas preguntas que busca responder la economía:
+
+- ¿Por qué algunos países son más ricos que otros?
+- ¿Cómo se determina el salario de los trabajadores?
+- ¿Qué medidas debe tomar el gobierno para mejorar el bienestar de la población?
+- ¿Qué efectos tiene el comercio con otros países?
+
+Las ciencias economómicas aportan conceptos importantes para entender la discusión pública sobre problemas sociales, y para tomar mejores decisiones privadas (¿cómo invertir mis ahorros? ¿qué carrera estudiar?)
+
+- Escasez y eficiencia.
+- Macroeconomía y microeconomía.
+
+# B. Los principales problemas que enfrenta la economía.
+
+
+
+# C. La posibilidades tecnológicas de una sociedad.

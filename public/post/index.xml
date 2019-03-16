@@ -6,20 +6,19 @@
     <description>Recent content in Posts on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Un Tour de R</title>
-      <link>/post/2019/02/02/tour-r/</link>
-      <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Introducción</title>
+      <link>/post/2019/03/11/introduction/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/02/tour-r/</guid>
-      <description> Un Tour de R En este taller damos un panorama de las capacidades de R y como presentamos algunos casos de uso. Presentamos las principales ventajas de R, la comunidad y los principales recursos disponibles para aprender el lenguaje y las principales librerías.
-Objetivos Luego de esta clase, los participantes tienen:
- Una cuenta en RStudio Cloud. Acceso al sitio del curso  </description>
+      <guid>/post/2019/03/11/introduction/</guid>
+      <description>A. ¿Por qué estudiar economía? Algunas preguntas que busca responder la economía:
+ ¿Por qué algunos países son más ricos que otros? ¿Cómo se determina el salario de los trabajadores? ¿Qué medidas debe tomar el gobierno para mejorar el bienestar de la población? ¿Qué efectos tiene el comercio con otros países?  Las ciencias economómicas aportan conceptos importantes para entender la discusión pública sobre problemas sociales, y para tomar mejores decisiones privadas (¿cómo invertir mis ahorros?</description>
     </item>
     
   </channel>
