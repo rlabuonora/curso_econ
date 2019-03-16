@@ -31,12 +31,12 @@
     </item>
     
     <item>
-      <title>Cronograma</title>
-      <link>/cronograma/</link>
+      <title>Sobre este sitio</title>
+      <link>/sobre/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cronograma/</guid>
-      <description>Módulo 0: Preliminares    Sesión 1  Presentación y objetivos. Estructura del curso y de las sesiones presenciales. R, RStudio, RStudio Cloud.   Módulo 1: Visualización con ggplot    Sesión 1: La gramática de gráficos y ggplot  Introducción Atributos estéticos: aesthetics Formas: geoms Gráficos por sub grupos: facets  Sesión 2: La gramática de gráficos y ggplot  Transforms Ajustar posiciones Ejercicios  Gráficos de Torta Gráficos de Barra Gráficos de Línea    Módulo 2: Importar datos   R permite importar datos desde una gran variedad de fuentes (archivos de texto plano, formatos de otros paquetes estadísticos, bases de datos relacionales y APIs online).</description>
+      <guid>/sobre/</guid>
+      <description>Este sitio fue creado con con xmin en blogdown. El ícono de oferta y demanda es de Andrew Heiss.</description>
     </item>
     
   </channel>
