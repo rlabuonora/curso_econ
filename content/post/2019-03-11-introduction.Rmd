@@ -5,6 +5,7 @@ date: '2019-03-11'
 slug: introduction
 categories: []
 tags: []
+weight: 1
 ---
 
 # ¿Por qué estudiar economía?
@@ -18,8 +19,10 @@ Algunas preguntas que busca responder la economía:
 
 Las ciencias economómicas aportan conceptos importantes para entender la discusión pública sobre problemas sociales, y para tomar mejores decisiones privadas (¿cómo invertir mis ahorros? ¿qué carrera estudiar?)
 
+- Economía normativa y economía positiva.
 - Escasez y eficiencia.
 - Macroeconomía y microeconomía.
+
 
 # Los principales problemas que enfrenta la economía
 
