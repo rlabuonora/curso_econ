@@ -1,0 +1,45 @@
+---
+title: Las Economías Modernas
+author: ''
+date: '2019-03-26'
+slug: economias-modernas
+categories: []
+tags: []
+---
+
+# Complejidad de las economías modernas
+
+- Ejemplo de una transacción simple como la compra de un pasaje de avión.
+
+- Economías **mixtas**: los recursos se asignan por mecanismos de _mercado_ y directamente por el _estado_.
+
+# El mercado como mecanismo de asignación de recursos
+
+- Un mercado es el marco en el que interactúan los *oferentes* y los *demandantes* de un bien, que son los que deciden cuanto compra y venden a cierto precio con el fin de obtener un resultado (ganancia, satisfacción de necesidades, etc.).
+- No hay un individuo o empresa responsable de "hacer funcionar" los mercados. Hay mercados de muchos tipos (centralizados, descentralizados, electrónicos, etc.).
+- El rol de los mercados es determinar los **precios** y las **cantidades** que se compran de cada bien en la economía (autos, toneladas de celulosa, clases de economía).
+- Estos precios sirven como **señales** para los agentes económicos, y son imprescindibles para **coordinar** su acción.
+- El **equilibrio** de mercado es una combinación de precios y cantidades que haya un balance entre oferta y demanda, y que no se produzca de más ni de menos.
+
+- Los mercados son una forma de determinar:
+  - ¿Qué producir? Si nadie compra algo, el productor recibe una señal de que no es socialmente deseable destinar recursos a su producción.
+  - ¿Cómo producir? Una nueva tecnología de producción será adoptada si aumenta más los ingresos que los costos.
+  - ¿Para quién producir? Los ingresos de los miembros de una sociedad se determinan por los precios de los factores productivos que poseen.
+  
+- Los principales fuerzas que determinan el funcionamiento de la economía: las preferencias y la tecnología.
+- Las preferencias son los gustos de los consumidores, y determinan donde nos vamos a parar en la FPP.
+- La tecnología determina los límites de lo que podemos producir con los factores productivos que poseemos.
+- El flujo circular
+- Adam Smith y el descubrimiento del mercado como mecanismo asignador de recursos.
+
+# Tres factores claves en las economías modernas: Comercio, Dinero y Capital
+
+## Comercio
+
+- El comercio permite la división y la **especialización** de los factores productivos: la tierra, el trabajo y el capital.
+- La globalización agrandan el tamaño del mercado y aumentan las posibilidades de división del trabajo de forma que un profesor de economía en Uruguay pueda acceder a bienes producidos en China por una empresa de EUA con mano de obra local.
+
+## Dinero
+
+
+## Capital
