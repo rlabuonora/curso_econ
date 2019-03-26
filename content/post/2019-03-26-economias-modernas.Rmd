@@ -38,8 +38,3 @@ tags: []
 
 - El comercio permite la división y la **especialización** de los factores productivos: la tierra, el trabajo y el capital.
 - La globalización agrandan el tamaño del mercado y aumentan las posibilidades de división del trabajo de forma que un profesor de economía en Uruguay pueda acceder a bienes producidos en China por una empresa de EUA con mano de obra local.
-
-## Dinero
-
-
-## Capital
