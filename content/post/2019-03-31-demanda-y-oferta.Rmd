@@ -15,3 +15,5 @@ Intro.
 # Oferta
 
 # Equilibrio de mercado
+
+<iframe width="450" height="400" scrolling="no" frameborder="no"  src="https://rlabuonora.shinyapps.io/temp/"> </iframe>
