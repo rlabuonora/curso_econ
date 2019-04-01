@@ -8,12 +8,120 @@ tags: []
 weight: 4
 ---
 
-Intro.
+
+```{r setup, include = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.height=4, fig.width=6)
+library(tidyverse)
+library(ggrepel)
+library(cowplot)
+library(knitr)
+
+theme_set(theme_minimal() + 
+            theme(plot.title = element_text(hjust = 0.5)))
+
+```
+
+- El modelo de oferta y demanda para entender los factores que afectan los precios y las cantidades que se comercian en un mercado.
+- Vamos a analizar como responden a cambios en la tecnología y en los gustos de los consumidores (entre otros).
+- Variables endógenas y exógenas.
 
 # Demanda
 
+- Ley de demanda
+- La curva de demanda es la suma de las curvas de demanda de los individuos que participan del mercado.
+
+```{r}
+# Nordhaus pg. 46
+
+df <- tribble(
+  ~precio, ~cantidad, ~lab, ~momento,
+  5,     9,           "A",  "Después",
+  4,     10,          "B",  "Después",
+  3,     12,          "B",  "Después",
+  2,     15,          "D",  "Después",
+  1,     20,          "E",  "Después"
+)
+
+ggplot(df, aes(x=cantidad, y=precio, color = momento)) + 
+  geom_line() + 
+  geom_point() +
+  geom_text_repel(aes(label=lab), show.legend=FALSE) + 
+  xlim(5, 20) + 
+  ylim(0, 5) + 
+  labs(x="Cantidad de Maíz",
+       y="Precio del Maíz",
+       title = "Demanda de Maíz",
+       subtitle = "A medida que el precio se reduce los consumidores demandan más") +
+  theme(legend.position = "none")
+
+```
+
+- Vamos a analizar este efecto más adelante.
+- Precio y Cantidad son variables endógenas en este modelo, por lo que su relación es distinta que la relación entre el ingreso de los consumidores y el precio.
+- Desplazamientos sobre la curva vs. desplazamientos de las curvas.
+- Aumento en la demanda vs. aumento en la cantidad demanda.
+
+## Factores que afectan la demanda
+- Ingreso de los consumidores
+- Tamaño del mercado
+- Disponibilidad y precio de bienes relacionados
+- Preferencias de los consumidores
+- Factores coyunturales
+
+Estos factores afectan _la relación entre precios y cantidades_. Si aumenta mi ingreso, para cada precio de una cena en un restaurant, voy a demandar más cantidad de cenas.
+
+
+```{r, warning=FALSE}
+df_2 <- bind_rows(
+  df,
+  mutate(df, 
+         momento = "Antes",
+         cantidad = cantidad-5)
+)
+
+ggplot(df_2, aes(x=cantidad, y=precio, color=momento)) + 
+  geom_line() + 
+  geom_point() +
+  xlim(0, 20) + 
+  ylim(0, 5) + 
+  annotate("segment", x = 6, xend = 9, y=4, yend=4, arrow = arrow(length = unit(0.2, "cm"))) + 
+  annotate("segment", x = 11, xend = 14, y=2, yend=2, arrow = arrow(length = unit(0.2, "cm"))) + 
+  labs(x="Cantidad de Maíz",
+       y="Precio del Maíz",
+       title = "Demanda de Maíz",
+       subtitle = "Si aumenta el ingreso de los consumidores la curva se desplaza hacia la derecha") +
+  scale_color_discrete(name = "Momento")
+```
+
+
+
 # Oferta
+
+Ley de oferta
+
+```{r}
+df_3 <- mutate(df, 
+         cantidad_ofrecida = c(18, 16, 12, 7, 0))
+
+ggplot(df_3, aes(x=cantidad_ofrecida, y=precio, color = momento)) + 
+  geom_line() + 
+  geom_point() +
+  labs(x="Cantidad de Maíz",
+       y="Precio del Maíz",
+       title = "Oferta de Maíz",
+       subtitle = "A medida que el precio se aumenta los productores producen más") +
+  theme(legend.position = "none")
+```
+
+
+
 
 # Equilibrio de mercado
 
-<iframe width="450" height="400" scrolling="no" frameborder="no"  src="https://rlabuonora.shinyapps.io/temp/"> </iframe>
+<!-- <iframe width="450" height="400" scrolling="no" frameborder="no"  src="https://rlabuonora.shinyapps.io/temp/"> </iframe> -->
+
+
+# Ejercicios
+
+1) Suma de demandas
+2) Equilibrio en un mercado

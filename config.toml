@@ -28,4 +28,4 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A website built through Hugo and blogdown."
-    footer = "&copy; [Rafael La Buonora](https://rlabuonora.com) 2019 | [Github](https://github.com/rlabuonora) | [Twitter](https://twitter.com/rlabuonora)"
+    footer = "&copy; [Rafael La Buonora](http://www.rlabuonora.com) 2019 | [Github](https://github.com/rlabuonora) | [Twitter](https://twitter.com/rlabuonora)"
