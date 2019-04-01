@@ -41,11 +41,27 @@ tags: []
 
 ## Capital
 
+- En las economías modernas el capital -maquinaria, edificios, etc- tiene un rol fundamental para aumentar la productividad de los trabajadores.
 
 
 ## Dinero
 
-# El rol del gobierno 
+- La importancia del dinero para facilitar el intercambio y la especialización. 
+- Sin dinero deberíamos usar el trueque, y dependemos de que las personas que producen lo que necesitamos quieran lo que nostros producimos.
+
+# El rol del Estado
+
+En **competencia perfecta**, el mercado asigna los recursos de manera eficiente. Sin embargo, en una economía mixta, el Estado tiene un rol clave para:
+
+- Corregir situaciones en el que el mercado no funciona en competencia perfecta
+  - Monopolios
+  - Externalidades
+
+- Corregir resultados eficientes pero injustos (distribución del ingreso demasiado desigual)
+
+- Proveer estabilidad macroeconómica
+  - Política Fiscal 
+  - Política Monetaria
 
 
 # Ejercicio
