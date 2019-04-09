@@ -17,13 +17,17 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "Sobre"
-    url = "/sobre/"
-    weight = 3
+    name = "Pruebas"
+    url = "/pruebas/"
+    weight = 2
 [[menu.main]]
     name = "Bibliografía"
     url = "/bibliografia/"
     weight = 3
+[[menu.main]]
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 4
 
 
 [params]
