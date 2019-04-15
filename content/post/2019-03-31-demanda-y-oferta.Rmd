@@ -97,7 +97,7 @@ ggplot(df_2, aes(x=cantidad, y=precio, color=momento)) +
 
 # Oferta
 
-Ley de oferta
+Cuando aumenta el precio del bien que venden, los empresarios quieren producir más de ese bien. Eso implica que la curva de oferta de un bien tiene **pendiente positiva**.
 
 ```{r}
 df_3 <- mutate(df, 
@@ -235,7 +235,7 @@ Ejemplo de la inmigración.
   - Un aumento en los impuestos a la nafta hace que el consumo de nafta baje.
   - Los salarios aumentaron luego de la llegada de la Peste Bubónica a Europa en el Siglo XIV.
   
-3) Se tiene la siguiente información sobre el mercado de pizzas
+3) Tenemos la siguiente información sobre el mercado de pizzas
 
 Precio | Cantidad demandada  | Cantidad Ofrecida
 -------| ------------------- |-------------
