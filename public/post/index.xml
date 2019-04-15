@@ -51,5 +51,16 @@
       <description>El modelo de oferta y demanda para entender los factores que afectan los precios y las cantidades que se comercian en un mercado. Vamos a analizar como responden a cambios en la tecnología y en los gustos de los consumidores (entre otros). Variables endógenas y exógenas.  Demanda  Ley de demanda La curva de demanda es la suma de las curvas de demanda de los individuos que participan del mercado.</description>
     </item>
     
+    <item>
+      <title>Elasticidad de la Demanda</title>
+      <link>/post/2019/04/15/elasticidad-de-la-demanda/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/15/elasticidad-de-la-demanda/</guid>
+      <description>La elasticidad de la demanda mide cuanto cambia la cantidad demandada (\(Q_d\)) cuando cambian los precios. Ya sambemos que si el precio sube la cantidad demandada baja, la elasticidad cuantifica esa caída.
+ Si \(Q_d\) baja (sube) mucho cuando sube (baja) el precio, la demanda del bien es elástica. Si \(Q_d\) baja (sube) poco cuando sube (baja) el precio, la demanda del bien es inelástica.
+ La elasticidad de la demanda de un bien depende de varios factores:  Si el bien tiene muchos sustitutos, su demanda va a ser más elástica.</description>
+    </item>
+    
   </channel>
 </rss>
