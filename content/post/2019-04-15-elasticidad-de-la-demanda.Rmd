@@ -1,7 +1,7 @@
 ---
 title: Elasticidad de la Demanda
 author: ''
-date: '2019-04-15'
+date: '2019-04-09'
 slug: elasticidad-de-la-demanda
 categories: []
 tags: []
