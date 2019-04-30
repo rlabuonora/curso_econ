@@ -21,11 +21,12 @@ tags: []
 
 $$ E_p = \frac{|Cambio\ Porcentual\ en\ Q_d|}{|Cambio\ Porcentual\ en\ P|} $$
 
-  - Si $E_p = 1$ el bien tiene **elasiticdad unitaria**. Eso implica que un cambio en 1% en el precio del bien implica un cambio de 1% en la cantidad demandada de ese bien.
+# Un ejemplo numérico
+  - Si $E_p = 1$ el bien tiene **elasiticidad unitaria**. Eso implica que un cambio en 1% en el precio del bien implica un cambio de 1% en la cantidad demandada de ese bien.
   - Si $E_p > 1$ el bien tiene **demanda elástica**, un cambio de 1% en el precio del bien implica un cambio mayor a 1% en la cantidad demandada del bien.
   - Si $E_p < 1$ el bien tiene **demanda inelástica**, un cambio de 1% en el precio del bien implica un cambio menor a 1% en la cantidad demandada del bien.
   
-- Tres cosas a tener en cuenta:
+# A tener en cuenta:
   - La elasticidad es siempre positiva. Si el precio del bien sube, la cantidad demandada baja (por la ley de la demanda). Si no usamos valores absolutos, esto haría que en la fórmula de $E_p$ el numerador y el denominador tuvieran distintos signos, y el resultado sería negativo. Como no nos interesa saber el sentido de la variación (ya lo sabemos), usamos el valor absoluto y la elasticidad siempre es positiva.
   - Usamos cambios porcentuales y no absolutos. Esto permite comparar elasticidades de distintos productos, y hace que los cálculos sean independientes de las unidades de medida. (Los cambios porcentuales son iguales si los calculamos en kilos o en toneladas.)
   - Para calcular la variación porcentual, uso el promedio del valor inicial y el final como denominador. Por ejemplo, para el precio:
@@ -77,8 +78,31 @@ ggplot(mapping = aes(x=x, y=y)) +
   guides(color = FALSE)
 ```
 
-La variación absoluta en $P$ es $\Delta P = P_B - P_A = 90-110 = -20$. La variación porcentual en P (en valor absoluto) es $\frac{-20}{(\frac{90 + 110}{2})} = \frac{2}{5}$
-
-La variación absoluta en $Q$ es $\Delta Q = Q_B - Q_A = 240 - 160 = 80$. La variación porcentual en Q (en valor absoluto) es $\frac{80}{(\frac{160 + 260}{2})} = \frac{1}{5}$
+La variación absoluta en $P$ es $\Delta P = P_B - P_A = 90-110 = -20$. La variación porcentual en P (en valor absoluto) es $\frac{-20}{(\frac{90 + 110}{2})} = \frac{2}{5}$. La variación absoluta en $Q$ es $\Delta Q = Q_B - Q_A = 240 - 160 = 80$. La variación porcentual en Q (en valor absoluto) es $\frac{80}{(\frac{160 + 260}{2})} = \frac{1}{5}$.
   
-Sustituyendo en la fórmula $E_P = \frac{\frac{2}{5}}{\frac{1}{5}}  =2$
+Sustituyendo en la fórmula $E_P = \frac{\frac{2}{5}}{\frac{1}{5}}  =2$.
+
+# Aplicaciones
+
+# Ejercicios
+
+1. ¿Cuál de los dos bienes tiene la demanda más elástica?
+  - Perfume o sal.
+  - Penicilina o helado.
+  - Helado o helado de chocolate.
+
+2. Completar las siguientes oraciones:
+  - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demánda es ___________.
+  - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demánda es ___________.
+
+3. En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
+
+4. Completar la siguiente tabla:
+
+| P   | Q        | Elasticidad  |
+|-----|:--------:|:------------:|
+| 5   |   9      | -            |
+| 4   |   10     |              |
+| 3   |   12     |              |
+| 2   |   15     |              | 
+| 1   |   20     |              |
