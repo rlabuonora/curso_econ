@@ -84,6 +84,9 @@ Sustituyendo en la fórmula $E_P = \frac{\frac{2}{5}}{\frac{1}{5}}  =2$.
 
 # Aplicaciones
 
+- Impuestos.
+- Precios mínimos y máximos.
+
 # Ejercicios
 
 1. ¿Cuál de los dos bienes tiene la demanda más elástica?

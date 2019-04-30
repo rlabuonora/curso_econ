@@ -1,0 +1,15 @@
+---
+title: Utilidad
+author: Rafa
+date: '2019-04-30'
+slug: utilidad
+categories: []
+tags: []
+---
+
+Ejercicios
+
+1. Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
+
+- [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
+- [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
