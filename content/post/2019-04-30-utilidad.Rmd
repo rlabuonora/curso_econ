@@ -13,3 +13,8 @@ Ejercicios
 
 - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
 - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
+
+2. Descargar [http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/precios_marzo%20.csv](este archivo de texto) y graficar los precios de tres marcas de desodorante, y tres marcas de yerba.
+
+
+3. Analizar [esta tabla](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/cadenas.pdf). ¿Por qué hay productos que tienen diferencias de precios mayores que otros?
