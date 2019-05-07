@@ -88,7 +88,7 @@ Sustituyendo en la fórmula $E_P = \frac{\frac{2}{5}}{\frac{1}{5}}  =2$.
 - Impuestos.
 - Precios mínimos y máximos.
 
-# Ejercicios
+# Ejercicios (2 Clases)
 
 1. ¿Cuál de los dos bienes tiene la demanda más elástica?
   - Perfume o sal.
@@ -110,3 +110,14 @@ Sustituyendo en la fórmula $E_P = \frac{\frac{2}{5}}{\frac{1}{5}}  =2$.
 | 3   |   12     |              |
 | 2   |   15     |              | 
 | 1   |   20     |              |
+
+
+5. Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
+
+  - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
+  - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
+
+6. Descargar [este archivo](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/precios_marzo%20.csv) y graficar los precios de tres marcas de desodorante, y tres marcas de yerba.
+
+
+7. Analizar [esta tabla](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/cadenas.pdf). ¿Por qué hay productos que tienen diferencias de precios mayores que otros?
