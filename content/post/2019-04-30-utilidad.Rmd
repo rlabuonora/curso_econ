@@ -1,6 +1,6 @@
 ---
 title: Utilidad
-author: Rafa
+author: Rafael La Buonora
 date: '2019-04-30'
 slug: utilidad
 categories: []
@@ -8,14 +8,26 @@ tags: []
 weight: 6
 ---
 
+
 Ejercicios
 
-1. Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
+1. Considere los siguientes datos para un bien:
 
-  - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
-  - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
+| Cantidad   | Utilidad Total  | Utilidad Marginal 
+|------------|:---------------:|------------------|
+| 0          |   0             |                  |
+| 1          |   4             |                  |
+| 2          |   7             |                  |
+| 3          |   9             |                  | 
+| 4          |   10            |                  |
+| 5          |   10            |                  |
 
-2. Descargar [este archivo](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/precios_marzo%20.csv) y graficar los precios de tres marcas de desodorante, y tres marcas de yerba.
+    a) Grafique la Utilidad Total.
+    b) ¿Cuál es la diferencia entre la Utilidad Total y la Utilidad Marginal?
+    c) Complete la columna de Utilidad Marginal. 
+    d) ¿Tiene rendimientos crecientes o decrecientes?
+    
+2. Suponga que una familia tiene un ingreso de $100.000 y gasta un tercio en educación, un tercio en vivienda y un tercio en alimentación. Escriba la relación entre la utilidad marginal de cada uno de los tres bienes y el precio de los tres bienes. Si sube el precio de la educación, ¿cómo se debe reasignar el gasto para que esta relación se mantenga?
 
-
-3. Analizar [esta tabla](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/cadenas.pdf). ¿Por qué hay productos que tienen diferencias de precios mayores que otros?
+3. En un mercado hay tres consumidores. El consumidor 1 tiene la  función de demanda $Q_d = 100 - 6P$, el consumidor 2 tiene la demanda $Q_d = 80 - 5P$ y el consumidor 3 $Q_d = 90 - 7P$. Calcular la cantidad demandad de todo el mercado cuando el precio es $5.
+  
