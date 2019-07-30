@@ -6,7 +6,7 @@
     <description>Recent content in Inicio on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -69,7 +69,18 @@
       
       <guid>/post/2019/04/30/utilidad/</guid>
       <description>Ejercicios
-Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad Marginal    0 0   1 4   2 7   3 9   4 10   5 10     a) Grafique la Utilidad Total. b) ¿Cuál es la diferencia entre la Utilidad Total y la Utilidad Marginal? c) Complete la columna de Utilidad Marginal. d) ¿Tiene rendimientos crecientes o decrecientes?</description>
+Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad Marginal    0 0   1 4   2 7   3 9   4 10   5 10     a) Grafique la Utilidad Total. b) ¿Cuál es la diferencia entre la Utilidad Total y la Utilidad Marginal? c) Complete la columna de Utilidad Marginal.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomia</title>
+      <link>/post/2019/07/29/macroeconomia/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/07/29/macroeconomia/</guid>
+      <description>Macroeconomía Abrir este notebook y copiarlo. En la primera celda se descargan los datos del PIB de Uruguay entre 1870 y 2011.
+ Explicar qué es el PIB a precios corrientes. En la celda 5 se grafica la serie, cuáles son sus características más relevantes?
+ Explicar qué es el PIB a precios constantes. ¿Cuál de los dos indicadores refleja mejor el aumento en la producción del país? Graficar la serie siguiendo el ejemplo del punto anterior.</description>
     </item>
     
     <item>
