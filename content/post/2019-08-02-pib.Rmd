@@ -1,0 +1,47 @@
+---
+title: PIB
+author: ''
+date: '2019-08-02'
+slug: pib
+categories: []
+tags: []
+weight: 10
+---
+```{r setup, include = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message = FALSE)
+
+library(dplyr)
+library(plotly)
+library(ggplot2)
+
+pib <- readxl::read_excel(
+  here::here('static/pib_files/pib_1870_2011_iecon.xls'),
+  sheet='Series') %>% 
+  rename(year = 1,
+         pib_corriente = 2,
+         pib_constante = 3,
+         pib_per_capita = 4)
+
+
+str(pib)
+
+```
+```{r}
+pib %>% 
+  ggplot(aes(year, pib_constante)) + 
+  geom_line()
+```
+
+
+```{r}
+
+plot_ly(pib, x=~year, y=~pib_per_capita) %>% 
+  add_lines() %>% 
+  rangeslider()
+```
+
+## Ejercicios
+
+1. PIB real y Nominal. Ejemplo numèrico.
+2. La Suiza de América. La década perdida.
+3. 
