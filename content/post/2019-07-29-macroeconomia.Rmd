@@ -44,20 +44,68 @@ A través del __gasto público__ el gobierno afecta los ingresos de los hogares 
 
 # Oferta y Demanda Agregadas
 
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+OA <- Hmisc::bezier(
+  x=c(1000, 3000, 3200, 3300, 3500, 3700, 3900),
+  y=c(100, 150, 155, 160, 170, 180, 250)
+) %>% 
+  as_tibble
+
+
+DA <- Hmisc::bezier(
+  x=c(1200, 1500, 3000, 3800, 4300),
+  y=c(300, 250, 150, 90, 70)
+) %>% 
+  as_tibble()
+
+ggplot(data.frame(), aes(x, y)) + 
+  geom_line(data = OA) +
+  geom_line(data = DA) +
+  scale_x_continuous(limits =c(0, 5000)) + 
+  scale_y_continuous(limits = c(0, 280)) + 
+  geom_point(data=tibble(x=3000, y=150)) + 
+  annotate("text", x=4500, y=55, label="DA") + 
+  annotate("text", x=4000, y=260, label="OA") + 
+  labs(y="Nivel de Precios", x="PIB") +
+  theme_bw()
+```
+
+
+
+# Ejercicios
+
+Para calcular la tasa de crecimiento de una variable entre $t-n$ y $t$, usar la fórmula:
+
+$$ g_t = 100 * [(\frac{X_t}{X_{t-n}})^{1/n}-1]$$
+
+1. Calcular la tasa de crecimiento del PIB en términos reales entre 1955 y 1968.
+
+2. Usando los datos del INE, calcular la tasa de inflación entre 1972 y 1992 y entre 1994 y 2012. Comparar los dos períodos y sus efectos sobre el bienestar de la población.
+
+3. Explicar los efectos de los siguientes _shocks_ macroeconómicos:
+  a. Una rebaja del IRPF.
+  b. Una reducción en el gasto en defensa.
+  c. Una avance tecnológico que afecta todos los sectores de producción.
+  d. Una rebaja en las tasas de interés.
+
+Graficar los impactos usando el esquema de Oferta y Demanda Agregadas.
+
+4. Se cuenta con los siguientes datos para la economía de EUA:
+
+| Año           | PIB Real      | Nivel de Precios  |
+| ------------- |:-------------:| -----:|
+| 1981          | 5.291,7       | 59,1 |
+| 1982          | 5.189,3       | 62,7 |
+| 1983          | 5.423.8       | 65,2 |
+| 1984          | 5.8913,6      | 67,6 |
+
+1. Calcular las tasas de inflación y de crecimiento del PIB para cada año.
+2. Graficar los 4 años en el eje $(P, Y)$ con las curvas de Oferta y Demanda Agregadas.
+
+
 
 # Ejercicios
 
 
-Abrir este [notebook](https://colab.research.google.com/drive/1bFfW6O4JVUvI-ecDx2QXp7q0LpgK6rZh) y copiarlo. En la primera celda se descargan los datos del PIB de Uruguay entre 1870 y 2011.
-
-1. Explicar qué es el PIB a precios corrientes. En la celda 5 se grafica la serie, cuáles son sus características más relevantes?
-
-2. Explicar qué es el PIB a precios constantes. ¿Cuál de los dos indicadores refleja mejor el aumento en la producción del país? Graficar la serie siguiendo el ejemplo del punto anterior. Comentar el resultado.
-
-3. Explicar qué es el PIB per cápita. ¿Cuàl es la diferencia con el PIB? Graficar la serie.
-
-4. Buscar los datos del desempleo mensual en el ![sitio del INE](www.ine.gub.uy). Correr la celda con el título __desempleo__. Graficar los datos para el período 2006-2017.
-
-5. Correr la celda que descarga los datos de la inflaciòn. Graficar la serie para el período 1994-2018.
-
-6. Correr la celda que descarga el Tipo de Cambio. Graficar la serie para el período 1994-2018. Comentar.
