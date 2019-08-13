@@ -10,38 +10,122 @@ weight: 10
 ```{r setup, include = FALSE, warning = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message = FALSE)
 
-library(dplyr)
+library(tidyverse)
 library(plotly)
-library(ggplot2)
 
 pib <- readxl::read_excel(
   here::here('static/pib_files/pib_1870_2011_iecon.xls'),
   sheet='Series') %>% 
   rename(year = 1,
-         pib_corriente = 2,
-         pib_constante = 3,
-         pib_per_capita = 4)
+         `PIB Corriente` = 2,
+         `PIB Constante (2005)` = 3,
+         `PIB per Cápita` = 4) %>% 
+  gather(k="var", v="valor", -year)
 
 
-str(pib)
 
-```
-```{r}
-pib %>% 
-  ggplot(aes(year, pib_constante)) + 
-  geom_line()
+
 ```
 
 
-```{r}
+## PIB
 
-plot_ly(pib, x=~year, y=~pib_per_capita) %>% 
-  add_lines() %>% 
-  rangeslider()
+Es una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
+
+## Varias formas de medir el PIB
+
+Como el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
+
+### Producción
+En este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.).
+
+$$ PIB = \Sigma\ VAB_{sectores} $$
+El Valor Agregado de cada sector se define como la diferencia entre el Valor de Producción y el Consumo Intermedio (gasto en materias primas).
+```{r echo = FALSE}
+library(DiagrammeR)
+grViz("
+digraph boxes_and_circles {
+
+  # a 'graph' statement
+  graph [overlap = true, fontsize = 10]
+
+  # several 'node' statements
+  node [shape = box,
+        fontname = Helvetica]
+  Empresas; Consumidores
+
+  node [shape = circle,
+        fixedsize = true,
+        width = 0.9] // sets as circles
+  Bienes; Factores
+
+  # several 'edge' statements
+  Empresas->Bienes Empresas->Factores 
+  Factores->Consumidores Bienes->Consumidores
+}
+")
 ```
+
+
+En una economía donde solo se producen bienes finales de consumo, el PIB se calcula como:
+
+$$ P_{papas} * Q_{papas} + P_{boniatos} * Q_{boniatos} + ... $$
+Desde el punto de vista de la demanda, el PIB se mide como la suma de los distintos gastos de la economía
+
+$$ PIB = C + I + G + X$$
+
+- C es el Consumo
+- I es la inversión
+- G es el Gasto Público
+- X son las exportaciones netas ($Exportaciones - Importaciones$)
+
+Las importaciones se restan porque es una parte del gasto de la economía que termina demando productos producidos en otra economía.
+
+Para poder medir todos los productos que produce la economía, se usa el valor monetario de la producción tomando en cuenta los precios. Si usamos los precios del período en que produjeron los bienes, tenemos el PIB _en precios corrientes_. Si queremos sacar el efecto de los cambios en los precios para comparar el PIB de dos períodos, tomamos los precios de un _año base_, para calcular el PIB en precios constantes de ese año.
+
+
+## Ingresos
+
+Como todo lo que se vende en el mercado es el ingreso de algún factor (trabajo, capital, tierra), el PIB es igual si se mide por las ventas de las empresas o por las remuneraciones a los factores.
+
+$$ PIB = Sueldos + Beneficios + Rentas + Impuestos\ Netos + Depreciación $$
+
+## El problema de la doble contabilización
+
+¿Qué pasa con los productos que no son comprados para ser consumidos (bienes finales), sino que son comprados por otras empresas como insumos para producir otros bienes?
+
+En la parte superior del gráfico, solo se toman en cuenta las ventas de bienes finales. En la parte inferior del gráfico, solo se toma en cuenta el valor agregado de cada empresa. Esto es la diferencia entre el valor de lo que compra (materias primas, etc.) y lo que vende.
+
 
 ## Ejercicios
 
-1. PIB real y Nominal. Ejemplo numèrico.
-2. La Suiza de América. La década perdida.
-3. 
+1. En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce  \$3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a \$8000. Otra empresa compra la lana hilada para tejer buzos, agregando \$18000 de valor.
+
+Calcular el Valor Bruto de Producción de cada empresa de la cadena y de toda la economía. Calcular el VAB de cada empresa de la cadena y de toda la economía. 
+
+Explicar por qué el VBP contabiliza el valor de los bienes que no son finales dos veces.
+
+2. Contamos con los siguientes datosEn una economía que produce solo Manzanas y Naranjas:
+
+| Año        | Precio Manzanas | Cantidad| Precio Naranjas  |Cantidad|
+| ---------- |-----------------|---------|------------------|--------|
+| 2012       | 10              |  100    |  16              |  50    |         
+| 2013       | 15              |  120    |  17              |  45    |      
+| 2014       | 16              |  125    |  18              |  52    |    
+
+- Calcular el PIB a precios corrientes y a precios constantes con base 2012.
+- Calcular la variación nominal del PIB para cada año.
+- Calcular la variación real del PIB para cada año y explicar la diferencia con el cálculo anterior.
+
+3. Explique las diferencias entre los 3 gráficos siguientes:
+
+```{r}
+options(scipen=1000)
+pib %>%
+  ggplot(aes(year, valor)) +
+  geom_line() +
+  theme_minimal() + 
+  facet_wrap(~var, ncol = 1, scale = "free_y")  +
+  scale_y_continuous(labels = scales::dollar_format() ) + 
+  ylab("")
+```

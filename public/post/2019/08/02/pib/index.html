@@ -34,25 +34,102 @@
 <main>
 
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
-<script src="/rmarkdown-libs/plotly-binding/plotly.js"></script>
-<script src="/rmarkdown-libs/typedarray/typedarray.min.js"></script>
-<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
-<link href="/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
-<link href="/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="/rmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+<script src="/rmarkdown-libs/viz/viz.js"></script>
+<link href="/rmarkdown-libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/grViz-binding/grViz.js"></script>
 
 
-<p><img src="/post/2019-08-02-pib_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"visdat":{"16b156bee4f80":["function () ","plotlyVisDat"]},"cur_data":"16b156bee4f80","attrs":{"16b156bee4f80":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","mode":"lines","inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"rangeslider":{"visible":true},"title":"year"},"yaxis":{"domain":[0,1],"automargin":true,"title":"pib_per_capita"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[1870,1871,1872,1873,1874,1875,1876,1877,1878,1879,1880,1881,1882,1883,1884,1885,1886,1887,1888,1889,1890,1891,1892,1893,1894,1895,1896,1897,1898,1899,1900,1901,1902,1903,1904,1905,1906,1907,1908,1909,1910,1911,1912,1913,1914,1915,1916,1917,1918,1919,1920,1921,1922,1923,1924,1925,1926,1927,1928,1929,1930,1931,1932,1933,1934,1935,1936,1937,1938,1939,1940,1941,1942,1943,1944,1945,1946,1947,1948,1949,1950,1951,1952,1953,1954,1955,1956,1957,1958,1959,1960,1961,1962,1963,1964,1965,1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011],"y":[32801.5992434227,32819.8501482161,39562.5361843158,39165.2003839122,34820.2657526221,29230.411931539,31638.2495822462,31941.0410625497,33807.6701093867,29286.9963592406,31319.9896511596,28816.4350969797,30849.6022440136,35277.0475235162,33994.1847873823,37262.7569183027,37657.0740245667,32600.4686088707,39427.5180293323,35312.8050328801,31688.5621446317,33728.0212776786,33753.8793103766,36500.9425352318,39661.2102958926,38621.864071298,39679.853021705,37402.2456673107,34005.4442216658,34421.0768759926,34035.5826690668,33230.0254583715,36962.2640500605,34730.804146269,34222.9958433164,29951.8143539864,31159.9115846777,34875.4990281246,38050.0525950514,38689.8796231808,39581.4722973858,37308.1077176792,39417.2845788602,37169.5933132606,31901.3243622501,28051.3800749313,27233.8295137381,28496.1042782676,32240.6775482248,32351.0018246105,32969.6685054971,31656.6232387814,33730.6576593631,35279.18769175,37043.0328264883,37835.5240564088,39036.9999918765,43032.5624812834,46103.9955509518,45020.3180721391,48418.2154651342,42661.7033417478,38224.2485623613,37079.1988047121,40805.405489105,43451.8194873735,44171.3346340801,45442.7408534984,47602.0893695759,48206.995802009,45596.2244333527,47830.0957367268,43240.2968110939,41575.227538756,47057.2907326228,48944.1011760272,53827.6353354446,53142.331649184,54214.6223653615,59411.2530119709,65641.0549241116,71369.9647448378,69231.641783838,75474.6569492455,77682.4643236313,79547.748074086,79689.9893581456,79278.1518291727,75596.1075527363,72692.3678165806,74529.9430615567,75560.4890584667,72793.648569338,72507.7590940628,73140.4921880607,73235.6472744921,74934.6535066914,71170.0835763792,71670.9654719454,75451.4610768688,78545.5428411423,77531.4903735412,74759.8867433669,77236.3084216471,79819.3578973109,83425.2671255395,86421.3999970833,87477.5478494285,92368.7542866006,97486.6797994999,102723.513519693,104007.623552993,93639.7016819729,87597.4519488618,86088.5768228354,86802.0637166348,93967.1518513831,100854.821813663,100252.833774733,100799.528482852,100543.763828686,103499.68376271,111030.964400513,113330.132850308,120891.062714465,118430.53649697,123121.739836437,128517.034168945,133526.825389419,130287.975205709,127280.321433843,122252.433283662,112764.522526984,113913.55965048,119716.120980799,128570.496655413,133487.010565081,141815.171086289,151529.499287198,154688.042098213,167862.820725043,176798.892388018],"type":"scatter","mode":"lines","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="pib" class="section level2">
+<h2>PIB</h2>
+<p>Es una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.</p>
+</div>
+<div id="varias-formas-de-medir-el-pib" class="section level2">
+<h2>Varias formas de medir el PIB</h2>
+<p>Como el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.</p>
+<div id="produccion" class="section level3">
+<h3>Producción</h3>
+<p>En este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.).</p>
+<p><span class="math display">\[ PIB = \Sigma\ VAB_{sectores} \]</span>
+El Valor Agregado de cada sector se define como la diferencia entre el Valor de Producción y el Consumo Intermedio (gasto en materias primas).
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"diagram":"\ndigraph boxes_and_circles {\n\n  # a \"graph\" statement\n  graph [overlap = true, fontsize = 10]\n\n  # several \"node\" statements\n  node [shape = box,\n        fontname = Helvetica]\n  Empresas; Consumidores\n\n  node [shape = circle,\n        fixedsize = true,\n        width = 0.9] // sets as circles\n  Bienes; Factores\n\n  # several \"edge\" statements\n  Empresas->Bienes Empresas->Factores \n  Factores->Consumidores Bienes->Consumidores\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script></p>
+<p>En una economía donde solo se producen bienes finales de consumo, el PIB se calcula como:</p>
+<p><span class="math display">\[ P_{papas} * Q_{papas} + P_{boniatos} * Q_{boniatos} + ... \]</span>
+Desde el punto de vista de la demanda, el PIB se mide como la suma de los distintos gastos de la economía</p>
+<p><span class="math display">\[ PIB = C + I + G + X\]</span></p>
+<ul>
+<li>C es el Consumo</li>
+<li>I es la inversión</li>
+<li>G es el Gasto Público</li>
+<li>X son las exportaciones netas (<span class="math inline">\(Exportaciones - Importaciones\)</span>)</li>
+</ul>
+<p>Las importaciones se restan porque es una parte del gasto de la economía que termina demando productos producidos en otra economía.</p>
+<p>Para poder medir todos los productos que produce la economía, se usa el valor monetario de la producción tomando en cuenta los precios. Si usamos los precios del período en que produjeron los bienes, tenemos el PIB <em>en precios corrientes</em>. Si queremos sacar el efecto de los cambios en los precios para comparar el PIB de dos períodos, tomamos los precios de un <em>año base</em>, para calcular el PIB en precios constantes de ese año.</p>
+</div>
+</div>
+<div id="ingresos" class="section level2">
+<h2>Ingresos</h2>
+<p>Como todo lo que se vende en el mercado es el ingreso de algún factor (trabajo, capital, tierra), el PIB es igual si se mide por las ventas de las empresas o por las remuneraciones a los factores.</p>
+<p><span class="math display">\[ PIB = Sueldos + Beneficios + Rentas + Impuestos\ Netos + Depreciación \]</span></p>
+</div>
+<div id="el-problema-de-la-doble-contabilizacion" class="section level2">
+<h2>El problema de la doble contabilización</h2>
+<p>¿Qué pasa con los productos que no son comprados para ser consumidos (bienes finales), sino que son comprados por otras empresas como insumos para producir otros bienes?</p>
+<p>En la parte superior del gráfico, solo se toman en cuenta las ventas de bienes finales. En la parte inferior del gráfico, solo se toma en cuenta el valor agregado de cada empresa. Esto es la diferencia entre el valor de lo que compra (materias primas, etc.) y lo que vende.</p>
+</div>
 <div id="ejercicios" class="section level2">
 <h2>Ejercicios</h2>
 <ol style="list-style-type: decimal">
-<li>PIB real y Nominal. Ejemplo numèrico.</li>
-<li>La Suiza de América. La década perdida.</li>
-<li></li>
+<li>En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce $3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a $8000. Otra empresa compra la lana hilada para tejer buzos, agregando $18000 de valor.</li>
 </ol>
+<p>Calcular el Valor Bruto de Producción de cada empresa de la cadena y de toda la economía. Calcular el VAB de cada empresa de la cadena y de toda la economía.</p>
+<p>Explicar por qué el VBP contabiliza el valor de los bienes que no son finales dos veces.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Contamos con los siguientes datosEn una economía que produce solo Manzanas y Naranjas:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>Año</th>
+<th>Precio Manzanas</th>
+<th>Cantidad</th>
+<th>Precio Naranjas</th>
+<th>Cantidad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2012</td>
+<td>10</td>
+<td>100</td>
+<td>16</td>
+<td>50</td>
+</tr>
+<tr class="even">
+<td>2013</td>
+<td>15</td>
+<td>120</td>
+<td>17</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>16</td>
+<td>125</td>
+<td>18</td>
+<td>52</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Calcular el PIB a precios corrientes y a precios constantes con base 2012.</li>
+<li>Calcular la variación nominal del PIB para cada año.</li>
+<li>Calcular la variación real del PIB para cada año y explicar la diferencia con el cálculo anterior.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Explique las diferencias entre los 3 gráficos siguientes:</li>
+</ol>
+<p><img src="/post/2019-08-02-pib_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
 
 </main>
