@@ -158,5 +158,5 @@ maddison %>%
   geom_point() +
   theme_minimal() +
   scale_color_discrete(name = "País") +
-  labs(x="Año", y="PIB per cápita", caption="Angus Maddison")
+  labs(x="Año", y="PIB per cápita", caption="Fuente: Angus Maddison")
 ```
