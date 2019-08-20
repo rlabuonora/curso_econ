@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message = FALSE)
 
 library(tidyverse)
 library(plotly)
+library(readxl)
 
 pib <- readxl::read_excel(
   here::here('static/pib_files/pib_1870_2011_iecon.xls'),
@@ -41,30 +42,30 @@ En este enfoque, medimos el Valor Agregado que genera cada sector de actividad d
 
 $$ PIB = \Sigma\ VAB_{sectores} $$
 El Valor Agregado de cada sector se define como la diferencia entre el Valor de Producción y el Consumo Intermedio (gasto en materias primas).
-```{r echo = FALSE}
-library(DiagrammeR)
-grViz("
-digraph boxes_and_circles {
-
-  # a 'graph' statement
-  graph [overlap = true, fontsize = 10]
-
-  # several 'node' statements
-  node [shape = box,
-        fontname = Helvetica]
-  Empresas; Consumidores
-
-  node [shape = circle,
-        fixedsize = true,
-        width = 0.9] // sets as circles
-  Bienes; Factores
-
-  # several 'edge' statements
-  Empresas->Bienes Empresas->Factores 
-  Factores->Consumidores Bienes->Consumidores
-}
-")
-```
+# ```{r echo = FALSE}
+# library(DiagrammeR)
+# grViz("
+# digraph boxes_and_circles {
+# 
+#   # a 'graph' statement
+#   graph [overlap = true, fontsize = 10]
+# 
+#   # several 'node' statements
+#   node [shape = box,
+#         fontname = Helvetica]
+#   Empresas; Consumidores
+# 
+#   node [shape = circle,
+#         fixedsize = true,
+#         width = 0.9] // sets as circles
+#   Bienes; Factores
+# 
+#   # several 'edge' statements
+#   Empresas->Bienes Empresas->Factores 
+#   Factores->Consumidores Bienes->Consumidores
+# }
+# ")
+# ```
 
 
 En una economía donde solo se producen bienes finales de consumo, el PIB se calcula como:
@@ -128,4 +129,34 @@ pib %>%
   facet_wrap(~var, ncol = 1, scale = "free_y")  +
   scale_y_continuous(labels = scales::dollar_format() ) + 
   ylab("")
+```
+
+4. El siguiente gráfico muestra la evolución del PIB per cápita entre 1955 y 2003. 
+
+```{r}
+pib %>% 
+  filter(var == "PIB per Cápita") %>% 
+  filter(year < 2003) %>% 
+  filter(year > 1955) %>% 
+  plot_ly(x=~year, y=~valor) %>% 
+  add_lines() %>% 
+  rangeslider()
+```
+
+Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir para el perìodo 1970-2003 y comparar. 
+
+5. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
+```{r}
+maddison <- here::here('static/pib_files/mpd2018.xlsx') %>% 
+  read_xlsx(sheet="Full data") %>% 
+  filter(countrycode %in% c("URY", "ARG", "FIN", "USA", "ITA")) %>% 
+  filter(year %in% c(1900, 1955, 2000))
+
+maddison %>% 
+  ggplot(aes(year, cgdppc, color = country)) + 
+  geom_line() + 
+  geom_point() +
+  theme_minimal() +
+  scale_color_discrete(name = "País") +
+  labs(x="Año", y="PIB per cápita")
 ```
