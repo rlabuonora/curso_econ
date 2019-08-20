@@ -42,7 +42,7 @@ En este enfoque, medimos el Valor Agregado que genera cada sector de actividad d
 
 $$ PIB = \Sigma\ VAB_{sectores} $$
 El Valor Agregado de cada sector se define como la diferencia entre el Valor de Producción y el Consumo Intermedio (gasto en materias primas).
-# ```{r echo = FALSE}
+```{r echo = FALSE}
 # library(DiagrammeR)
 # grViz("
 # digraph boxes_and_circles {
@@ -65,7 +65,7 @@ El Valor Agregado de cada sector se define como la diferencia entre el Valor de 
 #   Factores->Consumidores Bienes->Consumidores
 # }
 # ")
-# ```
+```
 
 
 En una economía donde solo se producen bienes finales de consumo, el PIB se calcula como:
