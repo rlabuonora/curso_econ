@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -91,6 +91,19 @@ Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad
       <description>PIB Es una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
  Varias formas de medir el PIB Como el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
 Producción En este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
+    </item>
+    
+    <item>
+      <title>Empleo</title>
+      <link>/post/2019/08/26/empleo/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/08/26/empleo/</guid>
+      <description> Ejercicios Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.
+ Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
+ Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
+ Hacer un gráfico de barras con la tasa de desempleo departamental.
+   </description>
     </item>
     
   </channel>

@@ -1,0 +1,17 @@
+---
+title: Empleo
+author: ''
+date: '2019-08-26'
+slug: empleo
+categories: []
+tags: []
+---
+# Ejercicios
+
+1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 
+
+2. Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
+
+2. Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
+
+3. Hacer un gráfico de barras con la tasa de desempleo departamental.
