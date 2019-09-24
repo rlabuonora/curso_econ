@@ -1,0 +1,10 @@
+---
+title: "Estructuras de Mercado"
+author: ''
+date: '2019-06-25'
+slug: estructuras-de-mercado
+categories: []
+tags: []
+weight: 9
+
+---

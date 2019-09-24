@@ -5,7 +5,15 @@ date: '2019-08-26'
 slug: empleo
 categories: []
 tags: []
+weight: 11
+
 ---
+
+Importancia del mercado de trabajo. 
+
+Oferta y demanda de trabajo. PET, PEA, tasa de ocupación, tasa de desocupación. Desalentados.
+
+Categorías de ocupación, tipos de desempleo.
 # Ejercicios
 
 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 

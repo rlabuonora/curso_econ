@@ -6,7 +6,7 @@
     <description>Recent content in Inicio on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -73,6 +73,15 @@ Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad
     </item>
     
     <item>
+      <title>Las empresas</title>
+      <link>/post/2019/09/23/las-empresas/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/23/las-empresas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Macroeconomía</title>
       <link>/post/2019/07/29/macroeconomia/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
@@ -80,6 +89,24 @@ Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad
       <guid>/post/2019/07/29/macroeconomia/</guid>
       <description>La Macroeconomía es la rama de la economía que estudia el comportamiento de la economía de una región, un país o el mundo. Busca responder preguntas como:
  ¿Qué tan difícil es encontrar empleo? ¿Los salarios y el bienestar material de la población esta mejorando? ¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos? ¿Cómo se comporta el tipo de cambio?  Algunos conceptos importantes:</description>
+    </item>
+    
+    <item>
+      <title>Análisis de Costos</title>
+      <link>/post/2019/09/23/analisis-de-costos/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/23/analisis-de-costos/</guid>
+      <description>En construcción</description>
+    </item>
+    
+    <item>
+      <title>Estructuras de Mercado</title>
+      <link>/post/2019/06/25/estructuras-de-mercado/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/06/25/estructuras-de-mercado/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -99,11 +126,21 @@ Producción En este enfoque, medimos el Valor Agregado que genera cada sector de
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/08/26/empleo/</guid>
-      <description> Ejercicios Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.
+      <description>Importancia del mercado de trabajo.
+Oferta y demanda de trabajo. PET, PEA, tasa de ocupación, tasa de desocupación. Desalentados.
+Categorías de ocupación, tipos de desempleo. # Ejercicios
+Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.
  Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
- Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
- Hacer un gráfico de barras con la tasa de desempleo departamental.
-   </description>
+ Descargar y graficar las series de actividad y desempleo por sexo.</description>
+    </item>
+    
+    <item>
+      <title>Consumo &amp; Inversión</title>
+      <link>/post/2019/09/23/consumo-inversion/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/23/consumo-inversion/</guid>
+      <description> Consumo  Es el componente más importante de la demanda agregada. Está compuesto por:  Bienes durables (automóviles, electrodomésticos) Bienes no durables (alimentos) Servicios (Educación, Salud, Transporte)    </description>
     </item>
     
     <item>
