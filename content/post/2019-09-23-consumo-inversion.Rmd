@@ -144,3 +144,9 @@ df %>%
   - Suba de la tasa de interés a $15
   - Otro proyecto con inversión de $10 e ingresos de $70.
   - Suba de 50% de impuestos.
+  
+```{r}
+knitr::include_app("https://yihui.shinyapps.io/miniUI/", 
+  height = "600px")
+```
+  
