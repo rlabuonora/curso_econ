@@ -1,5 +1,5 @@
 ---
-title: "Demanda Agregada y la Política fiscal"
+title: "Demanda Agregada"
 author: ''
 date: '2019-09-30'
 slug: politica-fiscal-multiplicador
