@@ -149,4 +149,6 @@ df %>%
 knitr::include_app("https://yihui.shinyapps.io/miniUI/", 
   height = "600px")
 ```
+
   
+
