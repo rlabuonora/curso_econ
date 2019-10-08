@@ -151,6 +151,8 @@ caida
 
 1. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol). Explicar cuáles son las variables de la demanda agregada que analiza.
 
+2. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol) publicado en Junio de 2018 luego de la devaluación en Argentina. Explicar cuáles son las variables de la demanda agregada que analiza.
+
 2. Considere la siguiente tabla: 
 ```{r}
 df <- tibble(
