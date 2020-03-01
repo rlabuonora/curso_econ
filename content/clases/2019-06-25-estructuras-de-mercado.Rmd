@@ -6,5 +6,5 @@ slug: estructuras-de-mercado
 categories: []
 tags: []
 weight: 9
-
+draft: true
 ---

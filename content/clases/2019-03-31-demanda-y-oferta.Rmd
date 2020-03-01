@@ -1,11 +1,10 @@
 ---
 title: Demanda y Oferta
 author: ''
-date: '2019-04-02'
+date: '2020-03-24'
 slug: demanda-y-oferta
 categories: []
 tags: []
-draft: true
 weight: 4
 ---
 
