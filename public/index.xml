@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inicio on Introducción a la Economía</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Inicio on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Introducción</title>
       <link>/clases/introduction/</link>
-      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/introduction/</guid>
       <description>¿Por qué estudiar economía? Algunas preguntas que busca responder la economía:
@@ -168,7 +168,7 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bibliografia/</guid>
-      <description>El curso se basa en Economía de Paul Samuelson y William Nordhaus (McGraw Hill). Cualquier edición sirve.  </description>
+      <description>El curso se basa en Economíade Paul Samuelson y William Nordhaus (McGraw Hill). Cualquier edición sirve.</description>
     </item>
     
     <item>
@@ -177,8 +177,7 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pruebas/</guid>
-      <description>
-   Fecha Tipo Bibliografía     22/ 4 Control de Lectura Economía: Capítulo 3    </description>
+      <description>   Fecha Tipo Bibliografía     22/ 4 Control de Lectura Economía: Capítulo 3    </description>
     </item>
     
     <item>
