@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inicio on Introducción a la Economía</title>
-    <link>/</link>
-    <description>Recent content in Inicio on Introducción a la Economía</description>
+    <title>Clases on Introducción a la Economía</title>
+    <link>/clases/</link>
+    <description>Recent content in Clases on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/clases/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -169,34 +169,6 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       
       <guid>/clases/politica-fiscal-multiplicador/</guid>
       <description>Ciclos de Negocios  El análisis de los ciclos de negocios es uno de los temas centrales de la macroeconomía. John Maynard Keynes fue el que originó esta rama de la economía en los años 30s.   Las economías modernas pasan por períodos de auge y caída. En los períodos de auge es fácil conseguir empleo, los beneficios de las empresas son bajos y las fábricas trabajan por debajo de su capacidad.</description>
-    </item>
-    
-    <item>
-      <title>Bibliografía</title>
-      <link>/bibliografia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bibliografia/</guid>
-      <description>El curso se basa en Economía de Paul Samuelson y William Nordhaus (McGraw Hill). Cualquier edición sirve.  </description>
-    </item>
-    
-    <item>
-      <title>Pruebas</title>
-      <link>/pruebas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pruebas/</guid>
-      <description>
-   Fecha Tipo Bibliografía     22/ 4 Control de Lectura Economía: Capítulo 3    </description>
-    </item>
-    
-    <item>
-      <title>Sobre este sitio</title>
-      <link>/sobre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sobre/</guid>
-      <description>Este sitio fue creado con xmin en blogdown. El ícono de oferta y demanda es de Andrew Heiss.</description>
     </item>
     
   </channel>
