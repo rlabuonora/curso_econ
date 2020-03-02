@@ -8,40 +8,6 @@ tags: []
 weight: 1
 ---
 
-# ¿Por qué estudiar economía?
-
-Algunas preguntas que busca responder la economía:
-
-- ¿Por qué algunos países son más ricos que otros?
-- ¿Cómo se determina el salario de los trabajadores?
-- ¿Qué medidas debe tomar el gobierno para mejorar el bienestar de la población?
-- ¿Qué efectos tiene el comercio con otros países?
-
-Las ciencias economómicas aportan conceptos importantes para entender la discusión pública sobre problemas sociales, y para tomar mejores decisiones privadas (¿cómo invertir mis ahorros? ¿qué carrera estudiar?)
-
-- Economía normativa y economía positiva.
-- Escasez y eficiencia.
-- Macroeconomía y microeconomía.
-
-
-# Los principales problemas que enfrenta la economía
-
-- **¿Qué producir?**
-<p>
-Las economías tienen _estructuras productivas_ diferentes. 
-</p>
-- **¿Cómo producir?**
-<p>
-Las economías usan _tecnologías_ diferentes.
-</p>
-- **¿Para quién producir?**
-<p>
-Las economías _distribuyen_ lo que producen de formas diferentes.
-</p>
-
-
-Los **precios** tienen un rol fundamental en la forma en que una sociedad responde estas preguntas, por lo que la economía busca entender como se determinan.
-
 # Ejercicio 1
 Determinar si son positivas o normativas. Identificar variables económicas mencionadas.
 
@@ -76,7 +42,6 @@ De un planeta lejano donde los recursos son infinitos, llega una criatura a la q
 # Ejercicio 3
 
 Explicar cómo se determinan, cuánto, cómo y para quién se producen los siguientes bienes y servicios: educación, transporte y hamburguesas.
-
 
 
 # Ejercicio 4
