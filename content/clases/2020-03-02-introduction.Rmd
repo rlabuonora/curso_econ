@@ -8,7 +8,10 @@ tags: []
 weight: 1
 ---
 
-## [Diapositivas](https://intro--diapos-econ.netlify.com)
+## Material
+
+- Capítulos 1 y 2 del [libro](https://econ.rlabuonora.com/bibliografia/).
+- [Diapositivas](https://intro--diapos-econ.netlify.com)
 
 
 ## Ejercicio 1: Economía Normativa y Economía Positiva.
