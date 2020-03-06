@@ -121,15 +121,5 @@ ggplot(df, aes(x=food, y=machines)) +
 
 # Ejercicios
 
-1. Econolandia tiene 1000 horas de trabajo disponibles para producir cortes de pelo y remeras. Un corte de pelo requiere $1/2$ hora de trabajo, y una remera $5$. Dibujar la FPP de Econolandia. 
 
-2. En una economía que produce bienes agrícolas y manufacturas, se hace un descubrimiento científico que mejora el rendimiento de los cultivos sin afectar la producción industrial. Grafique este impacto en la FPP.
 
-3. Juan tiene 10 horas para estudiar para dos pruebas: Historia y Economía. Dibuje la FPP de notas de las dos materias. Grafique:
-
-- El efecto de estudiar con música alta en las notas.
-- El efecto de estudiar 15 horas en vez de 10.
-
-3. Analizar la siguiente afirmación:
-
-> Como la Universidad pública es gratuita en Uruguay, estudiar no tiene costos. 

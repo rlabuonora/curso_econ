@@ -8,8 +8,12 @@ tags: []
 weight: 1
 ---
 
-# Ejercicio 1
-Determinar si son positivas o normativas. Identificar variables económicas mencionadas.
+## [Diapositivas](https://intro--diapos-econ.netlify.com)
+
+
+## Ejercicio 1: Economía Normativa y Economía Positiva.
+
+Determinar si las siguientes afirmaciones son positivas o normativas. Identificar variables económicas mencionadas.
 
 > Un salario mínimo incrementa el desempleo entre obreros jóvenes no calificados.
 
@@ -26,9 +30,24 @@ Determinar si son positivas o normativas. Identificar variables económicas menc
 > El ministro de Economía, Danilo Astori, dijo este jueves que el nivel de desempleo en Uruguay,  se ubicó en 7,6% en el segundo trimestre del año. Según el ministro, el desempleo  "no llegó a niveles dramáticos". </br>
 Astori también habló de la inflación, que llegó a 9,48% en los 12 meses cerrados a agosto, debido a la suba de precios del mes de casi 1,2%. En ese sentido, dijo que la misma "está asumida como un problema que hay que solucionar".
 
-# Ejercicio 2
 
-De un planeta lejano donde los recursos son infinitos, llega una criatura a la que le tenemos que explicar algunos conceptos económicos. Defina brevemente:
+## Ejercicio 2: Eficiencia y la FPP de una economía.
+
+1. Econolandia tiene 1000 horas de trabajo disponibles para producir cortes de pelo y remeras. Un corte de pelo requiere $1/2$ hora de trabajo, y una remera $5$. Dibujar la FPP de Econolandia. 
+
+2. En una economía que produce bienes agrícolas y manufacturas, se hace un descubrimiento científico que mejora el rendimiento de los cultivos sin afectar la producción industrial. Grafique este impacto en la FPP.
+
+3. Juan tiene 10 horas para estudiar para dos pruebas: Historia y Economía. Dibuje la FPP de notas de las dos materias. Explique qué variables van en cada eje. 
+
+En gráficos separados dibuje:
+
+- El efecto de estudiar con música alta en vez de en silencio.
+- El efecto de estudiar 15 horas en vez de 10.
+- El efecto de la creación de una canal de youtube de videos de historia que hace que Juan sea más eficiente estudiando historia. Cada hora que pasa estudiando historia hace que saque mejores notas.
+
+## Ejercicio 2
+
+1. De un planeta lejano donde los recursos son infinitos, llega una criatura a la que le tenemos que explicar algunos conceptos económicos. Defina brevemente:
 
 - Economía
 - Mercado
@@ -38,13 +57,13 @@ De un planeta lejano donde los recursos son infinitos, llega una criatura a la q
 - Desempleo
 - Inflación
 
+2. Explicar cómo se determina, _cuánto_, _cómo_ y _para quién_ se producen los siguientes bienes y servicios: seguriddad, educación y hamburguesas. ¿Donde participa más el estado y dónde participa más el mercado?
 
-# Ejercicio 3
+3. Analizar la siguiente afirmación:
 
-Explicar cómo se determinan, cuánto, cómo y para quién se producen los siguientes bienes y servicios: educación, transporte y hamburguesas.
+> Como la Universidad pública es gratuita en Uruguay, estudiar no tiene costos. 
 
-
-# Ejercicio 4
+## Ejercicio 4: Flujo Circular de la economía.
 
 1) Analice las siguientes notas de prensa:
 
