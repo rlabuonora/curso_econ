@@ -22,7 +22,7 @@ theme_set(theme_minimal() +
 ```
 # Diapositivas
 
-[Diapositivas Demanda y Oferta](http://demanda--diapos-econ.netlify.com)
+[Diapositivas Demanda y Oferta](https://demanda--diapos-econ.netlify.com)
 
 
 # Ejercicios
