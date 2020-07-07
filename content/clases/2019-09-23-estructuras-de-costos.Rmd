@@ -1,12 +1,11 @@
 ---
 title: "Análisis de Costos"
 author: ''
-date: '2020-09-23'
+date: '2020-06-30'
 slug: analisis-de-costos
 categories: []
 tags: []
 weight: 8
-
 ---
 
 <a href="https://costos--diapos-econ.netlify.com">Diapositivas Empresas y Producción </a>
