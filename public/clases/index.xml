@@ -77,15 +77,6 @@ Considere los siguientes datos para un bien:CantidadUtilidad TotalUtilidad
     </item>
     
     <item>
-      <title>Las empresas</title>
-      <link>/clases/las-empresas/</link>
-      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/clases/las-empresas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Macroeconomía</title>
       <link>/clases/macroeconomia/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
@@ -93,6 +84,16 @@ Considere los siguientes datos para un bien:CantidadUtilidad TotalUtilidad
       <guid>/clases/macroeconomia/</guid>
       <description>La Macroeconomía es la rama de la economía que estudia el comportamiento de la economía de una región, un país o el mundo. Busca responder preguntas como:
 ¿Qué tan difícil es encontrar empleo?¿Los salarios y el bienestar material de la población esta mejorando?¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos?¿Cómo se comporta el tipo de cambio?Algunos conceptos importantes:</description>
+    </item>
+    
+    <item>
+      <title>Las empresas</title>
+      <link>/clases/las-empresas/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/clases/las-empresas/</guid>
+      <description>DiapositivasDiapositivas Demanda y Oferta 
+</description>
     </item>
     
     <item>

@@ -1,10 +1,15 @@
 ---
 title: Las empresas
 author: ''
-date: '2020-09-23'
+date: '2020-06-23'
 slug: las-empresas
 categories: []
 tags: []
 weight: 7
 
 ---
+
+
+# Diapositivas
+
+<a href="https://produccion--diapos-econ.netlify.com">Diapositivas Demanda y Oferta </a>
