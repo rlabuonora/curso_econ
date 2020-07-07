@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clases on Introducción a la Economía</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Clases on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/clases/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,10 +17,10 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/introduction/</guid>
-      <description>Material  Capítulos 1 y 2 del libro. Diapositivas   Ejercicio 1: Economía Normativa y Economía Positiva. Determinar si las siguientes afirmaciones son positivas o normativas. Identificar variables económicas mencionadas.
- Un salario mínimo incrementa el desempleo entre obreros jóvenes no calificados.
-  La distribución del ingreso en Uruguay debería ser más equitativa.
-  Las leyes antimonopolio deberían utilizarse con más vigor para reducir en nivel actual del poder monopólico.</description>
+      <description>MaterialCapítulos 1 y 2 del libro.DiapositivasEjercicio 1: Economía Normativa y Economía Positiva.Determinar si las siguientes afirmaciones son positivas o normativas. Identificar variables económicas mencionadas.
+Un salario mínimo incrementa el desempleo entre obreros jóvenes no calificados.
+La distribución del ingreso en Uruguay debería ser más equitativa.
+Las leyes antimonopolio deberían utilizarse con más vigor para reducir en nivel actual del poder monopólico.</description>
     </item>
     
     <item>
@@ -29,8 +29,8 @@
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/fpp/</guid>
-      <description>Inputs y Outputs, factores de producción:  Tierra Trabajo Capital  La frontera de posibilidades de producción es el menú de opciones de una economía.   Dos posibilidades extremas, si asignamos todos los recursos a un solo sector.   Puntos afuera y puntos adentro de la frontera
-   Desplazamientps cuando la tecnología nos hace más productivos   Podemos aplicar la FPP para analizar decisiones entre dos alternativas.</description>
+      <description>Inputs y Outputs, factores de producción:TierraTrabajoCapitalLa frontera de posibilidades de producción es el menú de opciones de una economía.Dos posibilidades extremas, si asignamos todos los recursos a un solo sector.Puntos afuera y puntos adentro de la frontera
+Desplazamientps cuando la tecnología nos hace más productivosPodemos aplicar la FPP para analizar decisiones entre dos alternativas.</description>
     </item>
     
     <item>
@@ -39,9 +39,9 @@
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/economias-modernas/</guid>
-      <description>Complejidad de las economías modernas  Ejemplo de una transacción simple como la compra de un pasaje de avión.
- Economías mixtas: los recursos se asignan por mecanismos de mercado y directamente por el estado.
-   El mercado como mecanismo de asignación de recursos  Un mercado es el marco en el que interactúan los oferentes y los demandantes de un bien, que son los que deciden cuanto compra y venden a cierto precio con el fin de obtener un resultado (ganancia, satisfacción de necesidades, etc.</description>
+      <description>Complejidad de las economías modernasEjemplo de una transacción simple como la compra de un pasaje de avión.
+Economías mixtas: los recursos se asignan por mecanismos de mercado y directamente por el estado.
+El mercado como mecanismo de asignación de recursosUn mercado es el marco en el que interactúan los oferentes y los demandantes de un bien, que son los que deciden cuanto compra y venden a cierto precio con el fin de obtener un resultado (ganancia, satisfacción de necesidades, etc.</description>
     </item>
     
     <item>
@@ -50,8 +50,8 @@
       <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/demanda-y-oferta/</guid>
-      <description>Diapositivas Diapositivas Demanda y Oferta 
- Ejercicios Explicar porqué estas afirmaciones son falsas:   Una helada en uno de los estados productores de café de Brasil va a producir una caída en el precio del café. El proteccionismo de la industria textil en Uruguay hace que los precios internos de los textiles bajen. El aumento en los precios de la educación privada hace que baje la demanda de educación.</description>
+      <description>DiapositivasDiapositivas Demanda y Oferta 
+EjerciciosExplicar porqué estas afirmaciones son falsas:Una helada en uno de los estados productores de café de Brasil va a producir una caída en el precio del café.El proteccionismo de la industria textil en Uruguay hace que los precios internos de los textiles bajen.El aumento en los precios de la educación privada hace que baje la demanda de educación.</description>
     </item>
     
     <item>
@@ -61,8 +61,8 @@
       
       <guid>/clases/elasticidad-de-la-demanda/</guid>
       <description>La elasticidad de la demanda mide cuanto cambia la cantidad demandada (\(Q_d\)) cuando cambian los precios. Ya sambemos que si el precio sube la cantidad demandada baja, la elasticidad cuantifica esa caída.
- Si \(Q_d\) baja (sube) mucho cuando sube (baja) el precio, la demanda del bien es elástica. Si \(Q_d\) baja (sube) poco cuando sube (baja) el precio, la demanda del bien es inelástica.
- La elasticidad de la demanda de un bien depende de varios factores:  Si el bien tiene muchos sustitutos, su demanda va a ser más elástica.</description>
+Si \(Q_d\) baja (sube) mucho cuando sube (baja) el precio, la demanda del bien es elástica.Si \(Q_d\) baja (sube) poco cuando sube (baja) el precio, la demanda del bien es inelástica.
+La elasticidad de la demanda de un bien depende de varios factores:Si el bien tiene muchos sustitutos, su demanda va a ser más elástica.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       
       <guid>/clases/utilidad/</guid>
       <description>Ejercicios
-Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad Marginal    0 0   1 4   2 7   3 9   4 10   5 10     a) Grafique la Utilidad Total. b) ¿Cuál es la diferencia entre la Utilidad Total y la Utilidad Marginal? c) Complete la columna de Utilidad Marginal.</description>
+Considere los siguientes datos para un bien:CantidadUtilidad TotalUtilidad Marginal00142739410510a) Grafique la Utilidad Total.b) ¿Cuál es la diferencia entre la Utilidad Total y la Utilidad Marginal?c) Complete la columna de Utilidad Marginal.</description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@ Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad
       
       <guid>/clases/macroeconomia/</guid>
       <description>La Macroeconomía es la rama de la economía que estudia el comportamiento de la economía de una región, un país o el mundo. Busca responder preguntas como:
- ¿Qué tan difícil es encontrar empleo? ¿Los salarios y el bienestar material de la población esta mejorando? ¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos? ¿Cómo se comporta el tipo de cambio?  Algunos conceptos importantes:</description>
+¿Qué tan difícil es encontrar empleo?¿Los salarios y el bienestar material de la población esta mejorando?¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos?¿Cómo se comporta el tipo de cambio?Algunos conceptos importantes:</description>
     </item>
     
     <item>
@@ -118,9 +118,9 @@ Considere los siguientes datos para un bien:    Cantidad Utilidad Total Utilidad
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/pib/</guid>
-      <description>PIB Es una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
- Varias formas de medir el PIB Como el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
-Producción En este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
+      <description>PIBEs una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
+Varias formas de medir el PIBComo el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
+ProducciónEn este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
     </item>
     
     <item>
@@ -131,10 +131,10 @@ Producción En este enfoque, medimos el Valor Agregado que genera cada sector de
       <guid>/clases/empleo/</guid>
       <description>Importancia del mercado de trabajo.
 Oferta y demanda de trabajo. PET, PEA, tasa de ocupación, tasa de desocupación. Desalentados.
-Categorías de ocupación, tipos de desempleo. # Ejercicios
+Categorías de ocupación, tipos de desempleo.# Ejercicios
 Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.
- Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
- Descargar y graficar las series de actividad y desempleo por sexo.</description>
+Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
+Descargar y graficar las series de actividad y desempleo por sexo.</description>
     </item>
     
     <item>
@@ -143,7 +143,7 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/consumo-inversion/</guid>
-      <description>Consumo  Es el componente más importante de la demanda agregada. Está compuesto por:  Bienes durables (automóviles, electrodomésticos) Bienes no durables (alimentos) Servicios (Educación, Salud, Transporte)  Las familias con menores ingresos gastan todos sus ingresos en bienes básicos (alimentación y vivienda). A medida que aumentan los ingresos de los hogares, estos destinan ingresos a otro tipo de bienes (servicios como la salud, la alimentación, etc.) Esto se puede dar ver si comparamos el consumo de un hogar a lo largo del tiempo o en un conjunto de hogares con distintos ingresos en un mismo momento.</description>
+      <description>ConsumoEs el componente más importante de la demanda agregada.Está compuesto por:Bienes durables (automóviles, electrodomésticos)Bienes no durables (alimentos)Servicios (Educación, Salud, Transporte)Las familias con menores ingresos gastan todos sus ingresos en bienes básicos (alimentación y vivienda).A medida que aumentan los ingresos de los hogares, estos destinan ingresos a otro tipo de bienes (servicios como la salud, la alimentación, etc.)Esto se puede dar ver si comparamos el consumo de un hogar a lo largo del tiempo o en un conjunto de hogares con distintos ingresos en un mismo momento.</description>
     </item>
     
     <item>
@@ -152,8 +152,8 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/economia-abierta/</guid>
-      <description>Ejercicios Completar la siguiente tabla:    Moneda Moneda por USD USD por Moneda    Dólar Canadá 0.9861   Real 1.656   Yuan 6.942   Peso Mexico 10.38   Libra 0.5054   Euro 0.6368     Explicar el efecto en el tipo de cambio en Uruguay de un aumento de las exportaciones de celulosa.
- Explicar en cuál sección de la balanza de pagos va cada una de las siguientes transacciones:</description>
+      <description>EjerciciosCompletar la siguiente tabla:MonedaMoneda por USDUSD por MonedaDólar Canadá0.9861Real1.656Yuan6.942Peso Mexico10.38Libra0.5054Euro0.6368Explicar el efecto en el tipo de cambio en Uruguay de un aumento de las exportaciones de celulosa.
+Explicar en cuál sección de la balanza de pagos va cada una de las siguientes transacciones:</description>
     </item>
     
     <item>
@@ -162,7 +162,7 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/politica-fiscal-multiplicador/</guid>
-      <description>Ciclos de Negocios  El análisis de los ciclos de negocios es uno de los temas centrales de la macroeconomía. John Maynard Keynes fue el que originó esta rama de la economía en los años 30s.   Las economías modernas pasan por períodos de auge y caída. En los períodos de auge es fácil conseguir empleo, los beneficios de las empresas son bajos y las fábricas trabajan por debajo de su capacidad.</description>
+      <description>Ciclos de NegociosEl análisis de los ciclos de negocios es uno de los temas centrales de la macroeconomía.John Maynard Keynes fue el que originó esta rama de la economía en los años 30s.Las economías modernas pasan por períodos de auge y caída.En los períodos de auge es fácil conseguir empleo, los beneficios de las empresas son bajos y las fábricas trabajan por debajo de su capacidad.</description>
     </item>
     
   </channel>

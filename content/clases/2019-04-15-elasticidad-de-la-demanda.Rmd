@@ -5,7 +5,6 @@ date: '2020-04-09'
 slug: elasticidad-de-la-demanda
 categories: []
 tags: []
-draft: true
 weight: 5
 ---
 
