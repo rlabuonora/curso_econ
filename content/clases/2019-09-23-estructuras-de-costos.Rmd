@@ -8,10 +8,10 @@ tags: []
 weight: 8
 ---
 
-<a href="https://costos--diapos-econ.netlify.com">Diapositivas Empresas y Producción </a>
+<a href="https://costos--diapos-econ.netlify.com">Diapositivas de Costos </a>
 
 
-# Función de Producción y Costos
+# Ejercicio: Función de Producción y Costos
 
 Los costos, los precios de los factores y la cantidad de inputs están vinculados:
 
