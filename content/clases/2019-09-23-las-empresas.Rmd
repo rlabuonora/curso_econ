@@ -13,3 +13,13 @@ weight: 7
 # Diapositivas
 
 <a href="https://produccion--diapos-econ.netlify.com">Diapositivas Empresas y Producción </a>
+
+
+# Ejercicio
+
+[Ver este artículo de La Diaria](https://ladiaria.com.uy/articulo/2010/5/salarios-productividad-y-poder/).
+
+
+
+
+
