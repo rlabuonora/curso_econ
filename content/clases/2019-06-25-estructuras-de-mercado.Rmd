@@ -6,7 +6,6 @@ slug: estructuras-de-mercado
 categories: []
 tags: []
 weight: 9
-draft: true
 ---
 
 [Escuchar esta entrevista a Sebastián Fleitas](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) y contestar las siguientes preguntas:
