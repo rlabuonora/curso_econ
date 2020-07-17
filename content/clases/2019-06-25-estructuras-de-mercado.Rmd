@@ -9,7 +9,19 @@ weight: 9
 ---
 
 
-1. Analizar el siguiente tweet:
+<style>
+
+
+.twitter-tweet {
+
+  margin: 0 auto;
+}
+
+</style>
+
+
+
+[Diapositivas](https://org-ind--diapos-econ.netlify.app/) 
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1262604092746002433')

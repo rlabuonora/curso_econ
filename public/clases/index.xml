@@ -77,16 +77,6 @@ Considere los siguientes datos para un bien:CantidadUtilidad TotalUtilidad
     </item>
     
     <item>
-      <title>Macroeconomía</title>
-      <link>/clases/macroeconomia/</link>
-      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/clases/macroeconomia/</guid>
-      <description>La Macroeconomía es la rama de la economía que estudia el comportamiento de la economía de una región, un país o el mundo. Busca responder preguntas como:
-¿Qué tan difícil es encontrar empleo?¿Los salarios y el bienestar material de la población esta mejorando?¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos?¿Cómo se comporta el tipo de cambio?Algunos conceptos importantes:</description>
-    </item>
-    
-    <item>
       <title>Las empresas</title>
       <link>/clases/las-empresas/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
@@ -114,7 +104,8 @@ Ejercicio: Función de Producción y CostosLos costos, los precios de los facto
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/estructuras-de-mercado/</guid>
-      <description>Analizar el siguiente tweet:Una empresa de tren de pasajeros puede satisfacer toda la demanda. Si hubiese dos, la misma cantidad de consumidores seria abastecida, pero la inversión necesaria para brindar dicho servicio sería el doble (imagínense duplicado de vías).
+      <description>.twitter-tweet {margin: 0 auto;}Diapositivas
+Una empresa de tren de pasajeros puede satisfacer toda la demanda. Si hubiese dos, la misma cantidad de consumidores seria abastecida, pero la inversión necesaria para brindar dicho servicio sería el doble (imagínense duplicado de vías).
 &amp;mdash; Julito Garín (@jggarin) May 19, 2020  Escuchar esta entrevista a Sebastián Fleitas y contestar las siguientes preguntas:¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris?</description>
     </item>
     
@@ -150,6 +141,16 @@ Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta
       
       <guid>/clases/consumo-inversion/</guid>
       <description>ConsumoEs el componente más importante de la demanda agregada.Está compuesto por:Bienes durables (automóviles, electrodomésticos)Bienes no durables (alimentos)Servicios (Educación, Salud, Transporte)Las familias con menores ingresos gastan todos sus ingresos en bienes básicos (alimentación y vivienda).A medida que aumentan los ingresos de los hogares, estos destinan ingresos a otro tipo de bienes (servicios como la salud, la alimentación, etc.)Esto se puede dar ver si comparamos el consumo de un hogar a lo largo del tiempo o en un conjunto de hogares con distintos ingresos en un mismo momento.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomía</title>
+      <link>/clases/macroeconomia/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/clases/macroeconomia/</guid>
+      <description>La Macroeconomía es la rama de la economía que estudia el comportamiento de la economía de una región, un país o el mundo. Busca responder preguntas como:
+¿Qué tan difícil es encontrar empleo?¿Los salarios y el bienestar material de la población esta mejorando?¿Qué pasa con el nivel de precios y el poder adquisitivo de los ingresos?¿Cómo se comporta el tipo de cambio?Algunos conceptos importantes:</description>
     </item>
     
     <item>
