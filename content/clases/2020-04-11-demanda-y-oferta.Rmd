@@ -22,7 +22,7 @@ theme_set(theme_minimal() +
 ```
 # Diapositivas
 
-<a href="https://demanda--diapos-econ.netlify.com">Diapositivas Demanda y Oferta </a>
+La oferta y la demanda son las herramientas básicas que los economistas usan para analizar los mercados. En esta unidad presentamos estos conceptos y cómo se usan para explicar los resultados que observamos en la vida económica. Acá están las [diapositivas](https://demanda--diapos-econ.netlify.com) para la unidad.
 
 
 # Ejercicios
