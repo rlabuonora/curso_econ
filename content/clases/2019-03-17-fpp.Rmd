@@ -119,7 +119,10 @@ ggplot(df, aes(x=food, y=machines)) +
 
 - Costos de oportunidad. El costo de abrir una mina en una zona natural.
 
-# Ejercicios
+## Bibliografía
+
+
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía con aplicaciones a Latinoamérica - Capítulo 1. Boston, Mass: Irwin/McGraw-Hill.
 
 
 
