@@ -1,5 +1,5 @@
 ---
-title: Utilidad
+title: "Los consumidores"
 author: Rafael La Buonora
 date: '2020-04-30'
 slug: utilidad
@@ -8,6 +8,9 @@ tags: []
 weight: 6
 ---
 
+El princial propósito de la actividad económica es el consumo. En esta unidad analizamos el comportamiento de los consumidores.
+
+- [Diapositivas](https://consumidor--diapos-econ.netlify.app) para estas clases
 
 Ejercicios
 
