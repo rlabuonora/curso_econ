@@ -12,7 +12,7 @@ El princial propósito de la actividad económica es el consumo. En esta unidad 
 
 - [Diapositivas](https://consumidor--diapos-econ.netlify.app) para estas clases
 
-Ejercicios
+## Ejercicios
 
 1. Considere los siguientes datos para un bien:
 
@@ -36,4 +36,9 @@ Ejercicios
 
 4. La demanda para cruzar un peaje es $Q_d = 1000000 - 50000P$, donde $Q_d$ es la cantidad de autos que pasan por el peaje y $P$ es el precio que pagan. Calcular el excedente del consumidor si el precio es $0, $1 y $20.
 
+
+## Bibliografía
+
+
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía - Capítulo 5. Boston, Mass: Irwin/McGraw-Hill.
   

@@ -9,15 +9,40 @@ weight: 9
 ---
 
 
-1. Analizar el siguiente tweet:
+<style>
+
+
+.twitter-tweet {
+
+  margin: 0 auto;
+}
+
+</style>
+
+En la clases anteriores analizamos cómo los mercados resuelven los problemas económicos mediante la interacción de la oferta con la demanda. En esta unidad analizamos las distintas formas en qué se puede dar esta interacción según el __poder de mercado__ que tienen consumidores y productores.
+
+Acá están las [diapositivas](https://org-ind--diapos-econ.netlify.app/) para la unidad.
+
+
+## Ejercicios
+
+1. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
+
+-  ¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris? ¿En qué consiste esta práctica? ¿Cuál fue el resultado de la denuncia?
+- ¿Qué argumentos hay a favor de que las acciones de Philip Morris son anticompetitivas? ¿Y en contra?
+- ¿Cuál es el diagnóstico de Fleitas sobre el funcionanmiento actual de la Comisión de Defensa de la Competencia?
+
+
+2. Analizar este tweet:
+
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1262604092746002433')
 ```
 
+- ¿Por qué es más eficiente que una sola empresa abastezca todo el mercado? ¿Cómo se llama este tipo de mercado? ¿Conoce algún ejemplo en Uruguay?
 
-2. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
+## Bibliografía
 
--  ¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris? ¿En qué consiste esta práctica? ¿Cuál fue el resultado de la denuncia?
-- ¿Qué argumentos hay a favor de que las acciones de Philip Morris son anticompetitivas? ¿Y en contra?
-- ¿Cuál es el diagnóstico de Fleitas sobre el funcionanmiento actual de la Comisión de Defensa de la Competencia?
+
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía - Capítulo 9. Boston, Mass: Irwin/McGraw-Hill.
