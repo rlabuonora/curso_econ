@@ -37,7 +37,7 @@ Acá están las [diapositivas](https://org-ind--diapos-econ.netlify.app/) para l
 - Los monopolistas maximizan las ventas. Por lo tanto, producen más que los competidores perfectos y a un precio más bajo.
 - Las empresas siempre cobran el precio máximo que soporta el mercado.
 
-2. Una empresa productora de micro chips tiene costos fijos de producción de $100.000, y cada unidad cuesta $600 de trabajo y $400 de materias primas. A un precio de $3.000, los consumidores no compran ningun chip, pero por cada $10 que reduzcan el precio, las ventas aumentan 1000 unidades. Calcule el Costo Marginal, el ingreso margina, precio y cantidad si la empresa opera como un monopolio.
+2. Una empresa productora de micro chips tiene costos fijos de producción de $100.000, y cada unidad cuesta $600 de trabajo y $400 de materias primas. La curva de demanda que enfrenta es $P=3000-\frac{1}{100}Q$ y el ingreso marginal $Img=3000-\frac{1}{50}Q$. Calcule el Costo Marginal, el ingreso marginal, precio y cantidad si la empresa opera como un monopolio.
 
 
 
