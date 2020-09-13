@@ -1,5 +1,5 @@
 ---
-title: Frontera de Posibilidades de Producción
+title: "Las Economías Modernas"
 author: ''
 date: '2020-03-17'
 slug: fpp
@@ -8,7 +8,21 @@ tags: []
 weight: 2
 ---
 
+- [Diapositivas](https://economias_modernas--diapos-econ.netlify.app) para estas clases
+## Ejercicio 1
 
+1) Analice las siguientes notas de prensa:
+
+ - [Gobierno inicia mayor ronda de Consejos de Salario de la historia](http://www.180.com.uy/articulo/73654_gobierno-inicia-mayor-ronda-de-consejos-de-salario-de-la-historia)
+ 
+ - [Precio de arrendamiento de tierras aumentó por quinto año consecutivo](http://www.180.com.uy/articulo/55791_precio-de-arrendamiento-de-tierras-aumento-por-quinto-ano-consecutivo)
+ 
+ - [Comercio: crecimiento en 2017 y advertencias para un buen 2018](http://www.180.com.uy/articulo/73090_comercio-tuvo-un-2017-de-crecimiento-y-espera-un-buen-2018)
+ 
+ - [Abundancia y precios bajos en frutas y hortalizas en 2017](http://www.180.com.uy/articulo/71800_abundancia-y-precios-bajos-en-frutas-y-hortalizas-en-2017)
+ 
+ Para cada artículo identificar los elementos del flujo circular de la economía mencionados: oferta, demanda, precios, flujos de dinero y de bienes.
+ 
 ## Ejercicio 1: 
 
 1. Econolandia tiene 1000 horas de trabajo disponibles para producir cortes de pelo y remeras. Un corte de pelo requiere $1/2$ hora de trabajo, y una remera $5$. Dibujar la FPP de Econolandia. 
