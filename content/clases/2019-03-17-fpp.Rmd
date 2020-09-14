@@ -9,6 +9,7 @@ weight: 2
 ---
 
 - [Diapositivas](https://economias_modernas--diapos-econ.netlify.app) para estas clases
+
 ## Ejercicio 1
 
 1) Analice las siguientes notas de prensa:
