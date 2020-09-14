@@ -14,7 +14,7 @@ weight: 10
 
 # Material Extra
 
-1. ![Tasa de empleo, actividad, etc.](https://www.youtube.com/watch?v=B8VclnrVEPA)
+1. Video de Nicolás Lussich en Subrayado sobre la [tasa de empleo, actividad, etc.](https://www.youtube.com/watch?v=B8VclnrVEPA)
 
 # Ejercicios
 
