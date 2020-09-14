@@ -1,26 +1,23 @@
 ---
-title: "Empleo y Mercado de Trabajo"
+title: "Mercado de Trabajo"
 author: ''
 date: '2020-08-26'
 slug: empleo
 categories: []
 tags: []
 weight: 10
-draft: true
 ---
 
-Importancia del mercado de trabajo. 
 
-Oferta y demanda de trabajo. PET, PEA, tasa de ocupación, tasa de desocupación. Desalentados.
+- [Diapositivas](https://empleo--diapos-econ.netlify.app) para estas clases
 
-Categorías de ocupación, tipos de desempleo.
+
 
 
 # Ejercicios
 
 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 
 
-2. Graficar el PIB a precios constantes y comparar la evolución con los gráficos del punto anterior.
 
 2. Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
 
