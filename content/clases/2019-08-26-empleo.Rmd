@@ -14,9 +14,12 @@ weight: 10
 
 # Material Extra
 
-1. Video de Nicolás Lussich en Subrayado sobre la [tasa de empleo, actividad, etc.](https://www.youtube.com/watch?v=B8VclnrVEPA)
+1. [Video de Nicolás Lussich](https://www.youtube.com/watch?v=B8VclnrVEPA) en Subrayado sobre los principales indicadores del mercado laboral.
 
 2. [Video de Laura Raffo](https://www.youtube.com/watch?v=NMejCq1WrZE) sobre situación del mercado laboral en 2015.
+
+3. [Video de Andrés Dean](https://www.youtube.com/watch?v=zzTK0d-iQEI) sobre situación del mercado laboral en el mediano plazo.
+
 
 # Ejercicios
 
