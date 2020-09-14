@@ -16,6 +16,8 @@ weight: 10
 
 1. Video de Nicolás Lussich en Subrayado sobre la [tasa de empleo, actividad, etc.](https://www.youtube.com/watch?v=B8VclnrVEPA)
 
+2. [Video de Laura Raffo](https://www.youtube.com/watch?v=NMejCq1WrZE) sobre situación del mercado laboral en 2015.
+
 # Ejercicios
 
 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 
