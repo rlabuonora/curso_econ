@@ -169,3 +169,7 @@ knitr::kable(df) %>%
 
 - ¿Cuánto vale el PIB, el Consumo, el ahorro y la inversión en equilibrio?
 - ¿Qué pasaría si el PIB fuera 4200? ¿Y si fuera 2700?
+
+# Material
+
+Entrevista a ![Gabriela Mordecki](https://www.youtube.com/watch?v=MpzYifMurPo) sobre el presupuesto nacional.
