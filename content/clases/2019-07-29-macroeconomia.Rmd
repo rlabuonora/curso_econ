@@ -106,7 +106,3 @@ Graficar los impactos usando el esquema de Oferta y Demanda Agregadas.
 2. Graficar los 4 años en el eje $(P, Y)$ con las curvas de Oferta y Demanda Agregadas.
 
 
-
-# Ejercicios
-
-
