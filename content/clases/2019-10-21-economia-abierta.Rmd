@@ -1,18 +1,12 @@
 ---
-title: Economia Abierta
-author: ''
-date: '2020-10-21'
-slug: economia-abierta
-categories: []
-tags: []
----
----
 title: "Economía Abierta"
 author: ''
 date: '2019-10-21'
-slug: economía-abierta
+slug: economia-abierta
 categories: []
 tags: []
+weight: 14
+draft: true
 ---
 
 ## Ejercicios
@@ -55,3 +49,9 @@ Calcular la cuenta de errores y omisiones.
 5. Leer [este artículo](https://www.180.com.uy/articulo/80359_bcu-busca-que-circulo-virtuoso-de-la-percepcion-de-uruguay-no-haga-caer-el-dolar). Explicar los efectos esperados de las bajas en las tasas de los paìses desarrollados en los flujos de capitales hacia las economías emergentes. Explicar los comentarios de la Unión de Exportadores. Explicar la posición del BCU respecto a intervenir en el mercado de cambios.
 
 6. Leer [este artículo](https://www.180.com.uy/articulo/72878_bergara-reconocio-una-presion-al-atraso-cambiario). Explicar que significa el atraso cambiario. 
+
+7. Explicar este hilo:
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1308464967855861761')
+```
