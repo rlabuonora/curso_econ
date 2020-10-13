@@ -6,6 +6,7 @@ slug: consumo-inversion
 categories: []
 tags: []
 weight: 12
+draft: true
 
 ---
 ```{r include = FALSE}
