@@ -100,13 +100,19 @@ En la parte superior del gráfico, solo se toman en cuenta las ventas de bienes 
 
 ## Ejercicios
 
-1. En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce  \$3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a \$8000. Otra empresa compra la lana hilada para tejer buzos, agregando \$18000 de valor.
+1. Explicar el siguiente tweet: ¿qué indicador analiza? ¿por qué es importante?
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1316019642398175233')
+```
+
+2. En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce  \$3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a \$8000. Otra empresa compra la lana hilada para tejer buzos, agregando \$18000 de valor.
 
 Calcular el Valor Bruto de Producción de cada empresa de la cadena y de toda la economía. Calcular el VAB de cada empresa de la cadena y de toda la economía. 
 
 Explicar por qué el VBP contabiliza el valor de los bienes que no son finales dos veces.
 
-2. Contamos con los siguientes datosEn una economía que produce solo Manzanas y Naranjas:
+3. Contamos con los siguientes datosEn una economía que produce solo Manzanas y Naranjas:
 
 | Año        | Precio Manzanas | Cantidad| Precio Naranjas  |Cantidad|
 | ---------- |-----------------|---------|------------------|--------|
@@ -118,7 +124,7 @@ Explicar por qué el VBP contabiliza el valor de los bienes que no son finales d
 - Calcular la variación nominal del PIB para cada año.
 - Calcular la variación real del PIB para cada año y explicar la diferencia con el cálculo anterior.
 
-3. Explique las diferencias entre los 3 gráficos siguientes:
+4. Explique las diferencias entre los 3 gráficos siguientes:
 
 ```{r}
 options(scipen=1000)
@@ -145,7 +151,7 @@ pib %>%
 
 Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir para el perìodo 1970-2003 y comparar. 
 
-5. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
+6. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
 ```{r}
 maddison <- here::here('static/pib_files/mpd2018.xlsx') %>% 
   read_xlsx(sheet="Full data") %>% 
