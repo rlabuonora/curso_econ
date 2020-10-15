@@ -1,5 +1,5 @@
 ---
-title: PIB
+title: "PIB, distribución del ingreso y pobreza"
 author: ''
 date: '2020-10-02'
 slug: pib
@@ -165,4 +165,10 @@ maddison %>%
   theme_minimal() +
   scale_color_discrete(name = "País") +
   labs(x="Año", y="PIB per cápita", caption="Fuente: Angus Maddison")
+```
+
+7. Analizar esta entrevista a Andrea Vigorito sobre pobreza.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1308557761534464000')
 ```
