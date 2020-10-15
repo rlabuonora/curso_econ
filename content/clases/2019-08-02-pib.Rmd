@@ -167,6 +167,8 @@ maddison %>%
   labs(x="Año", y="PIB per cápita", caption="Fuente: Angus Maddison")
 ```
 
+6. Escuchar [esta entrevista](https://www.youtube.com/watch?v=cT7ih10Y3NU) a Mauricio Da Rosa
+
 7. Analizar esta entrevista a Andrea Vigorito sobre pobreza.
 
 ```{r echo=FALSE}
