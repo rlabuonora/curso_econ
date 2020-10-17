@@ -1,5 +1,5 @@
 ---
-title: "Economía Abierta"
+title: "Tipo de Cambio y Sector Externo"
 author: ''
 date: '2019-10-21'
 slug: economia-abierta
@@ -8,6 +8,8 @@ tags: []
 weight: 14
 draft: true
 ---
+
+
 
 ## Ejercicios
 
@@ -55,3 +57,8 @@ Calcular la cuenta de errores y omisiones.
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1308464967855861761')
 ```
+
+
+8. Escuchar [esta entrevista](https://www.enperspectiva.net/en-perspectiva-programa/analisis-exante/se-observa-la-fuerte-caida-las-exportaciones-uruguayas-china-lo-va-del-2020/) sobre las exportaciones de Uruguay a China.
+
+9. Escuchar [esta entrevista](https://www.enperspectiva.net/en-perspectiva-programa/analisis-exante/suba-generalizada-del-dolar-nivel-global/) sobre el valor del dólar en Uruguay.
