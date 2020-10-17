@@ -14,7 +14,7 @@ library(tibble)
 
 ```
 
-Estas son las [diapositivas](https://macroeconomia--diapos-econ.netlify.app/)
+Estas son las [diapositivas](https://macroeconomia--diapos-econ.netlify.app/) para este tema.
 
 
 
