@@ -1,5 +1,5 @@
 ---
-title: "PIB, distribución del ingreso y pobreza"
+title: "PIB"
 author: ''
 date: '2020-10-02'
 slug: pib
