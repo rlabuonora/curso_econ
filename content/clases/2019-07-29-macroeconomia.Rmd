@@ -76,4 +76,4 @@ $$ g_t = 100 * [(\frac{X_t}{X_{t-n}})^{1/n}-1]$$
 
  - Calcular la tasa de crecimiento del PIB en términos reales entre 1955 y 1968.
 
- - Usando los datos del INE, calcular la tasa de inflación entre 1972 y 1992 y entre 1994 y 2012. Comparar los dos períodos y sus efectos sobre el bienestar de la población.
+ - Usando los datos del INE, calcular la tasa de inflación entre 1972 y 1992 y entre 1994 y 2014. Comparar los dos períodos y sus efectos sobre el bienestar de la población.
