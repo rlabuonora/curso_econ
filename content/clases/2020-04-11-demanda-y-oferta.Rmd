@@ -50,3 +50,39 @@ Precio | Cantidad demandada  | Cantidad Ofrecida
 
 1) Graficar la oferta y la demanda. Encontrar el punto de equilibrio del mercado. 
 2) Si la demanda de Pizza se triplicara para todos los precios: ¿Qué pasaría si el precio inicial fuera de $4 por pizza?
+
+
+
+# Ejercicios (2 Clases)
+
+1. ¿Cuál de los dos bienes tiene la demanda más elástica?
+  - Perfume o sal.
+  - Penicilina o helado.
+  - Helado o helado de chocolate.
+
+2. Completar las siguientes oraciones:
+  - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demánda es ___________.
+  - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demánda es ___________.
+
+3. En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
+
+4. Completar la siguiente tabla:
+
+| P   | Q        | Elasticidad  |
+|-----|:--------:|:------------:|
+| 5   |   9      | -            |
+| 4   |   10     |              |
+| 3   |   12     |              |
+| 2   |   15     |              | 
+| 1   |   20     |              |
+
+
+5. Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
+
+  - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
+  - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
+
+6. Descargar [este archivo](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/precios_marzo%20.csv) y graficar los precios de tres marcas de desodorante, y tres marcas de yerba.
+
+
+7. Analizar [esta tabla](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/cadenas.pdf). ¿Por qué hay productos que tienen diferencias de precios mayores que otros?

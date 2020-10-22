@@ -27,4 +27,19 @@ Leer [esta nota](https://ladiaria.com.uy/articulo/2010/5/salarios-productividad-
 
 
 
+# Ejercicio: Función de Producción y Costos
 
+Los costos, los precios de los factores y la cantidad de inputs están vinculados:
+
+| Producción |Tierra   |Trabajadores    |Renta |Salario |Costo Total|
+|------------|--------|---------|----------------|------|--------|-----------|---------|
+| 0 |10      |0        | 5.5    |5 |
+| 1 |10      |6         | 5.5   |5| 
+| 2 |10      |11         | 5.5  |5 | 
+| 3 |10      |15         | 5.5  |5 |
+| 4 |10      |21        | 5.5  |5 |
+| 5 |10      |31        | 5.5  |5 |
+| 6 |10      |45        | 5.5  |5 |
+
+
+- Calcular el Costo Total, Costo Fijo y el Costo Medio.

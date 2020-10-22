@@ -29,3 +29,17 @@ weight: 10
 2. Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
 
 3. Hacer un gráfico de barras con la tasa de desempleo departamental.
+
+4. Analizar este tweet.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1307010188986249222')
+
+```
+
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1296933383411503109')
+
+```
+

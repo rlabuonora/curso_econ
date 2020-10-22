@@ -124,6 +124,8 @@ Explicar por qué el VBP contabiliza el valor de los bienes que no son finales d
 - Calcular la variación nominal del PIB para cada año.
 - Calcular la variación real del PIB para cada año y explicar la diferencia con el cálculo anterior.
 
+3. Analizar [esta nota](https://www.180.com.uy/articulo/83859_pib-de-argentina-se-contrajo-19-1-en-segundo-trimestre) de prensa.
+
 4. Explique las diferencias entre los 3 gráficos siguientes:
 
 ```{r}
@@ -173,4 +175,16 @@ maddison %>%
 
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1308557761534464000')
+
 ```
+
+
+8. Desigualdad
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1306644082530422789')
+
+```
+
+
+
