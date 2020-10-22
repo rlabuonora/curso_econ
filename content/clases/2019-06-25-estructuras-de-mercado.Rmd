@@ -22,7 +22,6 @@ weight: 9
 En la clases anteriores analizamos cómo los mercados resuelven los problemas económicos mediante la interacción de la oferta con la demanda. En esta unidad analizamos las distintas formas en qué se puede dar esta interacción según el __poder de mercado__ que tienen consumidores y productores.
 
  - Diapositivas de [Competencia Perfecta](https://org-ind--diapos-econ.netlify.app/).
- - Diapositivas de [Monopolio](https://monopolio--diapos-econ.netlify.app)
 
 
 ## Ejercicios
