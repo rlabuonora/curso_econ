@@ -8,17 +8,18 @@ tags: []
 weight: 10
 ---
 
+# Material
 
-- [Diapositivas](https://empleo--diapos-econ.netlify.app) para estas clases
+- [<i class="fa fa-file" aria-hidden="true"></i>](https://empleo--diapos-econ.netlify.app) Notas de clase.
 
 
-# Material Extra
+## Extra
 
-1. [Video de Nicolás Lussich](https://www.youtube.com/watch?v=B8VclnrVEPA) en Subrayado sobre los principales indicadores del mercado laboral.
+1. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=B8VclnrVEPA) Nicolás Lussich sobre los principales indicadores del mercado laboral.
 
-2. [Video de Laura Raffo](https://www.youtube.com/watch?v=NMejCq1WrZE) sobre situación del mercado laboral en 2015.
+2. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=NMejCq1WrZE) Laura Raffo sobre situación del mercado laboral en 2015.
 
-3. [Video de Andrés Dean](https://www.youtube.com/watch?v=zzTK0d-iQEI) sobre situación del mercado laboral en el mediano plazo.
+3. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=zzTK0d-iQEI) Andrés Dean sobre situación del mercado laboral en el mediano plazo.
 
 
 # Ejercicios
