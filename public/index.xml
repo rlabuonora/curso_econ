@@ -77,15 +77,6 @@
     </item>
     
     <item>
-      <title>Análisis de Costos</title>
-      <link>/clases/analisis-de-costos/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/clases/analisis-de-costos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Estructuras de Mercado</title>
       <link>/clases/estructuras-de-mercado/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
@@ -108,7 +99,18 @@
     </item>
     
     <item>
-      <title>Macroeconomía y Demanda Agregada</title>
+      <title>Crecimiento, desarrollo y distribución del ingreso</title>
+      <link>/clases/pib/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/clases/pib/</guid>
+      <description>PIBEs una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
+Varias formas de medir el PIBComo el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
+ProducciónEn este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
+    </item>
+    
+    <item>
+      <title>Macroeconomía de corto plazo</title>
       <link>/clases/macroeconomia/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
@@ -121,23 +123,21 @@
     </item>
     
     <item>
-      <title>PIB</title>
-      <link>/clases/pib/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/clases/pib/</guid>
-      <description>PIBEs una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
-Varias formas de medir el PIBComo el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
-ProducciónEn este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
-    </item>
-    
-    <item>
       <title>Consumo &amp; Inversión</title>
       <link>/clases/consumo-inversion/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/clases/consumo-inversion/</guid>
       <description>ConsumoEs el componente más importante de la demanda agregada.Está compuesto por:Bienes durables (automóviles, electrodomésticos)Bienes no durables (alimentos)Servicios (Educación, Salud, Transporte)Las familias con menores ingresos gastan todos sus ingresos en bienes básicos (alimentación y vivienda).A medida que aumentan los ingresos de los hogares, estos destinan ingresos a otro tipo de bienes (servicios como la salud, la alimentación, etc.)Esto se puede dar ver si comparamos el consumo de un hogar a lo largo del tiempo o en un conjunto de hogares con distintos ingresos en un mismo momento.</description>
+    </item>
+    
+    <item>
+      <title>Política Macroeconómica</title>
+      <link>/clases/pol%C3%ADtica-econ%C3%B3mica/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/clases/pol%C3%ADtica-econ%C3%B3mica/</guid>
+      <description>Política Monetaria y Fiscal</description>
     </item>
     
     <item>

@@ -1,0 +1,12 @@
+---
+title: "Política Macroeconómica"
+author: ''
+date: '2020-10-22'
+slug: política-económica
+categories: []
+tags: []
+weight: 13
+draft: true
+---
+
+## Política Monetaria y Fiscal

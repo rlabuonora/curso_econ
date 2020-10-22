@@ -1,5 +1,5 @@
 ---
-title: 'Macroeconomía y Demanda Agregada'
+title: 'Macroeconomía de corto plazo'
 author: ''
 date: '2020-07-29'
 slug: macroeconomia

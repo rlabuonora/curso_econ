@@ -5,7 +5,7 @@ date: '2020-06-25'
 slug: estructuras-de-mercado
 categories: []
 tags: []
-weight: 9
+weight: 8
 ---
 
 
@@ -42,7 +42,7 @@ En la clases anteriores analizamos cómo los mercados resuelven los problemas ec
 Calcule el Costo Marginal, el Ingreso Marginal, el precio y la cantidad de equilibrio y los beneficios obtenidos por la empresa si esta opera como un monopolio. 
 
 
-4. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook)
+4. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook) sobre el mercado de tecnología en EUA.
 
 
 ## Bibliografía
