@@ -6,7 +6,7 @@ slug: política-económica
 categories: []
 tags: []
 weight: 13
-draft: true
+draft: false
 ---
 
 ## Política Monetaria y Fiscal
