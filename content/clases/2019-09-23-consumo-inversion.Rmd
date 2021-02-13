@@ -5,8 +5,7 @@ date: '2020-09-23'
 slug: consumo-inversion
 categories: []
 tags: []
-weight: 12
-draft: true
+weight: 11
 
 ---
 ```{r include = FALSE}

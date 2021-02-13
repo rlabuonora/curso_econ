@@ -1,12 +1,11 @@
 ---
-title: "Política Macroeconómica"
+title: "Política Monetaria"
 author: ''
 date: '2020-10-22'
-slug: política-económica
+slug: politica-monetaria
 categories: []
 tags: []
 weight: 13
-draft: false
 ---
 
-## Política Monetaria y Fiscal
+## Política Monetaria
