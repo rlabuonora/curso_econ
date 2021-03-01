@@ -25,19 +25,32 @@ theme_set(theme_minimal() +
 La oferta y la demanda son las herramientas básicas que los economistas usan para analizar los mercados. En esta unidad presentamos estos conceptos y cómo se usan para explicar los resultados que observamos en la vida económica. Acá están las [diapositivas](https://demanda--diapos-econ.netlify.com) para la unidad.
 
 
-# Ejercicios
+## Ejercicio 1
 
-1) Explicar porqué estas afirmaciones son falsas:
+Explicar porqué estas afirmaciones son falsas:
   - Una helada en uno de los estados productores de café de Brasil va a producir una caída en el precio del café.
   - El proteccionismo de la industria textil en Uruguay hace que los precios internos de los textiles bajen.
   - El aumento en los precios de la educación privada hace que baje la demanda de educación.
-2) Para los siguientes casos, explicar si cambia la cantidad demandada o la demanda, dibujando un diagrama:
+  
+## Ejercicio 2
+
+Para los siguientes casos, explicar si cambia la cantidad demandada o la demanda, dibujando un diagrama:
   - El aumento en el gasto militar hace que los uniformes suban de precios.
   - El precio del pescado bajó porque el Papa autorizó a los católicos a comer carne los viernes.
   - Un aumento en los impuestos a la nafta hace que el consumo de nafta baje.
   - Los salarios aumentaron luego de la llegada de la Peste Bubónica a Europa en el Siglo XIV.
   
-3) Tenemos la siguiente información sobre el mercado de pizzas
+## Ejercicio 3
+
+Analizar las noticias sobre los mercados de:
+
+- [Yerba](https://www.infobae.com/2013/09/22/1510682-para-mujica-el-aumento-precio-la-yerba-mate-es-una-catastrofe/)
+- [Morrón](https://www.telenoche.com.uy/nacionales/el%C2%A0precio-del-morron-rojo-llego%C2%A0-350-pesos-el-kilo)
+- [Alcohol en gel](https://www.descuento.uy/abuso-alcohol-en-gel-ya-se-vende-entre-600-y-980-el-litro/)
+  
+## Ejercicio 4
+
+Tenemos la siguiente información sobre el mercado de pizzas
 
 Precio | Cantidad demandada  | Cantidad Ofrecida
 -------| ------------------- |-------------
@@ -53,20 +66,27 @@ Precio | Cantidad demandada  | Cantidad Ofrecida
 
 
 
-# Ejercicios (2 Clases)
+## Ejercicio 5
 
-1. ¿Cuál de los dos bienes tiene la demanda más elástica?
+¿Cuál de los dos bienes tiene la demanda más elástica?
   - Perfume o sal.
   - Penicilina o helado.
   - Helado o helado de chocolate.
 
-2. Completar las siguientes oraciones:
-  - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demánda es ___________.
-  - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demánda es ___________.
+## Ejercicio 6
 
-3. En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
+Completar las siguientes oraciones:
+  - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demanda es ___________.
+  - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demanda es ___________.
 
-4. Completar la siguiente tabla:
+## Ejercicio 7
+
+En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
+
+
+## Ejercicio 8
+
+Completar la siguiente tabla:
 
 | P   | Q        | Elasticidad  |
 |-----|:--------:|:------------:|
@@ -76,13 +96,9 @@ Precio | Cantidad demandada  | Cantidad Ofrecida
 | 2   |   15     |              | 
 | 1   |   20     |              |
 
+## Ejercicio 9
 
-5. Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
+Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
 
   - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
   - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
-
-6. Descargar [este archivo](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/precios_marzo%20.csv) y graficar los precios de tres marcas de desodorante, y tres marcas de yerba.
-
-
-7. Analizar [esta tabla](http://www.precios.uy/images/sipc/analisisdeprecios/reportes/mensual/2019/Marzo/cadenas.pdf). ¿Por qué hay productos que tienen diferencias de precios mayores que otros?
