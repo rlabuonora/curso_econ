@@ -34,21 +34,25 @@ Astori también habló de la inflación, que llegó a 9,48% en los 12 meses cerr
 
 
 
+<!-- 2. Explicar cómo se determina, _cuánto_, _cómo_ y _para quién_ se producen los siguientes bienes y servicios: seguridaad, educación y hamburguesas. ¿Donde participa más el estado y dónde participa más el mercado? -->
+
 ## Ejercicio 2
 
-1. De un planeta lejano donde los recursos son infinitos, llega una criatura a la que le tenemos que explicar algunos conceptos económicos. Defina brevemente:
+Analice las siguientes notas de prensa:
 
-- Economía
-- Mercado
-- Productividad
-- Eficiencia
-- Dinero
-- Desempleo
-- Inflación
+ - [Gobierno inicia mayor ronda de Consejos de Salario de la historia](http://www.180.com.uy/articulo/73654_gobierno-inicia-mayor-ronda-de-consejos-de-salario-de-la-historia)
+ 
+ - [Precio de arrendamiento de tierras aumentó por quinto año consecutivo](http://www.180.com.uy/articulo/55791_precio-de-arrendamiento-de-tierras-aumento-por-quinto-ano-consecutivo)
+ 
+ - [Comercio: crecimiento en 2017 y advertencias para un buen 2018](http://www.180.com.uy/articulo/73090_comercio-tuvo-un-2017-de-crecimiento-y-espera-un-buen-2018)
+ 
+ - [Abundancia y precios bajos en frutas y hortalizas en 2017](http://www.180.com.uy/articulo/71800_abundancia-y-precios-bajos-en-frutas-y-hortalizas-en-2017)
+ 
+ Para cada artículo identificar los elementos del flujo circular de la economía mencionados: oferta, demanda, precios, flujos de dinero y de bienes.
 
-2. Explicar cómo se determina, _cuánto_, _cómo_ y _para quién_ se producen los siguientes bienes y servicios: seguriddad, educación y hamburguesas. ¿Donde participa más el estado y dónde participa más el mercado?
+## Ejercicio 3 
 
-3. Analizar la siguiente afirmación:
+Analizar la siguiente afirmación:
 
 > Como la Universidad pública es gratuita en Uruguay, estudiar no tiene costos. 
 
