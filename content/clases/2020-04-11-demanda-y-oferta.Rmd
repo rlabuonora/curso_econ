@@ -20,7 +20,6 @@ theme_set(theme_minimal() +
             theme(plot.title = element_text(hjust = 0.5)))
 
 ```
-# Diapositivas
 
 La oferta y la demanda son las herramientas básicas que los economistas usan para analizar los mercados. En esta unidad presentamos estos conceptos y cómo se usan para explicar los resultados que observamos en la vida económica. Acá están las [diapositivas](https://demanda--diapos-econ.netlify.com) para la unidad.
 
@@ -28,21 +27,26 @@ La oferta y la demanda son las herramientas básicas que los economistas usan pa
 ## Ejercicio 1
 
 Explicar porqué estas afirmaciones son falsas:
+
   - Una helada en uno de los estados productores de café de Brasil va a producir una caída en el precio del café.
   - El proteccionismo de la industria textil en Uruguay hace que los precios internos de los textiles bajen.
   - El aumento en los precios de la educación privada hace que baje la demanda de educación.
   
 ## Ejercicio 2
 
-Para los siguientes casos, explicar si cambia la cantidad demandada o la demanda, dibujando un diagrama:
-  - El aumento en el gasto militar hace que los uniformes suban de precios.
-  - El precio del pescado bajó porque el Papa autorizó a los católicos a comer carne los viernes.
-  - Un aumento en los impuestos a la nafta hace que el consumo de nafta baje.
-  - Los salarios aumentaron luego de la llegada de la Peste Bubónica a Europa en el Siglo XIV.
+
+
+![](/imgs/chorizos.png)
+![](/imgs/chorizos1.png)
+
+
+Graficar en el plano $(Q, P)$ la curva de demanda y la situación antes y después de la caída del precio. 
+  
+
   
 ## Ejercicio 3
 
-Analizar las noticias sobre los mercados de:
+Leer las siguientes noticias. Representar el equilibrio inicial en el plano $(Q, P)$, explicar cómo se altera y representar el nuevo equilibrio.
 
 - [Yerba](https://www.infobae.com/2013/09/22/1510682-para-mujica-el-aumento-precio-la-yerba-mate-es-una-catastrofe/)
 - [Morrón](https://www.telenoche.com.uy/nacionales/el%C2%A0precio-del-morron-rojo-llego%C2%A0-350-pesos-el-kilo)
@@ -61,27 +65,24 @@ Precio | Cantidad demandada  | Cantidad Ofrecida
 2      | 40                  | 0 
 0      | 125                 | 0
 
-1) Graficar la oferta y la demanda. Encontrar el punto de equilibrio del mercado. 
-2) Si la demanda de Pizza se triplicara para todos los precios: ¿Qué pasaría si el precio inicial fuera de $4 por pizza?
-
-
+Graficar la oferta y la demanda. Encontrar el punto de equilibrio del mercado. 
 
 ## Ejercicio 5
+
+En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
+
+## Ejercicio 6
 
 ¿Cuál de los dos bienes tiene la demanda más elástica?
   - Perfume o sal.
   - Penicilina o helado.
   - Helado o helado de chocolate.
 
-## Ejercicio 6
+## Ejercicio 7
 
 Completar las siguientes oraciones:
   - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demanda es ___________.
   - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demanda es ___________.
-
-## Ejercicio 7
-
-En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo.
 
 
 ## Ejercicio 8
