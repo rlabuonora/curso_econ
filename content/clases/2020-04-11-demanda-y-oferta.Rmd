@@ -30,7 +30,7 @@ Explicar porqué estas afirmaciones son falsas. Reescribirlas para que sean verd
 
   - Una helada en uno de los estados productores de café de Brasil va a producir una caída en el precio del café.
   - El proteccionismo de la industria textil en Uruguay hace que los precios internos de los textiles bajen.
-  - El aumento en los precios de la educación privada hace que baje la demanda de educación privada.
+  - El aumento en los precios de la papa hace que baje la demanda de papa.
   
 ## Ejercicio 2
 
