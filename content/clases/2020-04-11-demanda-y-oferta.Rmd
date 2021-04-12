@@ -82,6 +82,7 @@ En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 +
 ## Ejercicio 7
 
 Completar las siguientes oraciones:
+
   - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demanda es ___________.
   - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demanda es ___________.
 
