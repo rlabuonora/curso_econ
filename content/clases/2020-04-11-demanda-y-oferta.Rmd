@@ -74,9 +74,10 @@ En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 +
 ## Ejercicio 6
 
 ¿Cuál de los dos bienes tiene la demanda más elástica?
-- Perfume o sal.
-- Penicilina o helado.
-- Helado o helado de chocolate.
+
+  - Perfume o sal.
+  - Penicilina o helado.
+  - Helado o helado de chocolate.
 
 ## Ejercicio 7
 
