@@ -87,5 +87,14 @@ Usar el diagrama de oferta y demanda para explicar el siguiente tweet:
 blogdown::shortcode('tweet', '1385718459598884864')
 ```
 
+
+## Ejercicio 8
+
+> <p>En los años del Uruguay fusionista (1852-1860) una guerra se añadió (...) para beneficiarnos: la de Crimea. Francia, Gran Bretaña y el aliado menor, Italia, atacaron Rusia para impedir que esta se apoderara de partes vitales del Imperio Turco. </p>
+> <p>El conflicto duró tres años y tuvo dos efectos: a) eliminó el cuero ruso del mercado mundial, b) incrementó la demanda de este artículo ante las crecidas necesidades de los ejércitos aliados en materia de calzado y correas para su caballería e infantería. El cuero, cotizado en 1854 a 8.25 peniques la libra, alcanzó en 1856 los 10.5 peniques y en 1857 los 14. </p>
+> `r tufte::quote_footer('José Pedro Barrán: Apogeo y Crisis del Uruguay Pastoril y Caudillesco')`
+
+Analizar la situación comentada en la cita anterior. Graficar los cambios en la oferta en un gráfico y en la demanda en otro. Combinar ambos efectos en un tercer gráfico.
+
   <!-- - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp) -->
   <!-- - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp) -->
