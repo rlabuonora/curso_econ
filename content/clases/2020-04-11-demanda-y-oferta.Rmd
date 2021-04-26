@@ -51,8 +51,12 @@ Leer las siguientes noticias. Representar el equilibrio inicial en el plano $(Q,
 - [Yerba](https://www.infobae.com/2013/09/22/1510682-para-mujica-el-aumento-precio-la-yerba-mate-es-una-catastrofe/)
 - [Morrón](https://www.telenoche.com.uy/nacionales/el%C2%A0precio-del-morron-rojo-llego%C2%A0-350-pesos-el-kilo)
 - [Alcohol en gel](https://www.descuento.uy/abuso-alcohol-en-gel-ya-se-vende-entre-600-y-980-el-litro/)
-  
+
 ## Ejercicio 4
+
+En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo. Explicar que pasaría si el precio vigente en el mercado fuera 9 o si fuera 7.
+  
+## Ejercicio 5
 
 Tenemos la siguiente información sobre el mercado de pizzas
 
@@ -67,41 +71,21 @@ Precio | Cantidad demandada  | Cantidad Ofrecida
 
 Graficar la oferta y la demanda. Encontrar el punto de equilibrio del mercado. 
 
-## Ejercicio 5
 
-En el mercado de un bien, la demanda es $Q_d = 100 - 6P$ y la oferta $Q_s = 28 + 3P$. Encontrar el equilibrio del mercado y graficarlo. Explicar que pasaría si el precio vigente en el mercado fuera 9 o si fuera 7.
 
 ## Ejercicio 6
 
-¿Cuál de los dos bienes tiene la demanda más elástica?
+![](/imgs/casos.png)
 
-  - Perfume o sal.
-  - Penicilina o helado.
-  - Helado o helado de chocolate.
+- Calcular la elasticidad precio de la demanda en los tres casos y explicar si la demanda es elástica, inelástica o tiene elasticidad unitaria. Explicar que pasa con los ingresos de los productores ante un aumento en la oferta en cada caso.
 
 ## Ejercicio 7
 
-Completar las siguientes oraciones:
+Usar el diagrama de oferta y demanda para explicar el siguiente tweet:
 
-  - Si el precio de un bien sube 1% y la cantidad demandada 0.5%, la demanda es ___________.
-  - Si el precio de un bien sube 1% y la cantidad demandada 2%, la demanda es ___________.
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1385718459598884864')
+```
 
-
-## Ejercicio 8
-
-Completar la siguiente tabla:
-
-| P   | Q        | Elasticidad  |
-|-----|:--------:|:------------:|
-| 5   |   9      | -            |
-| 4   |   10     |              |
-| 3   |   12     |              |
-| 2   |   15     |              | 
-| 1   |   20     |              |
-
-## Ejercicio 9
-
-Analice los siguientes artículos de prensa y explique a qué se deben las colas en los supermercados en Venezuela usando el modelo de precios mínimos.
-
-  - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp)
-  - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp)
+  <!-- - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp) -->
+  <!-- - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp) -->
