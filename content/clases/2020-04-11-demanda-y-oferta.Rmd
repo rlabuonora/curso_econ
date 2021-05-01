@@ -98,3 +98,8 @@ Analizar la situación comentada en la cita anterior. Graficar los cambios en la
 
   <!-- - [La verdadera dimensión de la escasez en Venezuela](https://www.bbc.com/mundo/noticias/2015/05/150512_venezuela_escasez_reportaje_dp) -->
   <!-- - [¿Por qué hay que hacer tanta fila en Venezuela?](https://www.bbc.com/mundo/noticias/2014/02/140203_venezuela_colas_escasez_dp) -->
+  
+  ## Materiales
+
+- [Notas de Clase](https://demanda--diapos-econ.netlify.app) para esta unidad. 
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía - Capítulos 3 y 4. Boston, Mass: Irwin/McGraw-Hill.
