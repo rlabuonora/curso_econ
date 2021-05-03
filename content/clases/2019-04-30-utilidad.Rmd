@@ -42,7 +42,7 @@ d) ¿Tiene utilidad marginal creciente o decreciente?
 
 
 - Calcular la utilidad marginal para los dos productos.
-- Si un consumidor compra 5 boniatos y 1 para, ¿cuánto debe ser el precio relativo de los boniatos ( $\frac{P_{boniato}}{P_{papa}}$ ) ?
+- Si un consumidor compra 5 boniatos y 1 papa, ¿cuánto debe ser el precio relativo de los boniatos ( $\frac{P_{boniato}}{P_{papa}}$ ) ?
 - ¿Y si este consumidor compra 3 papas y un boniato?
 - ¿Qué haría un consumidor que maximiza su utilidad si este precio es 3?
 
