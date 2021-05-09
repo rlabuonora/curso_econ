@@ -1,6 +1,6 @@
 ---
 title: "Crecimiento, desarrollo y distribución del ingreso"
-date: '2020-10-02'
+date: '2021-10-02'
 slug: desarrollo
 weight: 10
 ---
