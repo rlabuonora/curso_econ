@@ -33,7 +33,7 @@ knitr::kable(
 
 
 - ¿Cuáles son los factores variables y fijos?
-- Calcular el Costo Total, Costo Fijo y el Costo Variable.
+- Calcular el Costo Total, Costo Fijo y el Costo Variable para cada nivel de producción.
 
 # Ejercicio 2
 
