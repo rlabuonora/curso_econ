@@ -29,3 +29,8 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = "El sitio web de Introducción a la Economía"
     footer = "&copy; [Rafael La Buonora](http://www.rlabuonora.com) 2019 | [Github](https://github.com/rlabuonora) | [Twitter](https://twitter.com/rlabuonora)"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

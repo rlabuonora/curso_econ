@@ -54,7 +54,7 @@ c) En la hoja __Beneficios__ hay datos de las ventas, los precios, los salarios 
 
 Leer [esta nota](https://ladiaria.com.uy/articulo/2010/5/salarios-productividad-y-poder/) y contestar las siguientes preguntas:
 
-1) ¿Qué tan extendido está el uso de pago x productividad en la economía Uruguaya?
+1) ¿Qué tan extendido está el uso de pago por productividad en la economía Uruguaya?
 2) ¿Qué ventajas tiene este sistema? ¿Qué desventajas tiene?
 4) Qué dificultades tiene ajustar las remuneraciones x los resultados de las empresas? ¿Qué solución implementaron las economías de la UE a estos problemas?
 5) ¿Por qué sugiere el autor que Uruguay está en una posición favorable para experimentar con la reglamentación en estos temas?
