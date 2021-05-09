@@ -32,6 +32,21 @@ Los costos, los precios de los factores y la cantidad de inputs están vinculado
 
 # Ejercicio 2
 
+En [esta planilla](https://docs.google.com/spreadsheets/d/1haqSHV89zGkzHPeDg2iDPXjnahR2-ULGC9rlpaHyWfk/edit?usp=sharing) se encuentra información económica de una empresa que productora de arroz.
+
+a) En la hoja __Función de Producción__, hay datos de cuántas toneladas de arroz se producirían con distintas cantidades de trabajadores contratados. Completar las columnas __Producto Marginal__ y __Producto Medio__, y graficar la producción y el producto marginal en dos gráficos separados.
+
+b) En la hoja __Costos__ hay datos de los costos variables y fijos de la empresa para cada cantidad producida posible. Completar las columnas de Costo Total, Costo Marginal, Costo Fijo Medio, Costo Variable Medio y Costo Total Medio. Graficar los Costos Marginales y Medios para cada nivel de producción en gráficos separados.
+
+c) En la hoja __Beneficios__ hay datos de las ventas, los precios, los salarios y los empleados contratados por la empresa desde 2005. Suponiendo que los salarios son el único costo variable, completar la columna beneficios.
+
+
+
+
+# Ejercicio 3
+
+
+
 Leer [esta nota](https://ladiaria.com.uy/articulo/2010/5/salarios-productividad-y-poder/) y contestar las siguientes preguntas:
 
 1) ¿Qué tan extendido está el uso de pago x productividad en la economía Uruguaya?
