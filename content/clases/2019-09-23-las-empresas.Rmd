@@ -10,7 +10,7 @@ En esta sección analizamos a los agentes que se encargan de la oferta de los bi
 
 Para entender cómo toman decisiones las empresas, es necesario entender las principales variables que toman en cuenta: los ingresos, los costos y los beneficios.
 
-En <a href="https://produccion--diapos-econ.netlify.com">este link </a> están las diapositivas para esta(s) clases.
+
 
 
 # Ejercicio 1 
@@ -60,3 +60,7 @@ Leer [esta nota](https://ladiaria.com.uy/articulo/2010/5/salarios-productividad-
 5) ¿Por qué sugiere el autor que Uruguay está en una posición favorable para experimentar con la reglamentación en estos temas?
 
 
+# Materiales
+
+- [Diapositivas](https://produccion--diapos-econ.netlify.com)
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía - Capítulo 6. Boston, Mass: Irwin/McGraw-Hill.
