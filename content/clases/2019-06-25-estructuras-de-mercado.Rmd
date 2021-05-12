@@ -1,50 +1,13 @@
 ---
-title: "Estructuras de Mercado"
+title: "Competencia Perfecta"
 author: ''
 date: '2021-06-25'
-slug: estructuras-de-mercado
+slug: competencia-perfecta
 categories: []
 tags: []
 weight: 8
 ---
 
-
-<style>
-
-
-.twitter-tweet {
-
-  margin: 0 auto;
-}
-
-</style>
-
-En la clases anteriores analizamos cómo los mercados resuelven los problemas económicos mediante la interacción de la oferta con la demanda. En esta unidad analizamos las distintas formas en qué se puede dar esta interacción según el __poder de mercado__ que tienen consumidores y productores.
-
- - Diapositivas de [Competencia Perfecta](https://org-ind--diapos-econ.netlify.app/).
- 
-  - Diapositivas de [Monopolio](https://monopolio--diapos-econ.netlify.app/).
-
-
-## Ejercicios
-
-1. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
-
--  ¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris? ¿En qué consiste esta práctica? ¿Cuál fue el resultado de la denuncia?
-- ¿Qué argumentos hay a favor de que las acciones de Philip Morris son anticompetitivas? ¿Y en contra?
-- ¿Cuál es el diagnóstico de Fleitas sobre el funcionanmiento actual de la Comisión de Defensa de la Competencia?
-
-2. Explique porqué son falsas las siguientes afirmaciones y corríjalas.
-- Un monopolio maximiza sus beneficios cuando $CM = P$.
-- Los monopolistas maximizan las ventas. Por lo tanto, producen más que los competidores perfectos y a un precio más bajo.
-- Las empresas siempre cobran el precio máximo que soporta el mercado.
-
-3. Una empresa productora de micro chips tiene costos fijos de producción de $100.000, y cada unidad cuesta $600 de trabajo y $400 de materias primas. La curva de demanda que enfrenta es $P=3000-\frac{1}{100}Q$ y el ingreso marginal $Img=3000-\frac{1}{50}Q$. 
-
-Calcule el Costo Marginal, el Ingreso Marginal, el precio y la cantidad de equilibrio y los beneficios obtenidos por la empresa si esta opera como un monopolio. 
-
-
-4. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook) sobre el mercado de tecnología en EUA.
 
 
 ## Bibliografía
