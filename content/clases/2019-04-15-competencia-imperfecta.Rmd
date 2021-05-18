@@ -1,6 +1,5 @@
 ---
 title: "Competencia Imperfecta"
-author: ''
 date: '2021-04-21'
 slug: competencia-imperfecta
 categories: []

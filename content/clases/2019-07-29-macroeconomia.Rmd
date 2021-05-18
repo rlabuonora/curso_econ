@@ -1,11 +1,9 @@
 ---
 title: 'Política Fiscal'
-author: ''
 date: '2021-07-29'
 slug: macroeconomia
 categories: []
 tags: []
-weight: 12
 
 ---
 ```{r, include=FALSE}

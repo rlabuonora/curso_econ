@@ -1,12 +1,9 @@
 ---
-title: "Consumo & Inversión"
-author: ''
+title: "Consumo e Inversión"
 date: '2021-09-23'
 slug: consumo-inversion
 categories: []
 tags: []
-weight: 11
-
 ---
 ```{r include = FALSE}
 library(tidyverse)
