@@ -2,6 +2,7 @@
 title: Las empresas
 date: '2021-05-12'
 slug: las-empresas
+weight: 3
 ---
 
 En esta sección analizamos a los agentes que se encargan de la oferta de los bienes y servicios de la economía. 

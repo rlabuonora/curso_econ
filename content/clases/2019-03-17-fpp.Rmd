@@ -6,6 +6,7 @@ slug: fpp
 categories: []
 tags: []
 draft: true
+weight: 2
 ---
 
 - [Diapositivas](https://economias_modernas--diapos-econ.netlify.app) para estas clases
