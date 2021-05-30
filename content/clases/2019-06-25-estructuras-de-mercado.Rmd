@@ -24,8 +24,9 @@ datos <- tibble(
   pivot_longer(cols=-q)
 ```
 
+Considere un mercado con la siguiente estructura de costos y precios. Analice la situación, explicando los resultados de las empresas y la situación de entrada y salida de empresas del mercado.
 
-```{r}
+```{r echo=FALSE}
 
 
 a <- datos %>%
@@ -38,7 +39,12 @@ a <- datos %>%
   theme_minimal() +
   labs(x="Q", y="CMe, CMg, P")
 
-b <- datos %>%
+```
+
+Ahora suponga que la entrada de empresas al sector aumenta la oferta y reduce los precios como se muestra en el siguiente gráfico. Explique la situación, y cuál es el resultado final esperado.
+
+```{r echo=FALSE}
+datos %>%
   filter(name!="Precio") %>% 
   ggplot(aes(q, value, color=name)) +
   geom_hline(yintercept = 30, linetype="dashed") +
@@ -47,10 +53,7 @@ b <- datos %>%
   scale_x_continuous(limits = c(1e3, 5e3)) +
   theme_minimal() +
   labs(x="Q", y="CMe, CMg, P")
-
-ggplot(mtcars, aes(cyl, mpg))
 ```
-
 
 ## Bibliografía
 
