@@ -7,10 +7,35 @@ weight: 5
 
 
 
+<div id="ejercicio-1" class="section level1">
+<h1>Ejercicio 1</h1>
+<pre class="r"><code>a &lt;- datos %&gt;%
+  filter(name!=&quot;Precio&quot;) %&gt;% 
+  ggplot(aes(q, value, color=name)) +
+  geom_hline(yintercept = 50, linetype=&quot;dashed&quot;) +
+  geom_line() + 
+  scale_color_discrete(&quot;&quot;) +
+  scale_x_continuous(limits = c(1e3, 5e3)) +
+  theme_minimal() +
+  labs(x=&quot;Q&quot;, y=&quot;CMe, CMg, P&quot;)
+
+b &lt;- datos %&gt;%
+  filter(name!=&quot;Precio&quot;) %&gt;% 
+  ggplot(aes(q, value, color=name)) +
+  geom_hline(yintercept = 30, linetype=&quot;dashed&quot;) +
+  geom_line() + 
+  scale_color_discrete(&quot;&quot;) +
+  scale_x_continuous(limits = c(1e3, 5e3)) +
+  theme_minimal() +
+  labs(x=&quot;Q&quot;, y=&quot;CMe, CMg, P&quot;)
+
+ggplot(mtcars, aes(cyl, mpg))</code></pre>
+<p><img src="/clases/2019-06-25-estructuras-de-mercado_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <div id="bibliografía" class="section level2">
 <h2>Bibliografía</h2>
 <ul>
 <li><a href="https://org-ind--diapos-econ.netlify.app/">Notas de Clase</a></li>
 <li>Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., &amp; Samuelson, P. A. (1998). Economía - Capítulo 8. Boston, Mass: Irwin/McGraw-Hill.</li>
 </ul>
+</div>
 </div>

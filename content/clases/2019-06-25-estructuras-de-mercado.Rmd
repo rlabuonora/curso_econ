@@ -5,6 +5,51 @@ slug: competencia-perfecta
 weight: 5
 ---
 
+# Ejercicio 1
+
+```{r, warning=FALSE, include=FALSE, echo=FALSE, message=FALSE}
+
+
+library(tidyverse)
+library(patchwork)
+library(tidyr)
+
+datos <- tibble( 
+ q = c(0, 1000, 2000, 3000, 3999, 4000, 4001, 5000), 
+ CT = c(55000, 85000, 110000, 130000, 159960.01, 160000, 160040.01, 210000), 
+ CMg = c(NA, 27, 22, 21, 38.98, 40, 40.02, 60), 
+ Precio=40) %>% 
+  mutate(Cme=CT/q) %>% 
+  select(-CT) %>% 
+  pivot_longer(cols=-q)
+```
+
+
+```{r}
+
+
+a <- datos %>%
+  filter(name!="Precio") %>% 
+  ggplot(aes(q, value, color=name)) +
+  geom_hline(yintercept = 50, linetype="dashed") +
+  geom_line() + 
+  scale_color_discrete("") +
+  scale_x_continuous(limits = c(1e3, 5e3)) +
+  theme_minimal() +
+  labs(x="Q", y="CMe, CMg, P")
+
+b <- datos %>%
+  filter(name!="Precio") %>% 
+  ggplot(aes(q, value, color=name)) +
+  geom_hline(yintercept = 30, linetype="dashed") +
+  geom_line() + 
+  scale_color_discrete("") +
+  scale_x_continuous(limits = c(1e3, 5e3)) +
+  theme_minimal() +
+  labs(x="Q", y="CMe, CMg, P")
+
+ggplot(mtcars, aes(cyl, mpg))
+```
 
 
 ## Bibliografía
