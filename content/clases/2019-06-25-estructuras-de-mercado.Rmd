@@ -37,7 +37,7 @@ a <- datos %>%
   scale_y_continuous(breaks=c(20, 40, 50, 60, 80),
                      labels=c("20", "40", "P=50", "60", "80")) +
   theme_minimal() +
-  labs(x="Q", y="CMe, CMg, P", "A")
+  labs(x="Q", y="CMe, CMg, P", title="A")
 
 b <- datos %>%
   filter(name!="Precio") %>% 
