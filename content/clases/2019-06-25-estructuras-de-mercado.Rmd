@@ -10,7 +10,6 @@ weight: 5
 ```{r, warning=FALSE, include=FALSE, echo=FALSE, message=FALSE}
 
 library(tidyverse)
-library(patchwork)
 library(tidyr)
 
 datos <- tibble( 
@@ -23,10 +22,12 @@ datos <- tibble(
   pivot_longer(cols=-q)
 ```
 
-Considere un mercado con la siguiente estructura de costos y precios. Analice la situación, explicando los resultados de las empresas y la situación de entrada y salida de empresas del mercado.
+Considere un mercado que funciona en competencia perfecta. Analice dos situaciones mostradas en los siguientes gráficos, explicando los resultados de las empresas y la situación de entrada y salida de empresas al mercado.
 
 ```{r warning=FALSE, echo=FALSE}
-datos %>%
+library(patchwork)
+
+a <- datos %>%
   filter(name!="Precio") %>% 
   ggplot(aes(q, value, color=name)) +
   geom_hline(yintercept = 50, linetype="dashed") +
@@ -36,14 +37,9 @@ datos %>%
   scale_y_continuous(breaks=c(20, 40, 50, 60, 80),
                      labels=c("20", "40", "P=50", "60", "80")) +
   theme_minimal() +
-  labs(x="Q", y="CMe, CMg, P")
+  labs(x="Q", y="CMe, CMg, P", "A")
 
-```
-
-Ahora suponga que la entrada de empresas al sector aumenta la oferta y reduce los precios como se muestra en el siguiente gráfico. Explique la situación, y cuál es el resultado final esperado.
-
-```{r warning=FALSE, echo=FALSE}
-datos %>%
+b <- datos %>%
   filter(name!="Precio") %>% 
   ggplot(aes(q, value, color=name)) +
   geom_hline(yintercept = 30, linetype="dashed") +
@@ -53,8 +49,13 @@ datos %>%
   scale_y_continuous(breaks=c(20, 30, 40, 60, 80),
                      labels=c("20", "P=30", "40", "60", "80")) +
   theme_minimal() +
-  labs(x="Q", y="CMe, CMg, P")
+  labs(x="Q", y="CMe, CMg, P", title="B")
+
+a +  b
+
 ```
+
+Ahora suponga que la entrada de empresas al sector aumenta la oferta y reduce los precios como se muestra en el siguiente gráfico. Explique la situación, y cuál es el resultado final esperado.
 
 ## Bibliografía
 
