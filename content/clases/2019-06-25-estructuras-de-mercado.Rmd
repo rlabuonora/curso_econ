@@ -27,9 +27,7 @@ datos <- tibble(
 Considere un mercado con la siguiente estructura de costos y precios. Analice la situación, explicando los resultados de las empresas y la situación de entrada y salida de empresas del mercado.
 
 ```{r warning=FALSE, echo=FALSE}
-
-
-a <- datos %>%
+datos %>%
   filter(name!="Precio") %>% 
   ggplot(aes(q, value, color=name)) +
   geom_hline(yintercept = 50, linetype="dashed") +
