@@ -4,7 +4,7 @@ date: '2021-05-03'
 slug: utilidad
 categories: []
 tags: []
-weight: 4
+weight: 3
 ---
 
 El princial propósito de la actividad económica es el consumo. En esta unidad analizamos el comportamiento de los consumidores.
