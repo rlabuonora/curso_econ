@@ -1,6 +1,6 @@
 ---
 title: "Crecimiento, desarrollo y distribución del ingreso"
-date: '2021-10-02'
+date: '2021-7-02'
 slug: desarrollo
 weight: 10
 ---
@@ -148,7 +148,7 @@ pib %>%
   rangeslider()
 ```
 
-Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir para el perìodo 1970-2003 y comparar. 
+Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir para el período 1970-2003 y comparar. 
 
 6. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
 ```{r}

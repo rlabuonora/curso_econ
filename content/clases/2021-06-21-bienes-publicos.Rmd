@@ -1,0 +1,97 @@
+---
+title: "Bienes Públicos y Externalidades"
+date: '2021-06-12'
+slug: bienes-publicos
+weight: 7
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning = FALSE,
+                       message=FALSE)
+
+library(tidyverse)
+
+
+```
+
+
+```{r include=FALSE, eval=FALSE}
+
+# Codigo para generar los plots
+library(ragg)
+
+
+df_1 <- tribble(
+  ~x,   ~y,   ~curva,
+  0,        75,     "MPC",
+  4,        100,    "MPC",
+  0,        75,     "MSC",
+  4,        225,    "MSC",
+  2,       150,    "Demanda",
+  4,       100,    "Demanda"
+) 
+
+df_2 <- tribble(
+  ~x,      ~y,     ~curva,
+  4L,       50L,     "MPC",
+  8L,       150L,    "MPC",
+  4L,       150L,    "MSC",
+  8L,       250L,    "MSC",
+  2L,       300L,    "Demanda",
+  8L,       150L,    "Demanda"
+) %>% 
+  nest(data=c(x, y)) %>% 
+  # Agregar la x
+  mutate(x=map(data, ~ 2:12)) %>% 
+  # Estimar modelo
+  mutate(mod=map(data, ~coefficients(lm(y~x, data=.x)))) %>% 
+  mutate(y=map2(mod, x, 
+                ~.x[[1]] + .x[[2]] * .y
+  )) %>% 
+  unnest(c(x, y)) %>% 
+  select(x, y, curva)
+
+p <- df_2 %>% 
+  ggplot(aes(x, y, color=curva)) +
+  geom_line(size=1.1) +
+  scale_x_continuous(breaks=seq(from=2, to=12, by=2)) +
+  geom_vline(xintercept = 0) + 
+  geom_hline(yintercept=0)
+
+
+
+df_wide <- df_2 %>% 
+  pivot_wider(id_cols=x, names_from=curva, values_from=y) %>% 
+  filter(x>=6, x<=8)
+
+p2 <- p  +
+  annotate(
+    geom = "curve", x = 5, y = 280, xend = 6, yend = 210, 
+    curvature = -.1, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom="text", x=4, y=330, label="Equilibrio\nEficiente" ) +
+  annotate(
+    geom = "curve", x = 7, y = 80, xend = 8, yend = 130, 
+    curvature = .1, arrow = arrow(length = unit(2, "mm"))
+  ) +
+  annotate(geom = "text", x = 5, y = 35, 
+           label = "Equilibrio\nIneficiente", 
+           hjust = "left") +
+  geom_ribbon(data=df_wide, 
+              alpha=.3,
+              aes(x=x, ymin=Demanda, ymax=MSC), 
+              inherit.aes = FALSE)
+
+agg_png(here::here("static", "imgs", "plots", "externalidades.png"),
+        width=20, height=12, units="cm", res=300)
+p2
+dev.off()
+```
+
+
+```{r}
+p2
+```
+
+
+

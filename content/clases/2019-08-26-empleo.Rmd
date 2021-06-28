@@ -1,7 +1,7 @@
 ---
 title: "Mercado de Trabajo"
 author: ''
-date: '2021-08-26'
+date: '2021-06-26'
 slug: empleo
 categories: []
 tags: []
@@ -25,6 +25,12 @@ weight: 7
 # Ejercicios
 
 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 
+
+2. Analizar [este artículo de Benjamín Nahúm](Enciclopedia_uruguaya_24-14-15.pdf) y contestar las siguientes preguntas:
+
+  - ¿Qué tecnología generó desempleo tecnológico en el agro uruguayo en la década de 1870?
+  - ¿Cuáles eran las principales tareas que ya no necesitar de mano de obra luego de la implantación de esta tecnología?
+  - ¿Cuántos desempleados generó aproximadamente la introducción de esta tecnología hacia 1880?
 
 
 2. Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
