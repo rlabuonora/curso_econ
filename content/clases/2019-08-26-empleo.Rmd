@@ -5,7 +5,7 @@ date: '2021-06-26'
 slug: empleo
 categories: []
 tags: []
-weight: 7
+weight: 8
 ---
 
 # Material
@@ -15,23 +15,31 @@ weight: 7
 
 ## Extra
 
-1. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=B8VclnrVEPA) Nicolás Lussich sobre los principales indicadores del mercado laboral.
 
-2. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=NMejCq1WrZE) Laura Raffo sobre situación del mercado laboral en 2015.
 
-3. [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=zzTK0d-iQEI) Andrés Dean sobre situación del mercado laboral en el mediano plazo.
+
 
 
 # Ejercicios
 
-1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador. 
+<!-- 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.  -->
+
+1. Ver [este video ](https://www.youtube.com/watch?v=NMejCq1WrZE) de Laura Raffo sobre situación del mercado laboral en 2015.
+  - ¿Cómo es el desempeño del mercado laboral ese año?
+  - ¿Qué indicador utiliza para analizar este desempeño?¿Cómo se calcula?
+  - ¿Cuál es el valor de ese indicador en la actualidad?
+  - ¿Cuáles son los sectores más afectados por el desempleo?
+  - ¿Quiénes son las personas más afectadas por este problema?
+  - ¿A qué se debe esta evolución?
 
 2. Analizar [este artículo de Benjamín Nahúm](Enciclopedia_uruguaya_24-14-15.pdf) y contestar las siguientes preguntas:
 
-  - ¿Qué tecnología generó desempleo tecnológico en el agro uruguayo en la década de 1870?
-  - ¿Cuáles eran las principales tareas que ya no necesitar de mano de obra luego de la implantación de esta tecnología?
+  - ¿Qué tipo de desempleo generó el alambramiento del campo en Uruguay en la década de 1870?
+  - ¿Cuáles eran las principales tareas que ya no necesitan de mano de obra luego de la implantación de esta tecnología?
   - ¿Cuántos desempleados generó aproximadamente la introducción de esta tecnología hacia 1880?
 
+
+3. Ver [esta entrevista  ](https://www.youtube.com/watch?v=zzTK0d-iQEI) a Andrés Dean sobre situación del mercado laboral en el mediano plazo.
 
 2. Descargar y graficar las series de actividad y desempleo por sexo. Comente la tendencia.
 
