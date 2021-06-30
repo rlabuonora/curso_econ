@@ -26,20 +26,23 @@ En la clases anteriores analizamos cómo los mercados resuelven los problemas ec
 - Los monopolistas maximizan las ventas. Por lo tanto, producen más que los competidores perfectos y a un precio más bajo.
 - Las empresas siempre cobran el precio máximo que soporta el mercado.
 
-3. Una empresa productora de micro chips tiene costos fijos de producción de $100.000, y cada unidad cuesta $600 de trabajo y $400 de materias primas. La curva de demanda que enfrenta es $P=3000-\frac{1}{100}Q$ y el ingreso marginal $Img=3000-\frac{1}{50}Q$. 
-
-
+2. Una empresa productora de micro chips tiene costos fijos de producción de $100.000, y cada unidad cuesta $600 de trabajo y $400 de materias primas. La curva de demanda que enfrenta es $P=3000-\frac{1}{100}Q$ y el ingreso marginal $Img=3000-\frac{1}{50}Q$. 
 
 Calcule el Costo Marginal, el Ingreso Marginal, el precio y la cantidad de equilibrio si esta empresa opera como un monopolio. 
 
-1. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
+3. Analizar [esta noticia](katoen_el_pais.pdf).
+
+- 
+
+
+4. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
 
 -  ¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris? ¿En qué consiste esta práctica? ¿Cuál fue el resultado de la denuncia?
 - ¿Qué argumentos hay a favor de que las acciones de Philip Morris son anticompetitivas? ¿Y en contra?
 - ¿Cuál es el diagnóstico de Fleitas sobre el funcionamiento actual de la Comisión de Defensa de la Competencia?
 
 
-4. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook) sobre el mercado de tecnología en EUA.
+5. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook) sobre el mercado de tecnología en EUA.
 
 Explique cuáles son las principales prácticas anticompetitivas de las empresas analizadas. Explique por qué el gobierno de EUA aplica políticas con el objetivo de eliminar estas prácticas.
 
