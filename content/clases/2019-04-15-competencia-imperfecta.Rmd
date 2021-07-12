@@ -37,11 +37,17 @@ library(tidyverse)
 library(extrafont)
 loadfonts()
 theme_set(theme_minimal(base_family = 'Montserrat'))
+knitr::opts_chunk$set(
+  message=FALSE, 
+  echo=FALSE,
+  warning=FALSE,
+  comment = '', fig.width = 5, fig.height = 5
+)
 
 
 ```
 
-```{r warning=FALSE, echo=FALSE, fig.width=5, fig.height=5}
+```{r warning=FALSE, echo=FALSE}
 
 d_df <- tibble(x=c(0, 40), 
                y=c(10, 2))
@@ -81,13 +87,66 @@ ggplot(data.frame(x=0, y=0)) +
 - Calcular el ingreso total de la empresa.
 - Calcular el costo total de la empresa.
 - Calcular el beneficio de la empresa.
-3. Analizar [esta noticia](katoen_el_pais.pdf).
+
+4. Analizar [esta noticia](katoen_el_pais.pdf).
 
 - ¿En qué consiste el acuerdo entre el gobierno uruguayo y Katoen Natie?
 - ¿Cuál es la opinión de los autores sobre el impacto del acuerdo en el nivel de competencia en los servicios del puerto?
 
+5. Monopolio natural y regulación.
 
-4. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
+```{r}
+
+
+theme_set(theme_minimal(base_family = 'Montserrat'))
+
+# Figure 13.3
+cme_df <- tibble(x=c(5,   18, 30,  35, 40, 42), 
+                 y=c(145, 80, 60,  57, 53, 50))
+
+d_df <- tibble(x=c(0,   20),
+               y=c(150, 90))
+
+img_df <- tibble(x=c(0,  20),
+                 y=c(150, 30))
+
+cmg_df <- tibble(x=c(0, 5),
+                 y=c(30, 30))
+
+cme_fun <- splinefun(cme_df$x, cme_df$y)
+d_fun <- splinefun(d_df$x, d_df$y)
+img_fun <- splinefun(img_df$x, img_df$y)
+cmg_fun <- splinefun(cmg_df$x, cmg_df$y)
+
+
+# x_highlight <- uniroot(function(x) lrac_fun(x)-d_fun(x), c(0, 5))$root
+# y_highlight <- lrac_fun(x_highlight)
+
+ggplot(data.frame(x=0, y=0)) + 
+  geom_function(fun=cme_fun, xlim=c(3, 40)) +
+  geom_function(fun=d_fun, xlim=c(0, 48)) +
+  geom_function(fun=img_fun, xlim=c(0, 24)) +
+  geom_function(fun=cmg_fun, xlim=c(0, 55)) +
+  scale_y_continuous(limits = c(0, 150),
+                     breaks=c(0, 30, 60, 90, 120, 150)) +
+  scale_x_continuous(limits = c(0, 50),
+                     breaks=c(0, 10, 20, 30, 40, 50)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  annotate("text", label="CMe", x=42, y=64) +
+  annotate("text", label="CMg", x=42, y=38) +
+  annotate("text", label="D", x=50, y=8) +
+  annotate("text", label="Img", x=28, y=8) +
+  labs(title="", x="Q", y="Precio y Costos")
+
+```
+
+- ¿Cuál es la cantidad y el precio si el monopolio no está regulado?
+- ¿Cuál es el precio y la cantidad eficiente para el mercado?
+- ¿Qué precio y cantidad regiría si el monopolio se regulara según la regla del costo medio?
+- ¿Cuál es la ventaja de esta regla sobre la del costo marginal?
+
+6. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
 
 -  ¿Por qué práctica anticompetitiva fue denunciada la filial uruguaya de Philip Morris? ¿En qué consiste esta práctica? ¿Cuál fue el resultado de la denuncia?
 - ¿Qué argumentos hay a favor de que las acciones de Philip Morris son anticompetitivas? ¿Y en contra?
