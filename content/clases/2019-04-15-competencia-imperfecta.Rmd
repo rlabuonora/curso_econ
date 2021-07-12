@@ -93,7 +93,7 @@ ggplot(data.frame(x=0, y=0)) +
 - ¿En qué consiste el acuerdo entre el gobierno uruguayo y Katoen Natie?
 - ¿Cuál es la opinión de los autores sobre el impacto del acuerdo en el nivel de competencia en los servicios del puerto?
 
-5. Monopolio natural y regulación.
+5. Considere un mercado con esta estructura de costos y demanda:
 
 ```{r}
 
@@ -141,10 +141,10 @@ ggplot(data.frame(x=0, y=0)) +
 
 ```
 
-- ¿Cuál es la cantidad y el precio si el monopolio no está regulado?
-- ¿Cuál es el precio y la cantidad eficiente para el mercado?
-- ¿Qué precio y cantidad regiría si el monopolio se regulara según la regla del costo medio?
-- ¿Cuál es la ventaja de esta regla sobre la del costo marginal?
+- ¿Cuál es la cantidad y el precio si el mercado funciona como un monopolio sin reguladación?
+- ¿Cuales son el precio y la cantidad de equilibrio si un regulador aplica la regla del costo marginal?
+- ¿Cuales son el precio y la cantidad de equilibrio si un regulador aplica la regla del costo medio?
+- ¿Cuál es la ventaja de ña regla del costo medio sobre la del costo marginal?
 
 6. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
 
@@ -155,7 +155,8 @@ ggplot(data.frame(x=0, y=0)) +
 
 5. Leer [este artículo](https://www.vox.com/recode/2020/10/6/21505027/congress-big-tech-antitrust-report-facebook-google-amazon-apple-mark-zuckerberg-jeff-bezos-tim-cook) sobre el mercado de tecnología en EUA.
 
-Explique cuáles son las principales prácticas anticompetitivas de las empresas analizadas. Explique por qué el gobierno de EUA aplica políticas con el objetivo de eliminar estas prácticas.
+- Explique cuáles son las principales prácticas anticompetitivas de las empresas analizadas. 
+- Explique por qué el gobierno de EUA aplica políticas con el objetivo de eliminar estas prácticas.
 
 ## Bibliografía
 
