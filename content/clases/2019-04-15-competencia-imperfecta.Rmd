@@ -144,7 +144,7 @@ ggplot(data.frame(x=0, y=0)) +
 - ¿Cuál es la cantidad y el precio si el mercado funciona como un monopolio sin reguladación?
 - ¿Cuales son el precio y la cantidad de equilibrio si un regulador aplica la regla del costo marginal?
 - ¿Cuales son el precio y la cantidad de equilibrio si un regulador aplica la regla del costo medio?
-- ¿Cuál es la ventaja de ña regla del costo medio sobre la del costo marginal?
+- ¿Cuál es la ventaja de la regla del costo medio sobre la del costo marginal?
 
 6. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/defensa-de-la-competencia-perdio-prestigio-en-caso-con-philip-morris-1) a [Sebastián Fleitas](http://www.sebastianfleitas.com/) y contestar las siguientes preguntas:
 

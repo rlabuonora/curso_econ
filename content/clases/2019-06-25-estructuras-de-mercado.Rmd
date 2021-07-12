@@ -5,7 +5,7 @@ slug: competencia-perfecta
 weight: 5
 ---
 
-# Ejercicio 1
+<!-- # Ejercicio 1 -->
 
 ```{r, warning=FALSE, include=FALSE, echo=FALSE, message=FALSE}
 
@@ -22,9 +22,9 @@ datos <- tibble(
   pivot_longer(cols=-q)
 ```
 
-Considere un mercado que funciona en competencia perfecta. Analice dos situaciones mostradas en los siguientes gráficos, explicando los resultados de las empresas y la situación de entrada y salida de empresas al mercado.
+<!-- Considere un mercado que funciona en competencia perfecta. Analice dos situaciones mostradas en los siguientes gráficos, explicando los resultados de las empresas y la situación de entrada y salida de empresas al mercado. -->
 
-```{r warning=FALSE, echo=FALSE}
+```{r warning=FALSE, echo=FALSE, eval=FALSE}
 library(patchwork)
 
 a <- datos %>%
@@ -55,7 +55,7 @@ a +  b
 
 ```
 
-Ahora suponga que la entrada de empresas al sector aumenta la oferta y reduce los precios como se muestra en el siguiente gráfico. Explique la situación, y cuál es el resultado final esperado.
+<!-- Ahora suponga que la entrada de empresas al sector aumenta la oferta y reduce los precios como se muestra en el siguiente gráfico. Explique la situación, y cuál es el resultado final esperado. -->
 
 ## Bibliografía
 
