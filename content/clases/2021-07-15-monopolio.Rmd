@@ -1,7 +1,7 @@
 ---
-title: "Competencia Imperfecta"
+title: "Monopolio"
 date: '2021-04-21'
-slug: competencia-imperfecta
+slug: monopolio
 categories: []
 tags: []
 weight: 6
