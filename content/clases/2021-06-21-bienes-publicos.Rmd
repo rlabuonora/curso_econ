@@ -89,11 +89,6 @@ dev.off()
 ```
 
 
-```{r}
-p2
-```
-
-
 
 1. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/vacunas-contra-el-covid-oferta-limitada-y-demanda-desesperada) sobre el mercado de vacunas contra el Covid-19.
   - ¿Quiénes los oferentes? ¿Cómo es la estructura de costos de las empresas que fabrican las vacunas? ¿Qué barreras hay a la libre competencia en el lado de la oferta en este mercado?
