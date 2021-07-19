@@ -11,6 +11,23 @@ knitr::opts_chunk$set(echo=FALSE, warning = FALSE,
 
 library(tidyverse)
 
+theme_set(
+  theme_minimal(base_family = 'Montserrat',
+                base_size=18) + 
+    theme(plot.title=element_text(hjust=.5)))
+
+
+
+marcar_punto <- function(x, y, linetype="dashed") {
+  list(
+    geom_segment(x=x, y=0, xend=x, yend=y, color="gray50",
+                 linetype="dotted", inherit.aes = FALSE),
+    geom_segment(x=0, y=y, xend=x, yend=y,  color="gray50",
+                 linetype="dotted", inherit.aes = FALSE),
+    geom_point(x=x, y=y, inherit.aes = FALSE)
+  )
+}
+
 
 ```
 
@@ -89,17 +106,77 @@ dev.off()
 ```
 
 
+1. La investigación científica tiene externalidades para toda la sociedad. Contamos con la siguiente información sobre la cantidad de investigadores en un país:
 
-1. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/vacunas-contra-el-covid-oferta-limitada-y-demanda-desesperada) sobre el mercado de vacunas contra el Covid-19.
+| Costo Marginal (USD)  | Investigadores   | Beneficio Marginal Privado (USD)  |Beneficio Marginal Social (USD)  |  
+|-----|---|---|---|
+| 100 |4500   | 20   |60   |
+| 80  |4000   | 40   |80   |
+| 60  |3500   | 60   |100   |
+| 40  | 3000  | 80   |120   |
+| 20  | 2500  | 100  |140   |
+
+- ¿Cuál es el beneficio externo cuando hay 4500 investigadores por año?
+- Si el gobierno no interviene en el mercado, ¿cuántos investigadores habrá?
+- ¿Cuál es la cantidad socialmente óptima de investigadores?
+- ¿Cuál es el precio que hace que el mercado provea la cantidad eficiente de investigadores?
+
+2. Considere la siguiente información para el mercado de estudiantes de virología.
+```{r}
+mpb_df <- tibble(x=c(40,  60), 
+                 y=c(60, 40))
+
+msb_df <- tibble(x=c(40,  60),
+                 y=c(100, 80))
+
+
+mpb_fun <- splinefun(mpb_df$x, mpb_df$y)
+msb_fun <- splinefun(msb_df$x, msb_df$y)
+
+msc_df <- tibble(x=c(40, 60),
+                 y=c(60, 80))
+
+
+msc_fun <- splinefun(msc_df$x, msc_df$y)
+
+ggplot(data.frame(x=0, y=0)) + 
+  geom_function(fun=mpb_fun, xlim=c(20, 80)) +
+  annotate("text", y=26, x=90, size=7, label="BMP") +
+  geom_function(fun=msb_fun, xlim=c(40, 80)) +
+  annotate("text", y=70, x=90, size=7, label="BMS") +
+  geom_function(fun=msc_fun, xlim=c(0, 75)) +
+  annotate("text", y=100, x=80, size=7, label="CMS") +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  marcar_punto(40, 60) +
+  marcar_punto(60, 80) +
+  scale_x_continuous(limits = c(0, 100),
+                     breaks=c(0, 20, 40, 60, 80, 100)) + 
+  scale_y_continuous(limits = c(0, 100),
+                     breaks=c(0, 20, 40, 60, 80, 100)) + 
+  labs(x="Cantidad", y="Precio y Costo Social", 
+       title="")
+
+```
+
+- ¿Cuál es el beneficio marginal social del el estudiante número 40? ¿Y del 60?
+- ¿Cuál es el beneficio marginal privado del estudiante número 40?
+- ¿Cuál es el beneficio externo del estudiante número 40?
+- ¿Cuál es el equilibrio del mercado si no hay intervención?
+- ¿Cuál es la cantidad eficiente?
+- ¿A cuánto asciende la pérdida de eficiencia si el mercado no se regula?
+
+
+3. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/vacunas-contra-el-covid-oferta-limitada-y-demanda-desesperada) sobre el mercado de vacunas contra el Covid-19.
   - ¿Quiénes los oferentes? ¿Cómo es la estructura de costos de las empresas que fabrican las vacunas? ¿Qué barreras hay a la libre competencia en el lado de la oferta en este mercado?
   - ¿Quiénes son los demandantes de vacunas? ¿Cómo es la elasticidad de esta demanda? 
   - ¿Qué resultados se pueden esperar en este mercado?¿Quiénes tendrán mayor acceso a las vacunas en este contexto?¿Por qué este resultado no es eficiente desde el punto de vista global?
   - Explique los dos canales por los que los que los países ricos se benefician de que los países pobres accedan a vacunas. 
   - Comente la siguiente afirmación: "si bien puede ser moralmente correcto que los países desarrollados compartan las vacunas con los países más pobres, los gobernantes de estos países tienen la obligación de actuar en beneficio de sus ciudadanos".
   
-2. Leer [esta entrevista](entrevista-hoxby.pdf).
+4. Leer [esta entrevista](entrevista-hoxby.pdf).
 
-3. Explique como aplicaría el concepto de __free rider__ a la siguiente nota. Identifique el bien analizado, la oferta, la demanda y analice el equilibrio alcanzado.
+5. Explique como aplicaría el concepto de __free rider__ a la siguiente nota. Identifique el bien analizado, la oferta, la demanda y analice el equilibrio alcanzado.
 
 > <p>Los estudiosos de la Guerra Fría saben que, para impedir una posible agresión soviética, Estados Unidos colocó un “paraguas estratégico” sobre la Europa de la OTAN y Japón, declarando que lucharía si la Unión Soviética amenazaba la indepen- dencia de estos países. Los aliados europeos y japoneses han obtenido un provecho económico del hecho de que Estados Unidos suministraba la mayor parte de su seguridad nacional.</p>
 <p>
