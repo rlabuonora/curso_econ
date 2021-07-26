@@ -166,8 +166,48 @@ ggplot(data.frame(x=0, y=0)) +
 - ¿Cuál es la cantidad eficiente?
 - ¿A cuánto asciende la pérdida de eficiencia si el mercado no se regula?
 
+3. Considere un mercado con la siguiente esctructura de costos:
+```{r}
+curvas <- list(
+  cmg_soc=tribble(
+    ~x, ~y, 
+    0,   75,
+    4,   225),
+  cmg_priv=tribble(
+    ~x, ~y,
+    0,   75, 
+    4,   100),
+  demanda=tribble(
+    ~x, ~y,
+    2,   150,
+    4,   100)) %>% 
+  map(~splinefun(.x$x,.x$y))
+  
 
-3. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/vacunas-contra-el-covid-oferta-limitada-y-demanda-desesperada) sobre el mercado de vacunas contra el Covid-19.
+p1 <- data.frame(x=0, y=0) %>% 
+  ggplot(aes(x, y)) + 
+  geom_function(fun=curvas$cmg_soc, xlim=c(0, 6)) +
+  annotate("text", y=300, x=7.5, size=6, label="CMG Social") +
+  geom_function(fun=curvas$cmg_priv, xlim=c(0, 6)) +
+  annotate("text", y=115, x=7.5, size=6, label="CMG Privado") +
+  geom_function(fun=curvas$demanda, xlim=c(0, 6)) +
+  annotate("text", y=55, x=7, size=6, label="Demanda") + 
+  scale_x_continuous(breaks=c(0, 2, 4, 6),
+                     limits=c(0, 10)) +
+  scale_y_continuous(breaks=c(0, 75, 100, 150, 225, 300),
+                     limits=c(0, 300)) +
+  labs(x="Cantidad", y="Precio y Costos") + 
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) 
+
+p1
+```
+
+- ¿Cuál es el equilibrio de mercado sin intervención pública?
+- ¿Es eficiente ese equilibrio?¿Cuál sería el equilibrio eficiente?
+- ¿Cuánto debería ser el impuesto que lleve al mercado a producir la cantidad eficiente?¿Cuál sería el precio que pagan los consumidores y la recaudación resultante?
+
+4. Escuchar [esta entrevista](https://delsol.uy/notoquennada/sebastianfleitas/vacunas-contra-el-covid-oferta-limitada-y-demanda-desesperada) sobre el mercado de vacunas contra el Covid-19.
   - ¿Quiénes los oferentes? ¿Cómo es la estructura de costos de las empresas que fabrican las vacunas? ¿Qué barreras hay a la libre competencia en el lado de la oferta en este mercado?
   - ¿Quiénes son los demandantes de vacunas? ¿Cómo es la elasticidad de esta demanda? 
   - ¿Qué resultados se pueden esperar en este mercado?¿Quiénes tendrán mayor acceso a las vacunas en este contexto?¿Por qué este resultado no es eficiente desde el punto de vista global?
@@ -176,15 +216,10 @@ ggplot(data.frame(x=0, y=0)) +
   
 4. Leer [esta entrevista](entrevista-hoxby.pdf).
 
-5. Explique como aplicaría el concepto de __free rider__ a la siguiente nota. Identifique el bien analizado, la oferta, la demanda y analice el equilibrio alcanzado.
+- ¿Cuál es la principal diferencia entre la educación y otros bienes que se transan en mercados competitivos?
+- ¿Por qué se justifica una intervención pública en este tipo de mercados?
 
-> <p>Los estudiosos de la Guerra Fría saben que, para impedir una posible agresión soviética, Estados Unidos colocó un “paraguas estratégico” sobre la Europa de la OTAN y Japón, declarando que lucharía si la Unión Soviética amenazaba la indepen- dencia de estos países. Los aliados europeos y japoneses han obtenido un provecho económico del hecho de que Estados Unidos suministraba la mayor parte de su seguridad nacional.</p>
-<p>
-Durante el mandato del presidente Ronald Reagan, aproximadamente 6 por ciento del PIB de Estados Unidos se invertía en defensa, en tanto que los europeos gastaban en este rubro sólo 2 a 3 por ciento y los japoneses un miserable 1 por ciento, aunque todos enfrentaban un enemigo común. </p>
-<p>Por lo tanto, el contribuyente estadounidense soportaba una carga desproporcionada en el gasto general de defensa, en tanto que los que se cobijaban bajo su paraguas invertían más en bienes públicos o de consumo, o ahorraban; mientras, Estados Unidos se endeudaba cada vez más. Actualmente, Estados Unidos, al igual que Roma y Gran Bretaña en su época, es el proveedor de bienes públicos internacionales.</p>
 
-_International Herald Tribune_ 30 de enero de 2008
-  
   
 # Materiales
 
