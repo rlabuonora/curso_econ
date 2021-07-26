@@ -13,7 +13,7 @@ library(tidyverse)
 
 theme_set(
   theme_minimal(base_family = 'Montserrat',
-                base_size=18) + 
+                base_size=16) + 
     theme(plot.title=element_text(hjust=.5)))
 
 
@@ -194,7 +194,7 @@ p1 <- data.frame(x=0, y=0) %>%
   annotate("text", y=55, x=7, size=6, label="Demanda") + 
   scale_x_continuous(breaks=c(0, 2, 4, 6),
                      limits=c(0, 10)) +
-  scale_y_continuous(breaks=c(0, 75, 100, 150, 225, 300),
+  scale_y_continuous(breaks=c(0, 75, 87.5, 100, 150, 225, 300),
                      limits=c(0, 300)) +
   labs(x="Cantidad", y="Precio y Costos") + 
   geom_vline(xintercept = 0) +
