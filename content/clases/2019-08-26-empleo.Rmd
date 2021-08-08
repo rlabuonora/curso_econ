@@ -9,9 +9,93 @@ weight: 8
 ---
 
 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning = FALSE,
+                       message=FALSE)
+
+library(tidyverse)
+library(kableExtra)
+theme_set(
+  theme_minimal(base_family = 'Montserrat',
+                base_size=16) + 
+    theme(plot.title=element_text(hjust=.5)))
+
+
+
+marcar_punto <- function(x, y, linetype="dashed") {
+  list(
+    geom_segment(x=x, y=0, xend=x, yend=y, color="gray50",
+                 linetype="dotted", inherit.aes = FALSE),
+    geom_segment(x=0, y=y, xend=x, yend=y,  color="gray50",
+                 linetype="dotted", inherit.aes = FALSE),
+    geom_point(x=x, y=y, inherit.aes = FALSE)
+  )
+}
+
+
+```
+
 # Ejercicios
 
 <!-- 1. Descargar y graficar las tasas de actividad, desempleo y empleo desde 1975 hasta el último dato disponible. Explicar qué significa cada indicador.  -->
+
+1. Suponga una empresa que produce tomates con la siguiente función de producción.
+
+```{r}
+
+options(knitr.kable.NA = '')
+
+tibble(
+  L=1:5,
+  PMgL=c(8, 10, 7, 5, 4)) %>% 
+  knitr::kable(col.names = c("L", "Producto Total")) %>% 
+  kable_styling(full_width = F)
+```
+
+-
+    a) Calcular el valor del producto marginal si el precio de venta de los tomates \$2. Si el salario es \$10 y ¿cuántos trabajadores contratan?
+
+    b) Calcular el valor del producto marginal si el precio de venta de los tomates \$2. ¿cuántos trabajadores se contratan ahora?
+
+    c) Graficar la curva de demanda de trabajo antes y después de la caída del precio de los tomates.
+
+2. Considere el mercado de hamburgueseros, que funciona en competencia perfecta con las siguientes curvas de oferta y demanda:
+
+```{r}
+
+make_fun <- function(df) {
+  splinefun(df$x, df$y)
+}
+
+of <- tibble(x=c(20, 40),
+             y=c(90, 120)) %>% 
+  make_fun()
+
+dem <- tibble(x=c(40,  50),
+              y=c(120, 90)) %>% 
+  make_fun()
+
+ggplot(data.frame(x=0, y=0)) + 
+  geom_function(fun=of, xlim=c(5, 70)) +
+  geom_function(fun=dem, xlim=c(15, 70)) +
+  scale_x_continuous(limits = c(0, 100),
+                     breaks=seq(0, 100, by=10)) +
+  scale_y_continuous(limits=c(0, 200),
+                     breaks=seq(0, 180, by=30)) +
+  annotate("text", x=79, y=170, label="Oferta") +
+  annotate("text", x=82, y=30, label="Demanda") +
+  marcar_punto(20, 90) +
+  marcar_punto(50, 90) + 
+  marcar_punto(40, 120) +
+  labs(x="L", y="Salario")
+
+
+```
+
+a) ¿Cuántos trabajadores ofrecen trabajo a $90 por hora?
+b) Describa el resultado del mercado con este precio.
+c) ¿Cuál es el salario de equilibrio?
+d) Suponga que hay un aumento en el precio de venta de las hamburguesas que hace que para el mismo salario, las empresas demanden 45 hamburgueseros más que antes. Encuentre el nuevo equilibrio del mercado.
 
 1. Ver [este video ](https://www.youtube.com/watch?v=NMejCq1WrZE) de Laura Raffo sobre situación del mercado laboral en 2015.
   - ¿Cómo es el desempeño del mercado laboral ese año?
