@@ -48,14 +48,14 @@ options(knitr.kable.NA = '')
 tibble(
   L=1:5,
   PMgL=c(8, 10, 7, 5, 4)) %>% 
-  knitr::kable(col.names = c("L", "Producto Total")) %>% 
+  knitr::kable(col.names = c("L", "Producto Marginal")) %>% 
   kable_styling(full_width = F)
 ```
 
 -
     a) Calcular el valor del producto marginal si el precio de venta de los tomates \$2. Si el salario es \$10 y ¿cuántos trabajadores contratan?
 
-    b) Calcular el valor del producto marginal si el precio de venta de los tomates \$2. ¿cuántos trabajadores se contratan ahora?
+    b) Calcular el valor del producto marginal si el precio de venta de los tomates baja a \$1. ¿cuántos trabajadores se contratan ahora?
 
     c) Graficar la curva de demanda de trabajo antes y después de la caída del precio de los tomates.
 
