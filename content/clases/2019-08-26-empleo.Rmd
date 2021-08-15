@@ -105,7 +105,12 @@ d) Suponga que hay un aumento en el precio de venta de las hamburguesas que hace
 - Explique cómo influye una disminución de los precios de las casas en el mercado del trabajo de la construcción.
 - Trace una gráfica para ilustrar el efecto de una disminución de los precios de las casas en el mercado del trabajo de la construcción.
 
-3. Ver [este video ](https://www.youtube.com/watch?v=NMejCq1WrZE) de Laura Raffo sobre situación del mercado laboral en 2015.
+3. Analizar este video de Laura Raffo sobre situación del mercado laboral en 2015:
+
+```{r, eval=TRUE}
+blogdown::shortcode("youtube", "NMejCq1WrZE")
+```
+
   - ¿Cómo es el desempeño del mercado laboral ese año?
   - ¿Qué indicador utiliza para analizar este desempeño?¿Cómo se calcula?
   - ¿Cuál es el valor de ese indicador en la actualidad?
