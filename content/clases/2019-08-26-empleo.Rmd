@@ -105,27 +105,31 @@ d) Suponga que hay un aumento en el precio de venta de las hamburguesas que hace
 - Explique cómo influye una disminución de los precios de las casas en el mercado del trabajo de la construcción.
 - Trace una gráfica para ilustrar el efecto de una disminución de los precios de las casas en el mercado del trabajo de la construcción.
 
-3. Analizar este video de Laura Raffo sobre situación del mercado laboral en 2015:
+3. Analizar este gráfico: (tomado de [Para entender la Economía del Uruguay ](https://www.entenderlaeconomiauy.org/capitulos)):
 
-```{r, eval=TRUE}
-blogdown::shortcode("youtube", "NMejCq1WrZE")
-```
+![](indicadores_cinve.png)
 
-  - ¿Cómo es el desempeño del mercado laboral ese año?
-  - ¿Qué indicador utiliza para analizar este desempeño?¿Cómo se calcula?
-  - ¿Cuál es el valor de ese indicador en la actualidad?
-  - ¿Cuáles son los sectores más afectados por el desempleo?
-  - ¿Quiénes son las personas más afectadas por este problema?
-  - ¿A qué se debe esta evolución?
+- Observe la tendencia del desempleo desde 2002.¿A qué se debe?
+- Explique cómo es posible que a partir de 1994 tanto la tasa de empleo como la de desempleo aumenten.
+
+<!-- 3. Analizar este video de Laura Raffo sobre situación del mercado laboral en 2015: -->
+
+<!-- ```{r, eval=TRUE} -->
+<!-- blogdown::shortcode("youtube", "NMejCq1WrZE") -->
+<!-- ``` -->
+
+<!--   - ¿Cómo es el desempeño del mercado laboral ese año? -->
+<!--   - ¿Qué indicador utiliza para analizar este desempeño?¿Cómo se calcula? -->
+<!--   - ¿Cuál es el valor de ese indicador en la actualidad? -->
+<!--   - ¿Cuáles son los sectores más afectados por el desempleo? -->
+<!--   - ¿Quiénes son las personas más afectadas por este problema? -->
+<!--   - ¿A qué se debe esta evolución? -->
 
 4. Analizar [este artículo de Benjamín Nahúm](Enciclopedia_uruguaya_24-14-15.pdf) y contestar las siguientes preguntas:
 
   - ¿Qué tipo de desempleo generó el alambramiento del campo en Uruguay en la década de 1870?
   - ¿Cuáles eran las principales tareas que ya no necesitan de mano de obra luego de la implantación de esta tecnología?
   - ¿Cuántos desempleados generó aproximadamente la introducción de esta tecnología hacia 1880?
-
-
-5. Ver [esta entrevista  ](https://www.youtube.com/watch?v=zzTK0d-iQEI) a Andrés Dean sobre situación del mercado laboral en el mediano plazo.
 
 
 # Bibliografía
