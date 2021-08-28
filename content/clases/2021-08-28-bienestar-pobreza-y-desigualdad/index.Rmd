@@ -1,9 +1,0 @@
----
-title: Bienestar, Pobreza y Desigualdad
-date: '2021-08-27'
-slug: bienestar-pobreza-y-desigualdad
-categories: []
-tags: []
----
-
-1. Ejercicio 1.
