@@ -14,7 +14,7 @@ library(readxl)
 
 
 1. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
-```{r}
+```{r fig.height=4}
 maddison <- here::here('static/clases/bienestar/mpd2018.xlsx') %>% 
   read_xlsx(sheet="Full data") %>% 
   filter(countrycode %in% c("URY", "ARG", "FIN", "USA", "ITA")) %>% 
