@@ -153,21 +153,6 @@ pib %>%
 
 Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir para el período 1970-2003 y comparar. 
 
-6. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
-```{r}
-maddison <- here::here('static/pib_files/mpd2018.xlsx') %>% 
-  read_xlsx(sheet="Full data") %>% 
-  filter(countrycode %in% c("URY", "ARG", "FIN", "USA", "ITA")) %>% 
-  filter(year %in% c(1900, 1955, 2000))
-
-maddison %>% 
-  ggplot(aes(year, cgdppc, color = country)) + 
-  geom_line() + 
-  geom_point() +
-  theme_minimal() +
-  scale_color_discrete(name = "País") +
-  labs(x="Año", y="PIB per cápita", caption="Fuente: Angus Maddison")
-```
 
 
 ## Materiales
