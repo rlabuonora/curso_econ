@@ -31,7 +31,10 @@ maddison %>%
 
 
 
-1. Escuchar [esta entrevista](https://www.youtube.com/watch?v=E4r0LdLH-_8&t=316s) a Matías Brum
+2. Escuchar esta entrevista a Matías Brum:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E4r0LdLH-_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 - ¿Cuál fue el impacto de la llegada del COVID-19 en la pobreza en Marzo de 2020?¿Cuál fue la principal causa de ese impacto?
 - ¿Cuál fue el efecto de las transferencias del gobierno a los hogares más vulnerables?
@@ -39,7 +42,7 @@ maddison %>%
 - ¿Cómo se calcula el nivel de pobreza?
 - ¿Qué limitaciones tiene esta forma de medir la pobreza?¿Qué significa que un hogar es _vulnerable_?
 
-2. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
+3. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
 
 <!-- 2. Escuchar [esta entrevista](https://www.youtube.com/watch?v=3Gwo0_9TIag) a Andrea Vigorito y Mauricio Da Rosa. -->
 
