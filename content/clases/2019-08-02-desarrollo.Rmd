@@ -39,16 +39,17 @@ maddison %>%
 - ¿Cómo se calcula el nivel de pobreza?
 - ¿Qué limitaciones tiene esta forma de medir la pobreza?¿Qué significa que un hogar es _vulnerable_?
 
+2. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
 
-2. Escuchar [esta entrevista](https://www.youtube.com/watch?v=3Gwo0_9TIag) a Andrea Vigorito y Mauricio Da Rosa.
+<!-- 2. Escuchar [esta entrevista](https://www.youtube.com/watch?v=3Gwo0_9TIag) a Andrea Vigorito y Mauricio Da Rosa. -->
 
-- Relación entre el PIB y la desigualdad.
-- Concentración de los ingresos. Top incomes. El 1% de arriba tiene el mismo ingreso. que el 40% de abajo.
-- Ingresos del capital.
-- Uruguay en ALAT y el mundo.
-- Persistencia en el tiempo.
-- Salarios mínimos (afecta distribución primaria)
-- Aumento de la masa de salarios.
-- Impacto de AFAM, TUS e IRPF.
-- Tasas de tributación al capital y al trabajo. Exoneraciones de utilidades empresariales estan menos gravadas que otras. 6.30 cortar acá.
-- Composición de ingresos de trabajo vs. capital.
+<!-- - Relación entre el PIB y la desigualdad. -->
+<!-- - Concentración de los ingresos. Top incomes. El 1% de arriba tiene el mismo ingreso. que el 40% de abajo. -->
+<!-- - Ingresos del capital. -->
+<!-- - Uruguay en ALAT y el mundo. -->
+<!-- - Persistencia en el tiempo. -->
+<!-- - Salarios mínimos (afecta distribución primaria) -->
+<!-- - Aumento de la masa de salarios. -->
+<!-- - Impacto de AFAM, TUS e IRPF. -->
+<!-- - Tasas de tributación al capital y al trabajo. Exoneraciones de utilidades empresariales estan menos gravadas que otras. 6.30 cortar acá. -->
+<!-- - Composición de ingresos de trabajo vs. capital. -->
