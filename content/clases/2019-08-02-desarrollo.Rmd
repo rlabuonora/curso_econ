@@ -53,3 +53,9 @@ maddison %>%
 <!-- - Impacto de AFAM, TUS e IRPF. -->
 <!-- - Tasas de tributación al capital y al trabajo. Exoneraciones de utilidades empresariales estan menos gravadas que otras. 6.30 cortar acá. -->
 <!-- - Composición de ingresos de trabajo vs. capital. -->
+
+
+Bibliografía
+
+- [Notas de clase](https://bienestar--diapos-econ.netlify.app)
+- [Para Entender la Economía del Uruguay - Capítulo 11](https://www.entenderlaeconomiauy.org/)
