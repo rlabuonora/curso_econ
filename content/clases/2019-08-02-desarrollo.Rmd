@@ -13,23 +13,7 @@ library(readxl)
 ```
 
 
-1. El siguiente gráfico compara el PIB per cápita de 5 países que se encontraban en posiciones similares a comienzos del siglo XX. Comentar la evolución entre 1900 y 2000.
-```{r fig.height=4}
-maddison <- here::here('static/clases/bienestar/mpd2018.xlsx') %>% 
-  read_xlsx(sheet="Full data") %>% 
-  filter(countrycode %in% c("URY", "ARG", "FIN", "USA", "ITA")) %>% 
-  filter(year %in% c(1900, 1955, 2000))
-
-maddison %>% 
-  ggplot(aes(year, cgdppc, color = country)) + 
-  geom_line() + 
-  geom_point() +
-  theme_minimal() +
-  scale_color_discrete(name = "País") +
-  labs(x="Año", y="PIB per cápita", caption="Fuente: Angus Maddison")
-```
-
-
+1. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
 
 2. Escuchar esta entrevista a Matías Brum:
 
@@ -42,7 +26,7 @@ maddison %>%
 - ¿Cómo se calcula el nivel de pobreza?
 - ¿Qué limitaciones tiene esta forma de medir la pobreza?¿Qué significa que un hogar es _vulnerable_?
 
-3. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
+
 
 <!-- 2. Escuchar [esta entrevista](https://www.youtube.com/watch?v=3Gwo0_9TIag) a Andrea Vigorito y Mauricio Da Rosa. -->
 
