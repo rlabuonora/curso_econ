@@ -9,15 +9,119 @@ knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message = FALSE)
 
 library(tidyverse)
 library(readxl)
+library(here)
+library(patchwork)
+
+theme_set(theme_minimal() + 
+            theme(plot.title = element_text(hjust=.5)))
 
 ```
 
 
-1. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019.
+```{css, echo=FALSE}
+iframe {
+  margin: 0 auto;
+  padding: 48px 200px 48px;
+  
 
-2. Escuchar esta entrevista a Matías Brum:
+}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E4r0LdLH-_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+table {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+```
+
+1. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019. Completar la siguiente tabla:
+
+
+| Indicador  | Valor (unidad) | Indice   |   
+|------------|-------|----------|
+|Esperanza de vida        |       |          |          
+|Años promedio de educación            |       |          |          
+|  Ingreso por habitante          |       |          |          
+
+
+
+2. Analizar los siguientes gráficos
+
+```{r}
+
+
+# Educacion
+# Expected years of schooling (years)
+educ <- here::here('static', 'clases', 'bienestar', "schooling.xlsx") %>%
+  read_xlsx(skip=5) %>%
+  filter(!is.na(`HDI Rank`)) %>%
+  filter(!is.na(Country)) %>%
+  transmute(pais=Country, escolaridad_promedio=as.numeric(`2019`))
+
+# Esperanza de vida
+# Life expectancy at birth (years)
+esperanza_vida <-  here::here('static', 'clases', 'bienestar', "life_exp.xlsx") %>% 
+  read_xlsx(skip=5) %>% 
+  filter(!is.na(`HDI Rank`)) %>% 
+  filter(!is.na(Country)) %>% 
+  transmute(pais=Country, esperanza_de_vida=as.numeric(`2019`))
+
+# PIB per capita
+# GDP per capita (2017 PPP $)
+pib_per_cap <- here::here('static', 'clases', 'bienestar', "gdp_per_capita.xlsx") %>% 
+  read_xlsx(skip=5) %>% 
+  filter(!is.na(`HDI Rank`)) %>% 
+  filter(!is.na(Country)) %>% 
+  transmute(pais=Country, pib_per_cap=as.numeric(`2019`))
+
+# Pobreza 2
+# Population living below income poverty line, PPP $1.90 a day (%)
+pobreza_2 <- here::here('static', 'clases', 'bienestar', "poverty_3_dolares.xlsx") %>% 
+  read_xlsx(skip=5) %>% 
+  filter(!is.na(`HDI Rank`)) %>% 
+  filter(!is.na(Country)) %>% 
+  transmute(pais=Country, pobreza=as.numeric(`2008-2018`))
+
+df <- inner_join(educ, esperanza_vida, by="pais") %>% 
+  inner_join(pib_per_cap, by="pais") %>% 
+  inner_join(pobreza_2, by="pais")
+
+plot_a <- ggplot(df, aes(x=escolaridad_promedio, y=esperanza_de_vida)) +
+  geom_point() + 
+  geom_smooth(method="lm", se=FALSE) +
+  labs(title="Educación y Salud",
+    x="Años de Escolaridad Promedio", y="Esperanza de Vida", 
+       caption="Fuente: http://hdr.undp.org/")
+# 
+# ggplot(df, aes(x=log(pib_per_cap), y=esperanza_de_vida)) +
+#   geom_point() + 
+#   geom_smooth(method="lm") +
+#   labs(title="Desarrollo económico y Salud",
+#        x="Pib per Cápita (log)", y="Esperanza de Vida", 
+#        caption="Fuente: http://hdr.undp.org/")
+
+
+plot_b <- ggplot(df, aes(x=log(pib_per_cap), y=pobreza)) +
+  geom_point() + 
+  geom_smooth(method="lm", se=FALSE) +
+  scale_y_continuous(limits = c(0, 75)) +
+  labs(title="Desarrollo económico y Pobreza",
+       x="PIB per Cápita (log)", y="Pobreza (menos de 1 USD diario)", 
+       caption="Fuente: http://hdr.undp.org/")
+
+
+plot_a 
+
+plot_b
+
+```
+
+
+
+- ¿Cuáles son las variables incluidas en la visualización?
+- ¿Cómo describiría la relación entre estas variables?
+
+3. Escuchar esta entrevista a Matías Brum y contenstar las siguientes preguntas.
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/E4r0LdLH-_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - ¿Cuál fue el impacto de la llegada del COVID-19 en la pobreza en Marzo de 2020?¿Cuál fue la principal causa de ese impacto?
@@ -28,18 +132,21 @@ library(readxl)
 
 
 
-<!-- 2. Escuchar [esta entrevista](https://www.youtube.com/watch?v=3Gwo0_9TIag) a Andrea Vigorito y Mauricio Da Rosa. -->
+4. Escuchar a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
 
-<!-- - Relación entre el PIB y la desigualdad. -->
-<!-- - Concentración de los ingresos. Top incomes. El 1% de arriba tiene el mismo ingreso. que el 40% de abajo. -->
-<!-- - Ingresos del capital. -->
-<!-- - Uruguay en ALAT y el mundo. -->
-<!-- - Persistencia en el tiempo. -->
-<!-- - Salarios mínimos (afecta distribución primaria) -->
-<!-- - Aumento de la masa de salarios. -->
-<!-- - Impacto de AFAM, TUS e IRPF. -->
-<!-- - Tasas de tributación al capital y al trabajo. Exoneraciones de utilidades empresariales estan menos gravadas que otras. 6.30 cortar acá. -->
-<!-- - Composición de ingresos de trabajo vs. capital. -->
+<iframe width="300" height="200" src="https://www.youtube.com/embed/3Gwo0_9TIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- ¿Cómo es la relación entre el crecimiento de la economía y la desigualdad en Uruguay?
+- ¿Qué indicadores de desigualdad manejan los entrevistados?
+<!-- El 1% de arriba tiene el mismo ingreso. que el 40% de abajo. -->
+- Ingresos del capital.
+- ¿Cómo es la distribución de la riqueza en Uruguay comparada con el resto de América Latina y los países de mayor desarrollo?
+- ¿Cuáles son los principales factores que afectan la distribución del ingreso mencionados en la entrevista?
+- ¿Qué impacto tiene la distribución del ingreso entre trabajo y capital en la distribución del ingreso?
+- ¿Cuáles son las principales políticas públicas que afectan la distribución del ingreso en Uruguay? ¿Qué impacto tienen?
+<!-- Impacto de AFAM, TUS e IRPF. -->
+
+
 
 
 Bibliografía
