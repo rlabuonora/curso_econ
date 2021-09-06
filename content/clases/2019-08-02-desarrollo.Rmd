@@ -20,9 +20,9 @@ theme_set(theme_minimal() +
 
 ```{css, echo=FALSE}
 iframe {
+  display: block;
   margin: 0 auto;
-  padding: 48px 200px 48px;
-  
+  width: 300px;
 
 }
 
@@ -121,7 +121,11 @@ plot_b
 
 3. Escuchar esta entrevista a Matías Brum y contenstar las siguientes preguntas.
 
-<iframe width="300" height="200" src="https://www.youtube.com/embed/E4r0LdLH-_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="wrap-iframe">
+
+<iframe  src="https://www.youtube.com/embed/E4r0LdLH-_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 
 - ¿Cuál fue el impacto de la llegada del COVID-19 en la pobreza en Marzo de 2020?¿Cuál fue la principal causa de ese impacto?
@@ -132,14 +136,13 @@ plot_b
 
 
 
-4. Escuchar a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
+4. Escuchar esta entrevista a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/3Gwo0_9TIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - ¿Cómo es la relación entre el crecimiento de la economía y la desigualdad en Uruguay?
 - ¿Qué indicadores de desigualdad manejan los entrevistados?
 <!-- El 1% de arriba tiene el mismo ingreso. que el 40% de abajo. -->
-- Ingresos del capital.
 - ¿Cómo es la distribución de la riqueza en Uruguay comparada con el resto de América Latina y los países de mayor desarrollo?
 - ¿Cuáles son los principales factores que afectan la distribución del ingreso mencionados en la entrevista?
 - ¿Qué impacto tiene la distribución del ingreso entre trabajo y capital en la distribución del ingreso?
