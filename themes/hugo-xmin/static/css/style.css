@@ -77,12 +77,11 @@ main {
   margin-bottom: 100px;
 }
 
+
+div.clearfix {
+  text-align: center;
+}
 .portada {
   width: 100px;
-  margin-left: 350px;
-}
+} 
 
-.portada-titulo {
-  margin-left: 200px;
-  margin-top: 40px;
-}
