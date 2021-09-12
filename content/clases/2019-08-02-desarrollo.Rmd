@@ -28,13 +28,15 @@ iframe {
 }
 
 .wrap-iframe {
-  margin: 60px 0;
+  margin: 40px 0;
 }
 
 table {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
+
+
 ```
 
 1. Acceder al [sitio web del Naciones Unidas](http://hdr.undp.org/en/data) y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019. Completar la siguiente tabla:
@@ -67,7 +69,12 @@ table {
 
 3. Escuchar esta entrevista y contestar las siguientes preguntas:
 
+
+<div class="wrap-iframe">
+
 <iframe width="300" height="200" src="https://www.youtube.com/embed/3Gwo0_9TIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 - ¿Cómo es la relación entre el crecimiento de la economía y la desigualdad en Uruguay?
 - ¿Qué indicadores de desigualdad manejan los entrevistados?
