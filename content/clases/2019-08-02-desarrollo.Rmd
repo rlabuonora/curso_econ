@@ -43,83 +43,7 @@ table {
 
 
 
-2. Analizar los siguientes gráficos
-
-```{r}
-
-
-# Educacion
-# Expected years of schooling (years)
-educ <- here::here('static', 'clases', 'bienestar', "schooling.xlsx") %>%
-  read_xlsx(skip=5) %>%
-  filter(!is.na(`HDI Rank`)) %>%
-  filter(!is.na(Country)) %>%
-  transmute(pais=Country, escolaridad_promedio=as.numeric(`2019`))
-
-# Esperanza de vida
-# Life expectancy at birth (years)
-esperanza_vida <-  here::here('static', 'clases', 'bienestar', "life_exp.xlsx") %>% 
-  read_xlsx(skip=5) %>% 
-  filter(!is.na(`HDI Rank`)) %>% 
-  filter(!is.na(Country)) %>% 
-  transmute(pais=Country, esperanza_de_vida=as.numeric(`2019`))
-
-# PIB per capita
-# GDP per capita (2017 PPP $)
-pib_per_cap <- here::here('static', 'clases', 'bienestar', "gdp_per_capita.xlsx") %>% 
-  read_xlsx(skip=5) %>% 
-  filter(!is.na(`HDI Rank`)) %>% 
-  filter(!is.na(Country)) %>% 
-  transmute(pais=Country, pib_per_cap=as.numeric(`2019`))
-
-# Pobreza 2
-# Population living below income poverty line, PPP $1.90 a day (%)
-pobreza_2 <- here::here('static', 'clases', 'bienestar', "poverty_3_dolares.xlsx") %>% 
-  read_xlsx(skip=5) %>% 
-  filter(!is.na(`HDI Rank`)) %>% 
-  filter(!is.na(Country)) %>% 
-  transmute(pais=Country, pobreza=as.numeric(`2008-2018`))
-
-df <- inner_join(educ, esperanza_vida, by="pais") %>% 
-  inner_join(pib_per_cap, by="pais") %>% 
-  inner_join(pobreza_2, by="pais")
-
-plot_a <- ggplot(df, aes(x=escolaridad_promedio, y=esperanza_de_vida)) +
-  geom_point() + 
-  geom_smooth(method="lm", se=FALSE) +
-  labs(title="Educación y Salud",
-    x="Años de Escolaridad Promedio", y="Esperanza de Vida", 
-       caption="Fuente: http://hdr.undp.org/")
-# 
-# ggplot(df, aes(x=log(pib_per_cap), y=esperanza_de_vida)) +
-#   geom_point() + 
-#   geom_smooth(method="lm") +
-#   labs(title="Desarrollo económico y Salud",
-#        x="Pib per Cápita (log)", y="Esperanza de Vida", 
-#        caption="Fuente: http://hdr.undp.org/")
-
-
-plot_b <- ggplot(df, aes(x=log(pib_per_cap), y=pobreza)) +
-  geom_point() + 
-  geom_smooth(method="lm", se=FALSE) +
-  scale_y_continuous(limits = c(0, 75)) +
-  labs(title="Desarrollo económico y Pobreza",
-       x="PIB per Cápita (log)", y="Pobreza (menos de 1 USD diario)", 
-       caption="Fuente: http://hdr.undp.org/")
-
-
-plot_a 
-
-plot_b
-
-```
-
-
-
-- ¿Cuáles son las variables incluidas en la visualización?
-- ¿Cómo describiría la relación entre estas variables?
-
-3. Escuchar esta entrevista a Matías Brum y contenstar las siguientes preguntas.
+2. Escuchar esta entrevista a Matías Brum y contenstar las siguientes preguntas.
 
 <div class="wrap-iframe">
 
@@ -136,7 +60,7 @@ plot_b
 
 
 
-4. Escuchar esta entrevista a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
+3. Escuchar esta entrevista a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/3Gwo0_9TIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -150,6 +74,52 @@ plot_b
 <!-- Impacto de AFAM, TUS e IRPF. -->
 
 
+4. La siguiente tabla muestra la participación por quintiles en el ingreso en EUA y Canadá:
+
+| Hogares        | EUA   | Canadá   |   
+|----------------|-------|----------|
+|20% más pobre   |  3.6  |  7.4     |          
+|Segundo 20%     |  8.9  |  13.2    |          
+|Tercer 20%      |  14.8 |  18.1    |     
+|Cuarto 20%      |  23.1 |  24.9    |          
+|20% Más rico    |  49.6 |  36.4    |     
+
+- Graficar las curvas de Lorenz para ambos países.
+- Graficar la línea de igualdad perfecta.
+- ¿Qué país es más desigual?
+- Explique el índice de Gini. ¿En qué país es más alto?
+
+5. Considere un mercado de trabajo con las siguientes curvas de oferta y demanda.
+```{r}
+
+library(tidyverse)
+
+demanda_df <- tibble(x=c(5, 3), 
+                     y=c(5, 10))
+
+oferta_df <- tibble(x=c(5, 9),
+                    y=c(5, 15))
+
+demanda_fun <- splinefun(demanda_df$x, demanda_df$y)
+oferta_fun <- splinefun(oferta_df$x, oferta_df$y)
+
+ggplot(data.frame(x=0, y=0)) + 
+  geom_function(fun=demanda_fun, xlim=c(1,6)) +
+  annotate("text", y=2.5, x=7, label="Demanda") +
+  geom_function(fun=oferta_fun, xlim=c(4, 9)) +
+  annotate("text", y=12.5, x=10, label="Oferta") +
+  scale_y_continuous(limits = c(0, 35), breaks=seq(0, 35, by=5), expand = expansion(add=c(0, 0))) +
+  scale_x_continuous(limits = c(0, 12), breaks=seq(0, 12, by=2)) +
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
+  labs(x="Cantidad (miles de horas diarias)", y="Salario (por hora)")
+```
+
+- Calcular el salario y la cantidad de horas contratadas en equilibrio.
+
+- Los trabajadores altamente calificados tienen una productividad marginal mayor, que hace que el salario que estan dispuestos a pagar las empresas es el doble que para el resto de los trabajadores. Además, el costo de adquirir esta calificación hace que para cada nivel de oferta, los trabajadores altamente calificados requieran un salario $5 mayor. Calcular el equilibrio en el mercado de trabajadores altamente capacitados.
+
+- Explique el impacto que tiene esto en la distribución del ingreso.
 
 
 Bibliografía
