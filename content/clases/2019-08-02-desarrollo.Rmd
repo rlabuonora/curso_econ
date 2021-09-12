@@ -22,8 +22,13 @@ theme_set(theme_minimal() +
 iframe {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 400px;
+  height: 300px;
 
+}
+
+.wrap-iframe {
+  margin: 60px 0;
 }
 
 table {
@@ -43,7 +48,7 @@ table {
 
 
 
-2. Escuchar esta entrevista a Matías Brum y contenstar las siguientes preguntas.
+2. Escuchar esta entrevista y contenstar las siguientes preguntas.
 
 <div class="wrap-iframe">
 
@@ -60,7 +65,7 @@ table {
 
 
 
-3. Escuchar esta entrevista a Andrea Vigorito y Mauricio Da Rosa y contestar las siguientes preguntas:
+3. Escuchar esta entrevista y contestar las siguientes preguntas:
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/3Gwo0_9TIag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
