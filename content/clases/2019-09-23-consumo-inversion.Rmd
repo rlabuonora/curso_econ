@@ -4,6 +4,7 @@ date: '2021-09-23'
 slug: consumo-inversion
 categories: []
 tags: []
+draft: true
 ---
 ```{r include = FALSE}
 library(tidyverse)
