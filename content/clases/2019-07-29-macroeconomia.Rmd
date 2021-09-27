@@ -15,104 +15,20 @@ library(tidyverse)
 library(plotly)
 library(readxl)
 
-pib <- readxl::read_excel(
-  here::here('static/pib_files/pib_1870_2011_iecon.xls'),
-  sheet='Series') %>% 
-  rename(year = 1,
-         `PIB Corriente` = 2,
-         `PIB Constante (2005)` = 3,
-         `PIB per Cápita` = 4) %>% 
-  gather(k="var", v="valor", -year)
+
 
 ```
-
-
-
-
-## PIB
-
-Es una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
-
-## Varias formas de medir el PIB
-
-Como el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
-
-### Producción
-En este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.).
-
-$$ PIB = \Sigma\ VAB_{sectores} $$
-El Valor Agregado de cada sector se define como la diferencia entre el Valor de Producción y el Consumo Intermedio (gasto en materias primas).
-```{r echo = FALSE}
-# library(DiagrammeR)
-# grViz("
-# digraph boxes_and_circles {
-# 
-#   # a 'graph' statement
-#   graph [overlap = true, fontsize = 10]
-# 
-#   # several 'node' statements
-#   node [shape = box,
-#         fontname = Helvetica]
-#   Empresas; Consumidores
-# 
-#   node [shape = circle,
-#         fixedsize = true,
-#         width = 0.9] // sets as circles
-#   Bienes; Factores
-# 
-#   # several 'edge' statements
-#   Empresas->Bienes Empresas->Factores 
-#   Factores->Consumidores Bienes->Consumidores
-# }
-# ")
-```
-
-
-En una economía donde solo se producen bienes finales de consumo, el PIB se calcula como:
-
-$$ P_{papas} * Q_{papas} + P_{boniatos} * Q_{boniatos} + ... $$
-Desde el punto de vista de la demanda, el PIB se mide como la suma de los distintos gastos de la economía
-
-$$ PIB = C + I + G + X$$
-
-- C es el Consumo
-- I es la inversión
-- G es el Gasto Público
-- X son las exportaciones netas ($Exportaciones - Importaciones$)
-
-Las importaciones se restan porque es una parte del gasto de la economía que termina demando productos producidos en otra economía.
-
-Para poder medir todos los productos que produce la economía, se usa el valor monetario de la producción tomando en cuenta los precios. Si usamos los precios del período en que produjeron los bienes, tenemos el PIB _en precios corrientes_. Si queremos sacar el efecto de los cambios en los precios para comparar el PIB de dos períodos, tomamos los precios de un _año base_, para calcular el PIB en precios constantes de ese año.
-
-
-## Ingresos
-
-Como todo lo que se vende en el mercado es el ingreso de algún factor (trabajo, capital, tierra), el PIB es igual si se mide por las ventas de las empresas o por las remuneraciones a los factores.
-
-$$ PIB = Sueldos + Beneficios + Rentas + Impuestos\ Netos + Depreciación $$
-
-## El problema de la doble contabilización
-
-¿Qué pasa con los productos que no son comprados para ser consumidos (bienes finales), sino que son comprados por otras empresas como insumos para producir otros bienes?
-
-En la parte superior del gráfico, solo se toman en cuenta las ventas de bienes finales. En la parte inferior del gráfico, solo se toma en cuenta el valor agregado de cada empresa. Esto es la diferencia entre el valor de lo que compra (materias primas, etc.) y lo que vende.
 
 
 ## Ejercicios
 
-1. Explicar el siguiente tweet: ¿qué indicador analiza? ¿por qué es importante?
-
-```{r echo=FALSE}
-blogdown::shortcode('tweet', '1316019642398175233')
-```
-
-2. En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce  \$3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a \$8000. Otra empresa compra la lana hilada para tejer buzos, agregando \$18000 de valor.
+1. En una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce  \$3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a \$8000. Otra empresa compra la lana hilada para tejer buzos, agregando \$18000 de valor.
 
 Calcular el Valor Bruto de Producción de cada empresa de la cadena y de toda la economía. Calcular el VAB de cada empresa de la cadena y de toda la economía. 
 
 Explicar por qué el VBP contabiliza el valor de los bienes que no son finales dos veces.
 
-3. Contamos con los siguientes datosEn una economía que produce solo Manzanas y Naranjas:
+2. Contamos con los siguientes datos de una economía que produce solo manzanas y naranjas:
 
 | Año        | Precio Manzanas | Cantidad| Precio Naranjas  |Cantidad|
 | ---------- |-----------------|---------|------------------|--------|
@@ -126,10 +42,24 @@ Explicar por qué el VBP contabiliza el valor de los bienes que no son finales d
 
 3. Analizar [esta nota](https://www.180.com.uy/articulo/83859_pib-de-argentina-se-contrajo-19-1-en-segundo-trimestre) de prensa.
 
+- ¿Cuál es el impacto del confinamiento derivado de las medidas sanitarias tomados por el gobierno?
+- ¿Cómo fue la performance de la economía argentina el año anterior a la llegada del coronavirus? 
+- ¿Cuáles son los sectores más afectados por la pandemia?
+
 4. Explique las diferencias entre los 3 gráficos siguientes:
 
 ```{r}
 options(scipen=1000)
+
+pib <- readxl::read_excel(
+  here::here('static/pib_files/pib_1870_2011_iecon.xls'),
+  sheet='Series') %>% 
+  rename(year = 1,
+         `PIB Corriente` = 2,
+         `PIB Constante (2005)` = 3,
+         `PIB per Cápita` = 4) %>% 
+  gather(k="var", v="valor", -year)
+
 pib %>%
   ggplot(aes(year, valor)) +
   geom_line() +
@@ -139,7 +69,7 @@ pib %>%
   ylab("")
 ```
 
-4. El siguiente gráfico muestra la evolución del PIB per cápita entre 1955 y 2003. 
+4. El siguiente gráfico muestra la evolución del PIB per cápita de Uruguay entre 1955 y 2003. 
 
 ```{r}
 pib %>% 
@@ -157,19 +87,19 @@ Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir pa
 
 ## Materiales
 
--  [<i class="fa fa-file" aria-hidden="true"></i>](https://macroeconomia--diapos-econ.netlify.app/) Notas de clase.
+- [Notas de clase](https://macroeconomia--diapos-econ.netlify.app/).
 
-### Extra
+<!-- ### Extra -->
 
--  [<i class="fa fa-video-camera" aria-hidden="true"></i>](https://www.youtube.com/watch?v=disaExSUU7k) Florencia Carriquiry de Ex Ante
+<!-- -  [Florencia Carriquiry](https://www.youtube.com/watch?v=disaExSUU7k)  de Ex Ante -->
 
-- [<i class="fa fa-file-audio" aria-hidden="true"></i>](https://www.m24.com.uy/oddone-pandemia-dejara-deficit-en-torno-al-8-del-pib-en-un-pais-con-una-deuda-alta-y-que-no-tiene-financiamiento/) Gabriel Oddone de CPA Ferrere.
+<!-- - [Gabriel Oddone](https://www.m24.com.uy/oddone-pandemia-dejara-deficit-en-torno-al-8-del-pib-en-un-pais-con-una-deuda-alta-y-que-no-tiene-financiamiento/)  de CPA Ferrere. -->
 
-## Ejercicios
+<!-- ## Ejercicios -->
 
-1. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol). Explicar cuáles son las variables de la demanda agregada que analiza.
+<!-- 1. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol). Explicar cuáles son las variables de la demanda agregada que analiza. -->
 
-2. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol) publicado en Junio de 2018 luego de la devaluación en Argentina. Explicar cuáles son las variables de la demanda agregada que analiza.
+<!-- 2. Analizar [este artículo](https://www.180.com.uy/articulo/79865_el-cambio-de-ciclo-en-la-economia-uruguaya&ref=delsol) publicado en Junio de 2018 luego de la devaluación en Argentina. Explicar cuáles son las variables de la demanda agregada que analiza. -->
 
 <!-- 2. Considere la siguiente tabla:  -->
 <!-- ```{r} -->
@@ -191,30 +121,30 @@ Enfocar el período 1955-1968 y explicar la evolución del indicador. Repetir pa
 
 
 
-3. Explicar los efectos de los siguientes _shocks_ macroeconómicos:
-  a. Una rebaja del IRPF.
-  b. Una reducción en el gasto en defensa.
-  c. Una avance tecnológico que afecta todos los sectores de producción.
-  d. Una rebaja en las tasas de interés.
+<!-- 3. Explicar los efectos de los siguientes _shocks_ macroeconómicos: -->
+<!--   a. Una rebaja del IRPF. -->
+<!--   b. Una reducción en el gasto en defensa. -->
+<!--   c. Una avance tecnológico que afecta todos los sectores de producción. -->
+<!--   d. Una rebaja en las tasas de interés. -->
 
-Graficar los impactos usando el esquema de Oferta y Demanda Agregadas.
+<!-- Graficar los impactos usando el esquema de Oferta y Demanda Agregadas. -->
 
-4. Se cuenta con los siguientes datos para la economía de EUA:
+<!-- 4. Se cuenta con los siguientes datos para la economía de EUA: -->
 
-| Año           | PIB Real      | Nivel de Precios  |
-| ------------- |:-------------:| -----:|
-| 1981          | 5.291,7       | 59,1 |
-| 1982          | 5.189,3       | 62,7 |
-| 1983          | 5.423.8       | 65,2 |
-| 1984          | 5.8913,6      | 67,6 |
+<!-- | Año           | PIB Real      | Nivel de Precios  | -->
+<!-- | ------------- |:-------------:| -----:| -->
+<!-- | 1981          | 5.291,7       | 59,1 | -->
+<!-- | 1982          | 5.189,3       | 62,7 | -->
+<!-- | 1983          | 5.423.8       | 65,2 | -->
+<!-- | 1984          | 5.8913,6      | 67,6 | -->
 
- - Calcular las tasas de inflación y de crecimiento del PIB para cada año.
- - Graficar los 4 años en el eje $(P, Y)$ con las curvas de Oferta y Demanda Agregadas.
+<!--  - Calcular las tasas de inflación y de crecimiento del PIB para cada año. -->
+<!--  - Graficar los 4 años en el eje $(P, Y)$ con las curvas de Oferta y Demanda Agregadas. -->
 
-5. Para calcular la tasa de crecimiento de una variable entre $t-n$ y $t$, usar la fórmula:
+<!-- 5. Para calcular la tasa de crecimiento de una variable entre $t-n$ y $t$, usar la fórmula: -->
 
-$$ g_t = 100 * [(\frac{X_t}{X_{t-n}})^{1/n}-1]$$
+<!-- $$ g_t = 100 * [(\frac{X_t}{X_{t-n}})^{1/n}-1]$$ -->
 
- - Calcular la tasa de crecimiento del PIB en términos reales entre 1955 y 1968.
+ <!-- - Calcular la tasa de crecimiento del PIB en términos reales entre 1955 y 1968. -->
 
- - Usando los datos del INE, calcular la tasa de inflación entre 1972 y 1992 y entre 1994 y 2014. Comparar los dos períodos y sus efectos sobre el bienestar de la población.
+ <!-- - Usando los datos del INE, calcular la tasa de inflación entre 1972 y 1992 y entre 1994 y 2014. Comparar los dos períodos y sus efectos sobre el bienestar de la población. -->
