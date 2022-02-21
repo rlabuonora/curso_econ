@@ -1,0 +1,39 @@
+---
+title: "Las Economías Modernas"
+author: ''
+date: '2022-03-17'
+slug: fpp
+categories: []
+tags: []
+draft: true
+weight: 2
+---
+
+
+
+ 
+## Ejercicio 1: 
+
+1. Econolandia tiene 1000 horas de trabajo disponibles para producir cortes de pelo y remeras. Un corte de pelo requiere $1/2$ hora de trabajo, y una remera $5$. Dibujar la FPP de Econolandia. 
+
+2. En una economía que produce bienes agrícolas y manufacturas, se hace un descubrimiento científico que mejora el rendimiento de los cultivos sin afectar la producción industrial. Grafique este impacto en la FPP.
+
+3. Juan tiene 10 horas para estudiar para dos pruebas: Historia y Economía. Dibuje la FPP de notas de las dos materias. Explique qué variables van en cada eje. 
+
+En gráficos separados dibuje:
+
+- El efecto de estudiar con música alta en vez de en silencio.
+- El efecto de estudiar 15 horas en vez de 10.
+- El efecto de la creación de una canal de youtube de videos de historia que hace que Juan sea más eficiente estudiando historia. Cada hora que pasa estudiando historia hace que saque mejores notas.
+
+
+## Bibliografía
+
+
+- Samuelson, P. A., Nordhaus, W. D., Samuelson, P. A., & Samuelson, P. A. (1998). Economía con aplicaciones a Latinoamérica - Capítulo 1. Boston, Mass: Irwin/McGraw-Hill.
+
+- [Notas de Clase](https://economias_modernas--diapos-econ.netlify.app) para estas clases
+
+
+
+

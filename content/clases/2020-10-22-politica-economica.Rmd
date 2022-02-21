@@ -1,9 +1,0 @@
----
-title: "Política Monetaria"
-date: '2021-10-22'
-slug: politica-monetaria
-categories: []
-tags: []
----
-
-## Política Monetaria

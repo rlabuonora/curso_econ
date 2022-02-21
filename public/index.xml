@@ -6,7 +6,7 @@
     <description>Recent content in Inicio on Introducción a la Economía</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducción</title>
       <link>/clases/introduccion/</link>
@@ -68,7 +68,7 @@ Ejercicio 1Analice la estructura de costos de una empresa que contrata capital 
       <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/clases/competencia-perfecta/</guid>
-      <description>BibliografíaNotas de ClaseSamuelson, P. A., Nordhaus, W. D., Samuelson, P. A., &amp;amp; Samuelson, P. A. (1998). Economía - Capítulo 8. Boston, Mass: Irwin/McGraw-Hill.</description>
+      <description>BibliografíaNotas de ClaseSamuelson, P. A., Nordhaus, W. D., Samuelson, P. A., &amp;amp; Samuelson, P. A. (1998). Economía - Capítulo 8. Boston, Mass: Irwin/McGraw-Hill.</description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ EjerciciosExplique porqué son falsas las siguientes afirmaciones y corríjalas
       <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>/clases/desigualdad/</guid>
-      <description>iframe {display: block;margin: 0 auto;width: 300px;}table {margin-top: 50px;margin-bottom: 100px;}Acceder al sitio web del Naciones Unidas y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019. Completar la siguiente tabla:IndicadorValor (unidad)IndiceEsperanza de vidaAños promedio de educaciónIngreso por habitanteAnalizar los siguientes gráficos¿Cuáles son las variables incluidas en la visualización?</description>
+      <description>iframe {display: block;margin: 0 auto;width: 400px;height: 300px;}.wrap-iframe {margin: 40px 0;}table {margin-top: 60px;margin-bottom: 60px;}Acceder al sitio web del Naciones Unidas y descargar los indicadores necesarios para calcular el IDH de Uruguay en 2019. Completar la siguiente tabla:IndicadorValor (unidad)IndiceEsperanza de vidaAños promedio de educaciónIngreso por habitanteEscuchar esta entrevista y contenstar las siguientes preguntas.</description>
     </item>
     
     <item>
@@ -119,18 +119,9 @@ EjerciciosExplique porqué son falsas las siguientes afirmaciones y corríjalas
     </item>
     
     <item>
-      <title>Política Monetaria</title>
-      <link>/clases/politica-monetaria/</link>
-      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/clases/politica-monetaria/</guid>
-      <description>Política Monetaria</description>
-    </item>
-    
-    <item>
       <title>Consumo e Inversión</title>
       <link>/clases/consumo-inversion/</link>
-      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>/clases/consumo-inversion/</guid>
       <description>ConsumoEs el componente más importante de la demanda agregada.Está compuesto por:Bienes durables (automóviles, electrodomésticos)Bienes no durables (alimentos)Servicios (Educación, Salud, Transporte)Las familias con menores ingresos gastan todos sus ingresos en bienes básicos (alimentación y vivienda).A medida que aumentan los ingresos de los hogares, estos destinan ingresos a otro tipo de bienes (servicios como la salud, la alimentación, etc.)Esto se puede dar ver si comparamos el consumo de un hogar a lo largo del tiempo o en un conjunto de hogares con distintos ingresos en un mismo momento.</description>
@@ -139,12 +130,10 @@ EjerciciosExplique porqué son falsas las siguientes afirmaciones y corríjalas
     <item>
       <title>Macroeconomía</title>
       <link>/clases/macroeconomia/</link>
-      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>/clases/macroeconomia/</guid>
-      <description>PIBEs una medida de todos los bienes y servicios que produce la economía de una región o país en un período de tiempo.
-Varias formas de medir el PIBComo el PIB se mide por un conjunto de transacciones económicas, su valor es igual si lo medimos desde el punto de vista de la demanda que de la oferta.
-ProducciónEn este enfoque, medimos el Valor Agregado que genera cada sector de actividad de la economía (industria, agro, servicios, etc.</description>
+      <description>EjerciciosEn una economía que solo produce lana tejida hay tres sectores de producción: la producción de lana sucia, el hilado y el tejido de lana. Don Gutiérrez esquila las ovejas y no gasta en insumos. Produce $3000 de lana sucia. La fábrica compra la lana de Don Gutiérrez y vende la lana hilada a $8000. Otra empresa compra la lana hilada para tejer buzos, agregando $18000 de valor.</description>
     </item>
     
     <item>
