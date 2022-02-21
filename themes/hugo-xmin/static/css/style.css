@@ -2,7 +2,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 1em;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 /* header and footer areas */
@@ -49,39 +49,3 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
-
-/* Custom styles */
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Imagen Bibliografía */
-.bib-img {
-  margin: 0px 40px 20px 20px;
-  max-width:15%;
-  min-width:40px;
-  float:left;
-}
-
-/* Texto biblio */
-
-.bib-text {
-  margin-top: 40px;
-  margin-left: 100px;
-}
-
-main {
-  margin-bottom: 100px;
-}
-
-
-div.clearfix {
-  text-align: center;
-}
-.portada {
-  width: 100px;
-} 
-
